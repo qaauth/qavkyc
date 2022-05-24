@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [VideoKyc]">
+  <listeners>
+    <listener class-name="com.vKyc.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="vPdProcess(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vKyc.Testcases.TC_VPD">
+        <methods>
+          <include name="tearDown"/>
+          <include name="scheduleCaseByAuditor"/>
+          <include name="verifyCallStartDate"/>
+          <include name="completeCaseByAuditorForReassignByAuditor"/>
+          <include name="completeCaseByAuditor"/>
+          <include name="uploadVpdCaseByAdminForRejectingByAuditor"/>
+          <include name="verifyCaseInAssignedBucket"/>
+          <include name="completeCaseByAuditorForRejectByAuditor"/>
+          <include name="verifyCustomerName"/>
+          <include name="vpdProcessByCustomer"/>
+          <include name="vpdProcessByCustomerForRejectByAuditor"/>
+          <include name="vpdCaseRejectedByAuditor"/>
+          <include name="scheduleCaseByAuditorForRejectByAuditor"/>
+          <include name="setup"/>
+          <include name="downloadAndVerifyReport"/>
+          <include name="downloadAndVerifyRecordedVideo"/>
+          <include name="scheduleCaseByAuditorForReassignByAuditor"/>
+          <include name="vpdCaseReAssignByAuditor"/>
+          <include name="submitDocumentsAndStartVptByCustomer"/>
+          <include name="uploadVpdCaseByAdmin"/>
+          <include name="markCaseAsApprovedByAuditor"/>
+          <include name="submitDocumentsAndStartVptByCustomerForRejectByAuditor"/>
+          <include name="checkCaseAvailabilityinRejectedBucket"/>
+          <include name="uploadVpdCaseByAdminForReAssignByAuditor"/>
+          <include name="checkCaseAvailabilityinApprovedBucket"/>
+          <include name="submitDocumentsAndStartVptByCustomerForReassignByAuditor"/>
+          <include name="vpdProcessByCustomerForReassignByAuditor"/>
+          <include name="verifyGeoTagAddress"/>
+        </methods>
+      </class> <!-- com.vKyc.Testcases.TC_VPD -->
+    </classes>
+  </test> <!-- vPdProcess(failed) -->
+</suite> <!-- Failed suite [VideoKyc] -->

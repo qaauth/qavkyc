@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-VideoKyc">
+              <span class="suite-name border-failed">VideoKyc</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-VideoKyc">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-VideoKyc">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-VideoKyc">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-VideoKyc">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-VideoKyc">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-VideoKyc">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-VideoKyc">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 7 failed,  19 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-VideoKyc" class="hide-methods failed suite-VideoKyc"> (hide)</a> <!-- hide-methods failed suite-VideoKyc -->
+                      <a href="#" panel-name="suite-VideoKyc" class="show-methods failed suite-VideoKyc"> (show)</a> <!-- show-methods failed suite-VideoKyc -->
+                    </span>
+                    <div class="method-list-content failed suite-VideoKyc">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="checkCaseAvailabilityinApprovedBucket">checkCaseAvailabilityinApprovedBucket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="downloadAndVerifyRecordedVideo">downloadAndVerifyRecordedVideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="uploadVpdCaseByAdmin">uploadVpdCaseByAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="uploadVpdCaseByAdminForReAssignByAuditor">uploadVpdCaseByAdminForReAssignByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="uploadVpdCaseByAdminForRejectingByAuditor">uploadVpdCaseByAdminForRejectingByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="verifyCallStartDate">verifyCallStartDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="verifyGeoTagAddress">verifyGeoTagAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-VideoKyc -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-VideoKyc" class="hide-methods skipped suite-VideoKyc"> (hide)</a> <!-- hide-methods skipped suite-VideoKyc -->
+                      <a href="#" panel-name="suite-VideoKyc" class="show-methods skipped suite-VideoKyc"> (show)</a> <!-- show-methods skipped suite-VideoKyc -->
+                    </span>
+                    <div class="method-list-content skipped suite-VideoKyc">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="checkCaseAvailabilityinRejectedBucket">checkCaseAvailabilityinRejectedBucket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="completeCaseByAuditor">completeCaseByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="completeCaseByAuditorForReassignByAuditor">completeCaseByAuditorForReassignByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="completeCaseByAuditorForRejectByAuditor">completeCaseByAuditorForRejectByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="downloadAndVerifyReport">downloadAndVerifyReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="markCaseAsApprovedByAuditor">markCaseAsApprovedByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="scheduleCaseByAuditor">scheduleCaseByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="scheduleCaseByAuditorForReassignByAuditor">scheduleCaseByAuditorForReassignByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="scheduleCaseByAuditorForRejectByAuditor">scheduleCaseByAuditorForRejectByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="submitDocumentsAndStartVptByCustomer">submitDocumentsAndStartVptByCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="submitDocumentsAndStartVptByCustomerForReassignByAuditor">submitDocumentsAndStartVptByCustomerForReassignByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="submitDocumentsAndStartVptByCustomerForRejectByAuditor">submitDocumentsAndStartVptByCustomerForRejectByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="verifyCaseInAssignedBucket">verifyCaseInAssignedBucket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="verifyCustomerName">verifyCustomerName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="vpdCaseReAssignByAuditor">vpdCaseReAssignByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="vpdCaseRejectedByAuditor">vpdCaseRejectedByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="vpdProcessByCustomer">vpdProcessByCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="vpdProcessByCustomerForReassignByAuditor">vpdProcessByCustomerForReassignByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-VideoKyc" title="com.vKyc.Testcases.TC_VPD" hash-for-method="vpdProcessByCustomerForRejectByAuditor">vpdProcessByCustomerForRejectByAuditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-VideoKyc -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-VideoKyc" class="panel VideoKyc">
+          <div class="suite-VideoKyc-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.vKyc.Testcases.TC_VPD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCaseAvailabilityinApprovedBucket">
+                  </a> <!-- checkCaseAvailabilityinApprovedBucket -->
+                  <span class="method-name">checkCaseAvailabilityinApprovedBucket</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=91.0.4472.101)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.nBoH7P}, goog:chromeOptions: {debuggerAddress: localhost:41251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0892b3a814e50c616bad2b91b744ee82
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:456)
+	at com.vKyc.Testcases.TC_VPD.checkCaseAvailabilityinApprovedBucket(TC_VPD.java:350)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadAndVerifyRecordedVideo">
+                  </a> <!-- downloadAndVerifyRecordedVideo -->
+                  <span class="method-name">downloadAndVerifyRecordedVideo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at com.vKyc.Pageobject.VPD.getDownloadVideoUrlStatusCode(VPD.java:1126)
+	at com.vKyc.Testcases.TC_VPD.downloadAndVerifyRecordedVideo(TC_VPD.java:336)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadVpdCaseByAdmin">
+                  </a> <!-- uploadVpdCaseByAdmin -->
+                  <span class="method-name">uploadVpdCaseByAdmin</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;Check_Pad&apos;]&apos; (tried for 120 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.vKyc.Pageobject.VPD.uploadCase(VPD.java:373)
+	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdmin(TC_VPD.java:46)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;Check_Pad&apos;]&quot;}
+  (Session info: chrome=91.0.4472.101)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.nBoH7P}, goog:chromeOptions: {debuggerAddress: localhost:41251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0892b3a814e50c616bad2b91b744ee82
+*** Element info: {Using=xpath, value=//*[@id=&apos;Check_Pad&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 30 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadVpdCaseByAdminForReAssignByAuditor">
+                  </a> <!-- uploadVpdCaseByAdminForReAssignByAuditor -->
+                  <span class="method-name">uploadVpdCaseByAdminForReAssignByAuditor</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=91.0.4472.101)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.nBoH7P}, goog:chromeOptions: {debuggerAddress: localhost:41251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0892b3a814e50c616bad2b91b744ee82
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForReAssignByAuditor(TC_VPD.java:637)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadVpdCaseByAdminForRejectingByAuditor">
+                  </a> <!-- uploadVpdCaseByAdminForRejectingByAuditor -->
+                  <span class="method-name">uploadVpdCaseByAdminForRejectingByAuditor</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=91.0.4472.101)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.nBoH7P}, goog:chromeOptions: {debuggerAddress: localhost:41251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0892b3a814e50c616bad2b91b744ee82
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForRejectingByAuditor(TC_VPD.java:423)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCallStartDate">
+                  </a> <!-- verifyCallStartDate -->
+                  <span class="method-name">verifyCallStartDate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.vKyc.Testcases.TC_VPD.verifyCallStartDate(TC_VPD.java:301)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGeoTagAddress">
+                  </a> <!-- verifyGeoTagAddress -->
+                  <span class="method-name">verifyGeoTagAddress</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.vKyc.Testcases.TC_VPD.verifyGeoTagAddress(TC_VPD.java:316)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-VideoKyc-class-failed -->
+          <div class="suite-VideoKyc-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.vKyc.Testcases.TC_VPD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCaseAvailabilityinRejectedBucket">
+                  </a> <!-- checkCaseAvailabilityinRejectedBucket -->
+                  <span class="method-name">checkCaseAvailabilityinRejectedBucket</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.checkCaseAvailabilityinRejectedBucket()[pri:22, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeCaseByAuditor">
+                  </a> <!-- completeCaseByAuditor -->
+                  <span class="method-name">completeCaseByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.completeCaseByAuditor()[pri:6, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeCaseByAuditorForReassignByAuditor">
+                  </a> <!-- completeCaseByAuditorForReassignByAuditor -->
+                  <span class="method-name">completeCaseByAuditorForReassignByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.completeCaseByAuditorForReassignByAuditor()[pri:27, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeCaseByAuditorForRejectByAuditor">
+                  </a> <!-- completeCaseByAuditorForRejectByAuditor -->
+                  <span class="method-name">completeCaseByAuditorForRejectByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.completeCaseByAuditorForRejectByAuditor()[pri:20, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadAndVerifyReport">
+                  </a> <!-- downloadAndVerifyReport -->
+                  <span class="method-name">downloadAndVerifyReport</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.downloadAndVerifyReport()[pri:8, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="markCaseAsApprovedByAuditor">
+                  </a> <!-- markCaseAsApprovedByAuditor -->
+                  <span class="method-name">markCaseAsApprovedByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.markCaseAsApprovedByAuditor()[pri:7, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scheduleCaseByAuditor">
+                  </a> <!-- scheduleCaseByAuditor -->
+                  <span class="method-name">scheduleCaseByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.scheduleCaseByAuditor()[pri:3, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scheduleCaseByAuditorForReassignByAuditor">
+                  </a> <!-- scheduleCaseByAuditorForReassignByAuditor -->
+                  <span class="method-name">scheduleCaseByAuditorForReassignByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.scheduleCaseByAuditorForReassignByAuditor()[pri:24, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scheduleCaseByAuditorForRejectByAuditor">
+                  </a> <!-- scheduleCaseByAuditorForRejectByAuditor -->
+                  <span class="method-name">scheduleCaseByAuditorForRejectByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.scheduleCaseByAuditorForRejectByAuditor()[pri:17, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitDocumentsAndStartVptByCustomer">
+                  </a> <!-- submitDocumentsAndStartVptByCustomer -->
+                  <span class="method-name">submitDocumentsAndStartVptByCustomer</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.submitDocumentsAndStartVptByCustomer()[pri:5, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitDocumentsAndStartVptByCustomerForReassignByAuditor">
+                  </a> <!-- submitDocumentsAndStartVptByCustomerForReassignByAuditor -->
+                  <span class="method-name">submitDocumentsAndStartVptByCustomerForReassignByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.submitDocumentsAndStartVptByCustomerForReassignByAuditor()[pri:26, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitDocumentsAndStartVptByCustomerForRejectByAuditor">
+                  </a> <!-- submitDocumentsAndStartVptByCustomerForRejectByAuditor -->
+                  <span class="method-name">submitDocumentsAndStartVptByCustomerForRejectByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.submitDocumentsAndStartVptByCustomerForRejectByAuditor()[pri:19, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCaseInAssignedBucket">
+                  </a> <!-- verifyCaseInAssignedBucket -->
+                  <span class="method-name">verifyCaseInAssignedBucket</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.verifyCaseInAssignedBucket()[pri:2, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerName">
+                  </a> <!-- verifyCustomerName -->
+                  <span class="method-name">verifyCustomerName</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.verifyCustomerName()[pri:9, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vpdCaseReAssignByAuditor">
+                  </a> <!-- vpdCaseReAssignByAuditor -->
+                  <span class="method-name">vpdCaseReAssignByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.vpdCaseReAssignByAuditor()[pri:28, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vpdCaseRejectedByAuditor">
+                  </a> <!-- vpdCaseRejectedByAuditor -->
+                  <span class="method-name">vpdCaseRejectedByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.vpdCaseRejectedByAuditor()[pri:21, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vpdProcessByCustomer">
+                  </a> <!-- vpdProcessByCustomer -->
+                  <span class="method-name">vpdProcessByCustomer</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.vpdProcessByCustomer()[pri:4, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vpdProcessByCustomerForReassignByAuditor">
+                  </a> <!-- vpdProcessByCustomerForReassignByAuditor -->
+                  <span class="method-name">vpdProcessByCustomerForReassignByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.vpdProcessByCustomerForReassignByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vpdProcessByCustomerForRejectByAuditor">
+                  </a> <!-- vpdProcessByCustomerForRejectByAuditor -->
+                  <span class="method-name">vpdProcessByCustomerForRejectByAuditor</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_VPD.vpdProcessByCustomerForRejectByAuditor()[pri:18, instance:com.vKyc.Testcases.TC_VPD@3f2a3a5] depends on not successfully finished methods
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-VideoKyc-class-skipped -->
+        </div> <!-- panel VideoKyc -->
+        <div panel-name="test-xml-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/shashi.ranjan/eclipse-workspace/VideoKyc/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;VideoKyc&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.vKyc.Utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;vPdProcess&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.vKyc.Testcases.TC_VPD&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- vPdProcess --&gt;
+&lt;/suite&gt; &lt;!-- VideoKyc --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for VideoKyc</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">vPdProcess (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for VideoKyc</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for VideoKyc</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_VideoKyc');
+function tableData_VideoKyc() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'uploadVpdCaseByAdmin')
+data.setCell(0, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(0, 3, 183561);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'downloadAndVerifyRecordedVideo')
+data.setCell(1, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(1, 3, 82327);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'uploadVpdCaseByAdminForRejectingByAuditor')
+data.setCell(2, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(2, 3, 19);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'uploadVpdCaseByAdminForReAssignByAuditor')
+data.setCell(3, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(3, 3, 15);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkCaseAvailabilityinApprovedBucket')
+data.setCell(4, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(4, 3, 9);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyGeoTagAddress')
+data.setCell(5, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCallStartDate')
+data.setCell(6, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'vpdProcessByCustomerForReassignByAuditor')
+data.setCell(7, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'submitDocumentsAndStartVptByCustomerForReassignByAuditor')
+data.setCell(8, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'vpdCaseRejectedByAuditor')
+data.setCell(9, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'vpdProcessByCustomerForRejectByAuditor')
+data.setCell(10, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'completeCaseByAuditorForReassignByAuditor')
+data.setCell(11, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'submitDocumentsAndStartVptByCustomer')
+data.setCell(12, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'vpdProcessByCustomer')
+data.setCell(13, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyCaseInAssignedBucket')
+data.setCell(14, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'scheduleCaseByAuditor')
+data.setCell(15, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'vpdCaseReAssignByAuditor')
+data.setCell(16, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'downloadAndVerifyReport')
+data.setCell(17, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'scheduleCaseByAuditorForReassignByAuditor')
+data.setCell(18, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyCustomerName')
+data.setCell(19, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'scheduleCaseByAuditorForRejectByAuditor')
+data.setCell(20, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'completeCaseByAuditorForRejectByAuditor')
+data.setCell(21, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkCaseAvailabilityinRejectedBucket')
+data.setCell(22, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'completeCaseByAuditor')
+data.setCell(23, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'markCaseAsApprovedByAuditor')
+data.setCell(24, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'submitDocumentsAndStartVptByCustomerForRejectByAuditor')
+data.setCell(25, 2, 'com.vKyc.Testcases.TC_VPD')
+data.setCell(25, 3, 0);
+window.suiteTableData['VideoKyc']= { tableData: data, tableDiv: 'times-div-VideoKyc'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-VideoKyc">
+              </div> <!-- times-div-VideoKyc -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for VideoKyc</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vKyc.Testcases.TC_VPD</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyCaseUploadAtAuditorEnd</span>
+                <br/>
+                <span class="ignored-method-name">uploadCaseUsingExcel</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-VideoKyc" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vKyc.Testcases.TC_VPD</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">uploadVpdCaseByAdmin</span>
+                <span class="method-start">5986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCallStartDate</span>
+                <span class="method-start">189574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyGeoTagAddress</span>
+                <span class="method-start">189577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">downloadAndVerifyRecordedVideo</span>
+                <span class="method-start">189583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkCaseAvailabilityinApprovedBucket</span>
+                <span class="method-start">271916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">uploadVpdCaseByAdminForRejectingByAuditor</span>
+                <span class="method-start">271928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">uploadVpdCaseByAdminForReAssignByAuditor</span>
+                <span class="method-start">271964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">271991 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

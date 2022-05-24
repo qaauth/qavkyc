@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="VideoKyc">
+	<listeners>
+		<listener class-name="com.vKyc.Utilities.Reporting" />
+	</listeners>
+  
+ <!--  <test name="vKycLogin">
+         <parameter name="browser" value="chrome" />
+           <classes>
+           <class name="com.vKyc.Testcases.TC_Login">
+           </class>
+           </classes>
+  </test> -->
+       
+ <!--  <test name="vKycProcess">
+         <parameter name="browser" value="chrome" />
+           <classes>
+           <class name="com.vKyc.Testcases.TC_VideoKyc">
+           </class>
+           </classes>
+  </test> -->
+  
+  <test name="vPdProcess">
+         <parameter name="browser" value="chrome" />
+           <classes>
+           <class name="com.vKyc.Testcases.TC_VPD">
+           </class>
+           </classes>
+  </test>
+  
+ <!--    <test name="rescheduleProcess">
+         <parameter name="browser" value="chrome" />
+           <classes>
+           <class name="com.vKyc.Testcases.TC_RescheduleVKycAndVPD">
+           </class>
+           </classes>
+  </test> -->
+       
+</suite>
