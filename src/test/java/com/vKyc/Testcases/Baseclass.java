@@ -75,7 +75,7 @@ public class Baseclass {
 		@Parameters("browser")
 		@BeforeClass
 		public void setup(String br) {
-			logger = Logger.getLogger("Ergon"); // import right package Apache POI logger
+			logger = Logger.getLogger("vkyc"); // import right package Apache POI logger
 			PropertyConfigurator.configure(System.getProperty("user.dir") + "/log4j.properties");
 			if (br.equals("chrome")) {
 				

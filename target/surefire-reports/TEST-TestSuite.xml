@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="36.388" tests="26" errors="0" skipped="19" failures="7">
+<testsuite name="TestSuite" time="1,015.459" tests="41" errors="0" skipped="8" failures="4">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/shashi.ranjan/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6691966031506414525.tmp"/>
+    <property name="classworlds.conf" value="/home/shashi.ranjan/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6097797835290864199.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,200 +59,162 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="uploadVpdCaseByAdmin" classname="com.vKyc.Testcases.TC_VPD" time="36.306">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+  <testcase name="uploadVKycCaseByAdmin" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.4"/>
+  <testcase name="verifyCaseInAssignedBucket" classname="com.vKyc.Testcases.TC_VideoKyc" time="6.881"/>
+  <testcase name="scheduleCaseByAgent" classname="com.vKyc.Testcases.TC_VideoKyc" time="15.892"/>
+  <testcase name="vKycProcessByCustomer" classname="com.vKyc.Testcases.TC_VideoKyc" time="184.6"/>
+  <testcase name="vkycProcessByAgent" classname="com.vKyc.Testcases.TC_VideoKyc" time="53.436"/>
+  <testcase name="vkycCaseApprovedByAuditor" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.932"/>
+  <testcase name="verifyCandidateNameonReport" classname="com.vKyc.Testcases.TC_VideoKyc" time="0.099"/>
+  <testcase name="verifyCallStartAndEndDateOnReport" classname="com.vKyc.Testcases.TC_VideoKyc" time="0.264"/>
+  <testcase name="verifyGeotaggingAddressOnReport" classname="com.vKyc.Testcases.TC_VideoKyc" time="0.14"/>
+  <testcase name="verifyPandataDetailsOnReport" classname="com.vKyc.Testcases.TC_VideoKyc" time="0.512"/>
+  <testcase name="verifyAdhaardataDetailsOnReport" classname="com.vKyc.Testcases.TC_VideoKyc" time="0.294"/>
+  <testcase name="verifyFaceMatchScoreOnReport" classname="com.vKyc.Testcases.TC_VideoKyc" time="0.128"/>
+  <testcase name="downloadAndVerifyRecordedVideo" classname="com.vKyc.Testcases.TC_VideoKyc" time="9.804"/>
+  <testcase name="checkCaseAvailabilityinApprovedBucket" classname="com.vKyc.Testcases.TC_VideoKyc" time="11.981"/>
+  <testcase name="verifyTodayReportDownloadStatusAndContent" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.741"/>
+  <testcase name="verifySevenDaysReportDownloadStatus" classname="com.vKyc.Testcases.TC_VideoKyc" time="5.417"/>
+  <testcase name="verifyThirtyDaysReportDownloadStatus" classname="com.vKyc.Testcases.TC_VideoKyc" time="5.3"/>
+  <testcase name="verifyNinetyDaysReportDownloadStatus" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.28"/>
+  <testcase name="uploadCaseUsingExcel" classname="com.vKyc.Testcases.TC_VideoKyc" time="128.526">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[contains(text(),&apos;Cases uploaded successfully&apos;)]&apos; (tried for 120 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Cases uploaded successfully')]' (tried for 120 second(s) with 500 milliseconds interval)
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
 	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
 	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.vKyc.Pageobject.VPD.uploadCase(VPD.java:373)
-	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdmin(TC_VPD.java:46)
+	at com.vKyc.Pageobject.videoKyc.verifyCaseUploadSuccessMsg(videoKyc.java:1761)
+	at com.vKyc.Testcases.TC_VideoKyc.uploadCaseUsingExcel(TC_VideoKyc.java:662)
 </failure>
-    <system-out><![CDATA[ INFO [main] (TC_VPD.java:33)- v-Kyc url opened
- INFO [main] (TC_VPD.java:36)- Admin LoggedIn successfully!
- INFO [main] (TC_VPD.java:39)- got customer/client name
- INFO [main] (TC_VPD.java:41)- got random string text
- INFO [main] (TC_VPD.java:43)- got random mob no.
- INFO [main] (TC_VPD.java:45)- got random applicant id
+    <system-out><![CDATA[ INFO [main] (TC_VideoKyc.java:654)- v-Kyc url opened
+ INFO [main] (TC_VideoKyc.java:657)- Admin LoggedIn successfully!
+ INFO [main] (TC_VideoKyc.java:660)- case uploaded using excel
 ]]></system-out>
-    <system-err><![CDATA[Mar 22, 2022 7:42:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 22566
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Mar 22, 2022 7:42:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="verifyCaseInAssignedBucket" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="verifyCaseUploadAtAgentEnd" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="scheduleCaseByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="uploadVKycCaseByAdminForRejectCase" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.281"/>
+  <testcase name="scheduleCaseByAgentForCaseRejectAtAuditorEnd" classname="com.vKyc.Testcases.TC_VideoKyc" time="16.997"/>
+  <testcase name="vKycProcessByCustomerForCaseRejectAtAuditorEnd" classname="com.vKyc.Testcases.TC_VideoKyc" time="201.005">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;ID_red&apos;]&apos; (tried for 120 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='ID_red']' (tried for 120 second(s) with 500 milliseconds interval)
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at com.vKyc.Pageobject.videoKyc.submitPanCardUsingBrowseToUpload(videoKyc.java:971)
+	at com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomerForCaseRejectAtAuditorEnd(TC_VideoKyc.java:779)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_VideoKyc.java:765)- vkyc link received on candidate mail verified successfully
+ INFO [main] (TC_VideoKyc.java:776)- v-kyc link hitted by customer
+]]></system-out>
+  </testcase>
+  <testcase name="vkycProcessByAgentForCaseRejectAtAuditorEnd" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="vpdProcessByCustomer" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="vkycCaseRejectedByAuditor" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="submitDocumentsAndStartVptByCustomer" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="checkCaseAvailabilityinRejectedBucket" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="completeCaseByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="uploadVKycCaseForReAssignByAuditor" classname="com.vKyc.Testcases.TC_VideoKyc" time="126.784">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;Check_Pad&apos;]&apos; (tried for 120 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='Check_Pad']' (tried for 120 second(s) with 500 milliseconds interval)
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at com.vKyc.Pageobject.videoKyc.uploadCase(videoKyc.java:733)
+	at com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseForReAssignByAuditor(TC_VideoKyc.java:972)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_VideoKyc.java:959)- v-Kyc url opened
+ INFO [main] (TC_VideoKyc.java:962)- Admin LoggedIn successfully!
+ INFO [main] (TC_VideoKyc.java:965)- got customer/client name
+ INFO [main] (TC_VideoKyc.java:967)- got random string text
+ INFO [main] (TC_VideoKyc.java:969)- got random mob no.
+ INFO [main] (TC_VideoKyc.java:971)- got random applicant id
+]]></system-out>
+  </testcase>
+  <testcase name="scheduleCaseByAgentForReAssign" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="markCaseAsApprovedByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="vKycProcessByCustomerForReAssign" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="downloadAndVerifyReport" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="vkycProcessByAgentForCaseReAssignAtAuditorEnd" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="verifyCustomerName" classname="com.vKyc.Testcases.TC_VPD" time="0">
+  <testcase name="vkycCaseReAssignByAuditor" classname="com.vKyc.Testcases.TC_VideoKyc" time="0">
     <skipped/>
   </testcase>
-  <testcase name="verifyCallStartDate" classname="com.vKyc.Testcases.TC_VPD" time="0.003">
+  <testcase name="uploadVKycCaseByAdminForCaseTransfer" classname="com.vKyc.Testcases.TC_VideoKyc" time="104.139"/>
+  <testcase name="transferCaseByAgent" classname="com.vKyc.Testcases.TC_VideoKyc" time="24.659"/>
+  <testcase name="verifyCaseAtTransferredAgent" classname="com.vKyc.Testcases.TC_VideoKyc" time="7.894"/>
+  <testcase name="uploadVKycCaseByAdminForReschedulelater" classname="com.vKyc.Testcases.TC_VideoKyc" time="7.731"/>
+  <testcase name="scheduleCaseByAgentForReschedulelater" classname="com.vKyc.Testcases.TC_VideoKyc" time="17.991"/>
+  <testcase name="markCaseAsReschedulelater" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.861"/>
+  <testcase name="verifyCaseAvailabilityInAssignedBucket" classname="com.vKyc.Testcases.TC_VideoKyc" time="8.443"/>
+  <testcase name="uploadVKycCaseByAdminForInlineReschedule" classname="com.vKyc.Testcases.TC_VideoKyc" time="7.929"/>
+  <testcase name="scheduleCaseByAgentForInlineReschedule" classname="com.vKyc.Testcases.TC_VideoKyc" time="16.025"/>
+  <testcase name="inlineRescheduleCall" classname="com.vKyc.Testcases.TC_VideoKyc" time="1.093">
     <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at com.vKyc.Testcases.TC_VPD.verifyCallStartDate(TC_VPD.java:301)
+	at com.vKyc.Pageobject.videoKyc.inlinineRescheduleCall(videoKyc.java:2084)
+	at com.vKyc.Testcases.TC_VideoKyc.inlineRescheduleCall(TC_VideoKyc.java:1464)
 </failure>
-    <system-out><![CDATA[ INFO [main] (TC_VPD.java:300)- got call start date
+    <system-out><![CDATA[ INFO [main] (TC_VideoKyc.java:1463)- got reScheduled time for inline reschedule vkyc
 ]]></system-out>
-  </testcase>
-  <testcase name="verifyGeoTagAddress" classname="com.vKyc.Testcases.TC_VPD" time="0.007">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at com.vKyc.Testcases.TC_VPD.verifyGeoTagAddress(TC_VPD.java:316)
-</failure>
-    <system-out><![CDATA[ INFO [main] (TC_VPD.java:315)- got GeoTag Address 
-]]></system-out>
-  </testcase>
-  <testcase name="downloadAndVerifyRecordedVideo" classname="com.vKyc.Testcases.TC_VPD" time="0.028">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=91.0.4472.101)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ad0234680a1728e03e1d7965e16c98cb" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=91.0.4472.101)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ad0234680a1728e03e1d7965e16c98cb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.vKyc.Testcases.TC_VPD.downloadAndVerifyRecordedVideo(TC_VPD.java:329)
-</failure>
-  </testcase>
-  <testcase name="checkCaseAvailabilityinApprovedBucket" classname="com.vKyc.Testcases.TC_VPD" time="0.02">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=91.0.4472.101)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ad0234680a1728e03e1d7965e16c98cb" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=91.0.4472.101)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ad0234680a1728e03e1d7965e16c98cb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:456)
-	at com.vKyc.Testcases.TC_VPD.checkCaseAvailabilityinApprovedBucket(TC_VPD.java:350)
-</failure>
-  </testcase>
-  <testcase name="uploadVpdCaseByAdminForRejectingByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0.016">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=91.0.4472.101)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ad0234680a1728e03e1d7965e16c98cb" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=91.0.4472.101)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ad0234680a1728e03e1d7965e16c98cb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForRejectingByAuditor(TC_VPD.java:423)
-</failure>
-  </testcase>
-  <testcase name="scheduleCaseByAuditorForRejectByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="vpdProcessByCustomerForRejectByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="submitDocumentsAndStartVptByCustomerForRejectByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="completeCaseByAuditorForRejectByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="vpdCaseRejectedByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="checkCaseAvailabilityinRejectedBucket" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="uploadVpdCaseByAdminForReAssignByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0.008">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=91.0.4472.101)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-142-generic&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ad0234680a1728e03e1d7965e16c98cb" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=91.0.4472.101)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.1P2jhW}, goog:chromeOptions: {debuggerAddress: localhost:35127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ad0234680a1728e03e1d7965e16c98cb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForReAssignByAuditor(TC_VPD.java:637)
-</failure>
-  </testcase>
-  <testcase name="scheduleCaseByAuditorForReassignByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="vpdProcessByCustomerForReassignByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="submitDocumentsAndStartVptByCustomerForReassignByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="completeCaseByAuditorForReassignByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="vpdCaseReAssignByAuditor" classname="com.vKyc.Testcases.TC_VPD" time="0">
-    <skipped/>
   </testcase>
 </testsuite>

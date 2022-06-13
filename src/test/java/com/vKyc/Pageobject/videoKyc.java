@@ -936,7 +936,7 @@ public class videoKyc extends Baseclass {
 	public void customerClickOnKycLink() throws InterruptedException {
 		wait=new WebDriverWait(ldriver, 120);
 		//ClearBrowserCache();
-		Thread.sleep(60000);
+		Thread.sleep(90000);
 	    startKycLink.click();
 		tabs = new ArrayList<String>(ldriver.getWindowHandles());
 		ldriver.switchTo().window(tabs.get(2));

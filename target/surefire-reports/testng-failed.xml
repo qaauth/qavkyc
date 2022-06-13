@@ -4,41 +4,30 @@
   <listeners>
     <listener class-name="com.vKyc.Utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="vPdProcess(failed)">
+  <test thread-count="5" verbose="0" name="vKycProcess(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.vKyc.Testcases.TC_VPD">
+      <class name="com.vKyc.Testcases.TC_VideoKyc">
         <methods>
+          <include name="vkycCaseReAssignByAuditor"/>
           <include name="tearDown"/>
-          <include name="scheduleCaseByAuditor"/>
-          <include name="verifyCallStartDate"/>
-          <include name="completeCaseByAuditorForReassignByAuditor"/>
-          <include name="completeCaseByAuditor"/>
-          <include name="uploadVpdCaseByAdminForRejectingByAuditor"/>
-          <include name="verifyCaseInAssignedBucket"/>
-          <include name="completeCaseByAuditorForRejectByAuditor"/>
-          <include name="verifyCustomerName"/>
-          <include name="vpdProcessByCustomer"/>
-          <include name="vpdProcessByCustomerForRejectByAuditor"/>
-          <include name="vpdCaseRejectedByAuditor"/>
-          <include name="scheduleCaseByAuditorForRejectByAuditor"/>
-          <include name="setup"/>
-          <include name="downloadAndVerifyReport"/>
-          <include name="downloadAndVerifyRecordedVideo"/>
-          <include name="scheduleCaseByAuditorForReassignByAuditor"/>
-          <include name="vpdCaseReAssignByAuditor"/>
-          <include name="submitDocumentsAndStartVptByCustomer"/>
-          <include name="uploadVpdCaseByAdmin"/>
-          <include name="markCaseAsApprovedByAuditor"/>
-          <include name="submitDocumentsAndStartVptByCustomerForRejectByAuditor"/>
           <include name="checkCaseAvailabilityinRejectedBucket"/>
-          <include name="uploadVpdCaseByAdminForReAssignByAuditor"/>
-          <include name="checkCaseAvailabilityinApprovedBucket"/>
-          <include name="submitDocumentsAndStartVptByCustomerForReassignByAuditor"/>
-          <include name="vpdProcessByCustomerForReassignByAuditor"/>
-          <include name="verifyGeoTagAddress"/>
+          <include name="scheduleCaseByAgentForCaseRejectAtAuditorEnd"/>
+          <include name="uploadVKycCaseByAdminForRejectCase"/>
+          <include name="uploadCaseUsingExcel"/>
+          <include name="scheduleCaseByAgentForReAssign"/>
+          <include name="uploadVKycCaseForReAssignByAuditor"/>
+          <include name="inlineRescheduleCall"/>
+          <include name="verifyCaseUploadAtAgentEnd"/>
+          <include name="vKycProcessByCustomerForReAssign"/>
+          <include name="uploadVKycCaseByAdminForInlineReschedule"/>
+          <include name="setup"/>
+          <include name="vkycProcessByAgentForCaseReAssignAtAuditorEnd"/>
+          <include name="vKycProcessByCustomerForCaseRejectAtAuditorEnd"/>
+          <include name="vkycProcessByAgentForCaseRejectAtAuditorEnd"/>
+          <include name="vkycCaseRejectedByAuditor"/>
         </methods>
-      </class> <!-- com.vKyc.Testcases.TC_VPD -->
+      </class> <!-- com.vKyc.Testcases.TC_VideoKyc -->
     </classes>
-  </test> <!-- vPdProcess(failed) -->
+  </test> <!-- vKycProcess(failed) -->
 </suite> <!-- Failed suite [VideoKyc] -->

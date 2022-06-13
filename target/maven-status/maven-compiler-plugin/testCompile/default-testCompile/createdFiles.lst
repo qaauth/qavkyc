@@ -1,0 +1,12 @@
+com/vKyc/Utilities/XLUtils.class
+com/vKyc/Testcases/Baseclass.class
+com/vKyc/Testcases/TC_VideoKyc.class
+com/vKyc/Testcases/TC_RescheduleVKyc.class
+com/vKyc/Pageobject/Login.class
+com/vKyc/Utilities/RandomMethod.class
+com/vKyc/Utilities/ReadConfig.class
+com/vKyc/Pageobject/VPD.class
+com/vKyc/Utilities/Reporting.class
+com/vKyc/Pageobject/videoKyc.class
+com/vKyc/Testcases/TC_VPD.class
+com/vKyc/Testcases/TC_Login.class

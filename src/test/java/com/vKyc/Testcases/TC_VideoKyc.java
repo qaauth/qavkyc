@@ -20,7 +20,7 @@ public class TC_VideoKyc extends Baseclass {
 	 String Videofilename;
 
 	 //Admin initiate/upload a case for V-KYC Process|Assert based on alert
-     @Test(enabled = false, testName = "Admin upload a case", priority = 1)
+     @Test(enabled = true, testName = "Admin upload a case", priority = 1)
      public void uploadVKycCaseByAdmin() throws IOException, InterruptedException {
     	driver.get(baseURL);
 		logger.info("v-Kyc url opened");
@@ -53,7 +53,7 @@ public class TC_VideoKyc extends Baseclass {
     	logger.info("Admin loggedout successfully");
     }
     //Agent verify case in Assigned bucket | Assert based on case availability in Assigned bucket
-     @Test(enabled = false, testName = "verify case in AssignedBucket", priority = 2, dependsOnMethods = {
+     @Test(enabled = true, testName = "verify case in AssignedBucket", priority = 2, dependsOnMethods = {
  	"uploadVKycCaseByAdmin" })
      public void verifyCaseInAssignedBucket() throws InterruptedException, IOException {
      	 driver.get(baseURL);
@@ -77,7 +77,7 @@ public class TC_VideoKyc extends Baseclass {
  	}
     
     //Agent schedules case | Assert based on case availability in Scheduled bucket
-    @Test(enabled = false, testName = "schedule & verify case", priority = 3, dependsOnMethods = {
+    @Test(enabled = true, testName = "schedule & verify case", priority = 3, dependsOnMethods = {
 	"verifyCaseInAssignedBucket" })
     public void scheduleCaseByAgent() throws InterruptedException, IOException {
     	 driver.get(baseURL);
@@ -106,7 +106,7 @@ public class TC_VideoKyc extends Baseclass {
    
 	//Candidate checks for scheduled V-kyc mail and submits all Kyc Related info thru available link 
     //| Assert based on link availability
-    @Test(enabled = false, testName = "vkyc started by customer", priority = 4, dependsOnMethods = {
+    @Test(enabled = true, testName = "vkyc started by customer", priority = 4, dependsOnMethods = {
 	"scheduleCaseByAgent" })
     public void vKycProcessByCustomer() throws InterruptedException, IOException {
         videoKyc vrf= new videoKyc(driver);
@@ -164,7 +164,7 @@ public class TC_VideoKyc extends Baseclass {
     
     //Agent starts vkyc with candidate and after it is successful it marks the case as completed
     // |Assert based on new case status as Pending with Auditor
-    @Test(enabled = false, testName = "vkyc started by agent", priority = 5, dependsOnMethods = {
+    @Test(enabled = true, testName = "vkyc started by agent", priority = 5, dependsOnMethods = {
    	"vKycProcessByCustomer" })
     public void vkycProcessByAgent() throws InterruptedException, IOException {
     	videoKyc obj= new videoKyc(driver);
@@ -252,7 +252,7 @@ public class TC_VideoKyc extends Baseclass {
      }
     //Auditor verifies completed case and marks it as Approved | Assert based on alert|Assert based on case status as approved
     //verify report generated(url) status code |Assert based on status code
-    @Test(enabled = false, testName = "Auditor marks case Approved And Verify report generation status code", priority = 6, dependsOnMethods = {
+    @Test(enabled = true, testName = "Auditor marks case Approved And Verify report generation status code", priority = 6, dependsOnMethods = {
    	"vkycProcessByAgent" })
     public void vkycCaseApprovedByAuditor() throws InterruptedException, IOException {
     	  driver.get(baseURL);
@@ -287,7 +287,7 @@ public class TC_VideoKyc extends Baseclass {
  		   }
         }
 		//Assert based on candidate name  on REPORT Generated page
-		@Test(enabled = false, testName = "verify candidate name on report", priority = 7,dependsOnMethods = {
+		@Test(enabled = true, testName = "verify candidate name on report", priority = 7,dependsOnMethods = {
 	   	"vkycCaseApprovedByAuditor" })
 		public void verifyCandidateNameonReport() throws IOException, InterruptedException {
 			videoKyc verify= new videoKyc(driver);
@@ -305,7 +305,7 @@ public class TC_VideoKyc extends Baseclass {
  		     }
 		}
 		//Assert based on call start date and time/ call end date and time on REPORT Generated page
-        @Test(enabled =false, testName = "verify Call Start And EndDate on report", priority = 8,dependsOnMethods = {
+        @Test(enabled = true, testName = "verify Call Start And EndDate on report", priority = 8,dependsOnMethods = {
 	   	"verifyCandidateNameonReport" })
 		public void verifyCallStartAndEndDateOnReport() throws IOException, InterruptedException {
 			videoKyc verify= new videoKyc(driver);
@@ -332,7 +332,7 @@ public class TC_VideoKyc extends Baseclass {
 		     }
 		}
 		//Assert based on verification step2 :Geo-tagging address fetch on REPORT Generated page
-        @Test(enabled = false, testName = "verify geotagging address on report", priority = 9,dependsOnMethods = {
+        @Test(enabled = true, testName = "verify geotagging address on report", priority = 9,dependsOnMethods = {
 	   	"verifyCallStartAndEndDateOnReport" })
 		public void verifyGeotaggingAddressOnReport() throws IOException, InterruptedException {
         	videoKyc verify= new videoKyc(driver);
@@ -349,7 +349,7 @@ public class TC_VideoKyc extends Baseclass {
 		     }
         }
 		//Assert based on verification step3 :Pan data details(panNum,panHolderName,dob,father’sName) on REPORT Generated page
-        @Test(enabled = false, testName = "verify pan data on report", priority = 10,dependsOnMethods = {
+        @Test(enabled = true, testName = "verify pan data on report", priority = 10,dependsOnMethods = {
 	   	"verifyGeotaggingAddressOnReport" })
 		public void verifyPandataDetailsOnReport() throws IOException, InterruptedException {
         	videoKyc verify= new videoKyc(driver);
@@ -407,7 +407,7 @@ public class TC_VideoKyc extends Baseclass {
 		      }
          }
          //Assert based on verification step4 :Aadhar data details(AdharHoldername,address,dob,gender) on REPORT Generated page
-         @Test(enabled = false, testName = "verify adhaar data on report", priority = 11,dependsOnMethods = {
+         @Test(enabled = true, testName = "verify adhaar data on report", priority = 11,dependsOnMethods = {
  	   	"verifyPandataDetailsOnReport"})
 		 public void verifyAdhaardataDetailsOnReport() throws IOException, InterruptedException {
         	  videoKyc verify= new videoKyc(driver);
@@ -464,7 +464,7 @@ public class TC_VideoKyc extends Baseclass {
 		      }
           }
          //Assert based on verification step5:face match score on REPORT Generated page
-         @Test(enabled =false, testName = "verify face match score on report", priority = 12,dependsOnMethods = {
+         @Test(enabled = true, testName = "verify face match score on report", priority = 12,dependsOnMethods = {
   	   	"verifyAdhaardataDetailsOnReport"})
          public void verifyFaceMatchScoreOnReport() throws IOException, InterruptedException {
         	  videoKyc verify= new videoKyc(driver);
@@ -481,7 +481,7 @@ public class TC_VideoKyc extends Baseclass {
 	          }
          }
        //Check at Auditor End VKYC Recording is available or not |Assert based on available download
-         @Test(enabled = false, testName = "download and verify recorded kyc video", priority = 13,dependsOnMethods = {
+         @Test(enabled = true, testName = "download and verify recorded kyc video", priority = 13,dependsOnMethods = {
    	   	"verifyFaceMatchScoreOnReport"})
          public void downloadAndVerifyRecordedVideo() throws IOException, InterruptedException {
         	 driver.navigate().refresh();
@@ -504,7 +504,7 @@ public class TC_VideoKyc extends Baseclass {
          }
          
          //check the case availablity in completed-Approved Bucket at Admin end|Assert based on case availablity in bucket
-         @Test(enabled = false, testName = "check case availablity in completed-Approved Bucket", priority =14,dependsOnMethods = {
+         @Test(enabled = true, testName = "check case availablity in completed-Approved Bucket", priority =14,dependsOnMethods = {
     	   	"downloadAndVerifyRecordedVideo"})
          public void checkCaseAvailabilityinApprovedBucket() throws InterruptedException, IOException {
         	 Set<String> allWindows = driver.getWindowHandles();
@@ -531,7 +531,7 @@ public class TC_VideoKyc extends Baseclass {
          }
          
        //verify download of vkyc cases for today and verify report content
-        @Test(enabled = false, testName = "verify Today's case download status and content", priority =15, dependsOnMethods ={
+        @Test(enabled = true, testName = "verify Today's case download status and content", priority =15, dependsOnMethods ={
         "checkCaseAvailabilityinApprovedBucket"})
         public void verifyTodayReportDownloadStatusAndContent() throws InterruptedException, IOException  {
          	  driver.get(baseURL);
@@ -570,7 +570,7 @@ public class TC_VideoKyc extends Baseclass {
      		  }
          }
         //verify download Report for last 7 days |Assert based on Files count
-        @Test(enabled = false, testName = "verify Last 7 days Report download", priority =16, dependsOnMethods ={
+        @Test(enabled = true, testName = "verify Last 7 days Report download", priority =16, dependsOnMethods ={
         "verifyTodayReportDownloadStatusAndContent"})
         public void verifySevenDaysReportDownloadStatus() throws InterruptedException, IOException {
             File folder = new File("/home/shashi.ranjan/Downloads/VpdReport");
@@ -593,7 +593,7 @@ public class TC_VideoKyc extends Baseclass {
 		     }
         }
        //verify download Report for last 30 days |Assert based on Files count
-        @Test(enabled = false, testName = "verify Last 30 days Report download status", priority =17, dependsOnMethods ={
+        @Test(enabled = true, testName = "verify Last 30 days Report download status", priority =17, dependsOnMethods ={
         "verifySevenDaysReportDownloadStatus"})
         public void verifyThirtyDaysReportDownloadStatus() throws InterruptedException, IOException {
             File folder = new File("/home/shashi.ranjan/Downloads/VpdReport");
@@ -616,7 +616,7 @@ public class TC_VideoKyc extends Baseclass {
 		     }
          }
        //verify download Report for last 90 days |Assert based on Files count
-       @Test(enabled = false, testName = "verify Last 90 days Report download status", priority =18, dependsOnMethods ={
+       @Test(enabled = true, testName = "verify Last 90 days Report download status", priority =18, dependsOnMethods ={
         "verifyThirtyDaysReportDownloadStatus"})
        public void verifyNinetyDaysReportDownloadStatus() throws InterruptedException, IOException {
              File folder = new File("/home/shashi.ranjan/Downloads/VpdReport");
@@ -643,7 +643,7 @@ public class TC_VideoKyc extends Baseclass {
 		     logger.info("Admin logged out successfully");
          }
          //Admin uploads the cases using “upload cases” option via Excel |Assert based on Alert 
-         @Test(enabled =false, testName = "upload case using excel", priority = 19)
+         @Test(enabled = true, testName = "upload case using excel", priority = 19)
          public void uploadCaseUsingExcel() throws InterruptedException, IOException {
         	 driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         	 Set<String> allWindows = driver.getWindowHandles();
@@ -673,7 +673,7 @@ public class TC_VideoKyc extends Baseclass {
     		 logger.info("Admin loggedOut Successfully");
          }
          //Check at  Agent End whether Uploaded case is available or not
-         @Test(enabled = false, testName="verify Uploaded case thru Excel at Agent End",priority =20,dependsOnMethods = {
+         @Test(enabled = true, testName="verify Uploaded case thru Excel at Agent End",priority =20,dependsOnMethods = {
  	     "uploadCaseUsingExcel"})
          public void verifyCaseUploadAtAgentEnd() throws IOException {
         	 driver.get(baseURL);
@@ -693,7 +693,7 @@ public class TC_VideoKyc extends Baseclass {
    		     }
      	 }
          //Admin initiate/upload a case for VPT Process for Reject case|Assert based on alert
-         @Test(enabled =false, testName = "Admin upload a case for Reject By Auditor", priority = 21)
+         @Test(enabled = true, testName = "Admin upload a case for Reject By Auditor", priority = 21)
          public void uploadVKycCaseByAdminForRejectCase() throws IOException, InterruptedException {
         	driver.get(baseURL);
     		logger.info("v-Kyc url opened");
@@ -727,7 +727,7 @@ public class TC_VideoKyc extends Baseclass {
         	logger.info("Admin loggedout successfully");
         }
          //schedule case for rejected flow By Auditor
-         @Test(enabled=false,testName="schedule case BY Agent for Reject case",priority=22,dependsOnMethods= {
+         @Test(enabled = true,testName="schedule case BY Agent for Reject case",priority=22,dependsOnMethods= {
          "uploadVKycCaseByAdminForRejectCase"})
          public void scheduleCaseByAgentForCaseRejectAtAuditorEnd() throws InterruptedException, IOException {
         	 driver.get(baseURL);
@@ -755,7 +755,7 @@ public class TC_VideoKyc extends Baseclass {
          }
          //Candidate checks for scheduled V-kyc mail and submits all Kyc Related info thru available link 
          //| Assert based on link availability
-         @Test(enabled = false, testName = "vkyc started by customer for Reject case", priority =23, dependsOnMethods = {
+         @Test(enabled = true, testName = "vkyc started by customer for Reject case", priority =23, dependsOnMethods = {
      	 "scheduleCaseByAgentForCaseRejectAtAuditorEnd" })
          public void vKycProcessByCustomerForCaseRejectAtAuditorEnd() throws InterruptedException, IOException {
              videoKyc vrf= new videoKyc(driver);
@@ -812,7 +812,7 @@ public class TC_VideoKyc extends Baseclass {
         }
         //Agent starts vkyc with candidate for Reject case and after it is successful it marks the case as completed
         // |Assert based on new case status as Pending with Auditor
-        @Test(enabled = false, testName = "vkyc started by agent for Reject case", priority =24, dependsOnMethods = {
+        @Test(enabled = true, testName = "vkyc started by agent for Reject case", priority =24, dependsOnMethods = {
          "vKycProcessByCustomerForCaseRejectAtAuditorEnd"})
          public void vkycProcessByAgentForCaseRejectAtAuditorEnd() throws InterruptedException, IOException {
         	videoKyc obj= new videoKyc(driver);
@@ -899,7 +899,7 @@ public class TC_VideoKyc extends Baseclass {
          	logger.info("Agent loggedout successfully");
       }
       //Auditor marks case as Rejected |Assert based on case status as Rejected
-      @Test(enabled = false, testName = "Auditor marks case Rejected And Verify case status", priority =25, dependsOnMethods = {
+      @Test(enabled = true, testName = "Auditor marks case Rejected And Verify case status", priority =25, dependsOnMethods = {
       "vkycProcessByAgentForCaseRejectAtAuditorEnd"})
       public void vkycCaseRejectedByAuditor() throws InterruptedException, IOException {
         	  driver.get(baseURL);
@@ -929,7 +929,7 @@ public class TC_VideoKyc extends Baseclass {
     		  logger.info("Auditor logged out successfully");
       }
       //check the case availablity in completed-Rejected Bucket at Admin end|Assert based on case availablity in bucket
-      @Test(enabled = false, testName = "check case availablity in completed-Rejected Bucket", priority =26, dependsOnMethods = {
+      @Test(enabled = true, testName = "check case availablity in completed-Rejected Bucket", priority =26, dependsOnMethods = {
       "vkycCaseRejectedByAuditor"})
       public void checkCaseAvailabilityinRejectedBucket() throws InterruptedException, IOException {
     	     driver.get(baseURL);
@@ -953,7 +953,7 @@ public class TC_VideoKyc extends Baseclass {
       }
       
       //Admin initiate/upload a case for Re-assign by Auditor|Assert based on alert
-      @Test(enabled = false, testName = "Admin uploads a case for Re-Assign", priority =27)
+      @Test(enabled = true, testName = "Admin uploads a case for Re-Assign", priority =27)
       public void uploadVKycCaseForReAssignByAuditor() throws IOException, InterruptedException {
      	  driver.get(baseURL);
  		  logger.info("v-Kyc url opened");
@@ -987,7 +987,7 @@ public class TC_VideoKyc extends Baseclass {
      	  logger.info("Admin loggedout successfully");
      }
      //Agent verify and schedules the case | Assert based on case availability in Scheduled bucket
-     @Test(enabled = false, testName = "verify and schedule case for Re-Assign", priority = 28, dependsOnMethods = {
+     @Test(enabled = true, testName = "verify and schedule case for Re-Assign", priority = 28, dependsOnMethods = {
   	 "uploadVKycCaseForReAssignByAuditor"})
      public void scheduleCaseByAgentForReAssign() throws InterruptedException, IOException {
       	 driver.get(baseURL);
@@ -1014,7 +1014,7 @@ public class TC_VideoKyc extends Baseclass {
      }
      //Candidate checks for scheduled V-kyc mail and submits all Kyc Related info thru available link 
      //| Assert based on link availability
-     @Test(enabled = false, testName = "vkyc started by customer for Re-Assign", priority =29, dependsOnMethods = {
+     @Test(enabled = true, testName = "vkyc started by customer for Re-Assign", priority =29, dependsOnMethods = {
  	 "scheduleCaseByAgentForReAssign"})
      public void vKycProcessByCustomerForReAssign() throws InterruptedException, IOException {
          videoKyc vrf= new videoKyc(driver);
@@ -1071,7 +1071,7 @@ public class TC_VideoKyc extends Baseclass {
      }
      //Agent starts vkyc with candidate and after it is successful it marks the case as completed
      // |Assert based on new case status as Pending with Auditor
-     @Test(enabled = false, testName = "vkyc started by agent for Re-Assign", priority =30, dependsOnMethods = {
+     @Test(enabled = true, testName = "vkyc started by agent for Re-Assign", priority =30, dependsOnMethods = {
       "vKycProcessByCustomerForReAssign"})
       public void vkycProcessByAgentForCaseReAssignAtAuditorEnd() throws InterruptedException, IOException {
       	  videoKyc obj= new videoKyc(driver);
@@ -1157,7 +1157,7 @@ public class TC_VideoKyc extends Baseclass {
       	  logger.info("Agent loggedout successfully");
     }
     //Auditor Re-assignes the case |Assert based on case visibility in Active-ReAssign bucket
-    @Test(enabled = false, testName = "Auditor marks case ReAssigned And Verify", priority =31, dependsOnMethods ={
+    @Test(enabled = true, testName = "Auditor marks case ReAssigned And Verify", priority =31, dependsOnMethods ={
      "vkycProcessByAgentForCaseReAssignAtAuditorEnd"})
     public void vkycCaseReAssignByAuditor() throws InterruptedException, IOException {
        	  driver.get(baseURL);
@@ -1285,7 +1285,7 @@ public class TC_VideoKyc extends Baseclass {
  		  logger.info("second Agent loggedout successfully");
     }
     //Admin initiate/upload a case for VPT Process|Assert based on alert
-    @Test(enabled = false, testName = "Admin upload a case for Reschedule later", priority =35)
+    @Test(enabled = true, testName = "Admin upload a case for Reschedule later", priority =35)
     public void uploadVKycCaseByAdminForReschedulelater() throws IOException, InterruptedException {
    	      driver.get(baseURL);
 		  logger.info("v-Kyc url opened");
@@ -1319,7 +1319,7 @@ public class TC_VideoKyc extends Baseclass {
      }
     
     //Agent schedules case | Assert based on case availability in Scheduled bucket
-    @Test(enabled = false, testName = "schedule & verify case for Reschedule later", priority =36, dependsOnMethods = {
+    @Test(enabled = true, testName = "schedule & verify case for Reschedule later", priority =36, dependsOnMethods = {
 	"uploadVKycCaseByAdminForReschedulelater"})
     public void scheduleCaseByAgentForReschedulelater() throws InterruptedException, IOException {
     	 driver.get(baseURL);
@@ -1346,7 +1346,7 @@ public class TC_VideoKyc extends Baseclass {
 		 }
     }
     //Mark Reschedule later for a case in Scheduled Bucket at Agent End|Assert based case removal from schedule bucket
-    @Test(enabled = false, testName = "mark case as Reschedule later", priority =37, dependsOnMethods = {
+    @Test(enabled = true, testName = "mark case as Reschedule later", priority =37, dependsOnMethods = {
 	"scheduleCaseByAgentForReschedulelater"})
     public void markCaseAsReschedulelater() throws IOException, InterruptedException {
     	videoKyc reschedule= new videoKyc(driver);
@@ -1369,7 +1369,7 @@ public class TC_VideoKyc extends Baseclass {
     	logger.info("Agent logged out successfully");
     }
     //After Rescheduling ,verify case is moved to Assigned bucket at Agent end
-    @Test(enabled = false, testName = "verify case is moved to Assigned bucket", priority =38, dependsOnMethods = {
+    @Test(enabled = true, testName = "verify case is moved to Assigned bucket", priority =38, dependsOnMethods = {
 	"markCaseAsReschedulelater"})
     public void verifyCaseAvailabilityInAssignedBucket() throws IOException, InterruptedException {
     	 driver.get(baseURL);
