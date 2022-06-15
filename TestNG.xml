@@ -6,15 +6,15 @@
 		<listener class-name="com.vKyc.Utilities.Reporting" />
 	</listeners>
   
- <!--  <test name="vKycLogin">
+  <test name="vKycLogin" enabled="false">
          <parameter name="browser" value="chrome" />
            <classes>
            <class name="com.vKyc.Testcases.TC_Login">
            </class>
            </classes>
-  </test> -->
+  </test>
        
-  <test name="vKycProcess">
+  <test name="vKycProcess1" enabled="true">
          <parameter name="browser" value="chrome" />
            <classes>
            <class name="com.vKyc.Testcases.TC_VideoKyc">
@@ -22,20 +22,36 @@
            </classes>
   </test>
   
- <!--  <test name="vPdProcess">
+  <test name="vKycProcess2" enabled="true">
+         <parameter name="browser" value="chrome" />
+           <classes>
+           <class name="com.vKyc.Testcases.TC_VideoKycForRejectCase">
+           </class>
+           </classes>
+  </test>
+  
+   <test name="vKycProcess3" enabled="true">
+         <parameter name="browser" value="chrome" />
+           <classes>
+           <class name="com.vKyc.Testcases.TC_VideokycForReAssignCase">
+           </class>
+           </classes>
+  </test>
+  
+  <test name="vPdProcess" enabled="true">
          <parameter name="browser" value="chrome" />
            <classes>
            <class name="com.vKyc.Testcases.TC_VPD">
            </class>
            </classes>
-  </test> -->
+  </test>
   
- <!--    <test name="rescheduleProcess">
+    <test name="rescheduleProcess" enabled="true">
          <parameter name="browser" value="chrome" />
            <classes>
-           <class name="com.vKyc.Testcases.TC_RescheduleVKycAndVPD">
+           <class name="com.vKyc.Testcases.TC_RescheduleVKyc">
            </class>
            </classes>
-  </test> -->
+  </test>
        
 </suite>

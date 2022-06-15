@@ -1,10 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 1,021.29 sec <<< FAILURE! - in TestSuite
-uploadCaseUsingExcel(com.vKyc.Testcases.TC_VideoKyc)  Time elapsed: 128.526 sec  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Cases uploaded successfully')]' (tried for 120 second(s) with 500 milliseconds interval)
-	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+Tests run: 74, Failures: 9, Errors: 0, Skipped: 15, Time elapsed: 2,296.192 sec <<< FAILURE! - in TestSuite
+verifyTodayReportDownloadStatusAndContent(com.vKyc.Testcases.TC_VideoKyc)  Time elapsed: 15.546 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.vKyc.Testcases.TC_VideoKyc.verifyTodayReportDownloadStatusAndContent(TC_VideoKyc.java:569)
+
+inlineRescheduleCall(com.vKyc.Testcases.TC_VideoKyc)  Time elapsed: 1.097 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.vKyc.Pageobject.videoKyc.inlinineRescheduleCall(videoKyc.java:2086)
+	at com.vKyc.Testcases.TC_VideoKyc.inlineRescheduleCall(TC_VideoKyc.java:1465)
+
+submitDocumentsAndStartVptByCustomer(com.vKyc.Testcases.TC_VPD)  Time elapsed: 180.623 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[@for='customField-0']' (tried for 120 second(s) with 500 milliseconds interval)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -25,12 +39,29 @@ org.openqa.selenium.TimeoutException: Expected condition failed: waiting for vis
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.vKyc.Pageobject.videoKyc.verifyCaseUploadSuccessMsg(videoKyc.java:1761)
-	at com.vKyc.Testcases.TC_VideoKyc.uploadCaseUsingExcel(TC_VideoKyc.java:662)
+	at com.vKyc.Pageobject.VPD.submitDocuments(VPD.java:546)
+	at com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomer(TC_VPD.java:134)
 
-vKycProcessByCustomerForCaseRejectAtAuditorEnd(com.vKyc.Testcases.TC_VideoKyc)  Time elapsed: 201.005 sec  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='ID_red']' (tried for 120 second(s) with 500 milliseconds interval)
-	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+verifyCallStartDate(com.vKyc.Testcases.TC_VPD)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.vKyc.Testcases.TC_VPD.verifyCallStartDate(TC_VPD.java:297)
+
+verifyGeoTagAddress(com.vKyc.Testcases.TC_VPD)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.vKyc.Testcases.TC_VPD.verifyGeoTagAddress(TC_VPD.java:312)
+
+checkCaseAvailabilityinApprovedBucket(com.vKyc.Testcases.TC_VPD)  Time elapsed: 20.255 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.vKyc.Testcases.TC_VPD.checkCaseAvailabilityinApprovedBucket(TC_VPD.java:362)
+
+submitDocumentsAndStartVptByCustomerForRejectByAuditor(com.vKyc.Testcases.TC_VPD)  Time elapsed: 180.61 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[@for='customField-0']' (tried for 120 second(s) with 500 milliseconds interval)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -50,13 +81,11 @@ org.openqa.selenium.TimeoutException: Expected condition failed: waiting for ele
 	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.vKyc.Pageobject.videoKyc.submitPanCardUsingBrowseToUpload(videoKyc.java:971)
-	at com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomerForCaseRejectAtAuditorEnd(TC_VideoKyc.java:779)
+	at com.vKyc.Pageobject.VPD.submitDocuments(VPD.java:546)
+	at com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomerForRejectByAuditor(TC_VPD.java:502)
 
-uploadVKycCaseForReAssignByAuditor(com.vKyc.Testcases.TC_VideoKyc)  Time elapsed: 126.784 sec  <<< FAILURE!
+uploadVpdCaseByAdminForReAssignByAuditor(com.vKyc.Testcases.TC_VPD)  Time elapsed: 189.454 sec  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='Check_Pad']' (tried for 120 second(s) with 500 milliseconds interval)
 	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -79,11 +108,14 @@ org.openqa.selenium.TimeoutException: Expected condition failed: waiting for vis
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.vKyc.Pageobject.videoKyc.uploadCase(videoKyc.java:733)
-	at com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseForReAssignByAuditor(TC_VideoKyc.java:972)
+	at com.vKyc.Pageobject.VPD.uploadCase(VPD.java:373)
+	at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForReAssignByAuditor(TC_VPD.java:647)
 
-inlineRescheduleCall(com.vKyc.Testcases.TC_VideoKyc)  Time elapsed: 1.093 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at com.vKyc.Pageobject.videoKyc.inlinineRescheduleCall(videoKyc.java:2084)
-	at com.vKyc.Testcases.TC_VideoKyc.inlineRescheduleCall(TC_VideoKyc.java:1464)
+rescheduleKycByCustomer(com.vKyc.Testcases.TC_RescheduleVKyc)  Time elapsed: 22.558 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.vKyc.Testcases.TC_RescheduleVKyc.rescheduleKycByCustomer(TC_RescheduleVKyc.java:269)
 

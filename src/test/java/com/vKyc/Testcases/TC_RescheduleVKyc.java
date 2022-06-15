@@ -49,7 +49,7 @@ public class TC_RescheduleVKyc extends Baseclass{
     
    //Agent verify case in Assigned bucket | Assert based on case availability in Assigned bucket
     @Test(enabled = true, testName = "verify case in AssignedBucket", priority = 2, dependsOnMethods = {
-	"uploadVKycCaseByAdmin" })
+	"uploadKycCaseByAdmin"})
     public void verifyCaseInAssignedBucket() throws InterruptedException, IOException {
     	 driver.get(baseURL);
 		 logger.info("v-Kyc url opened");
@@ -154,11 +154,10 @@ public class TC_RescheduleVKyc extends Baseclass{
     	
     }
     //Admin initiate/upload a case for reschedule with Different agent|Assert based on alert
-    @Test(enabled = true, testName = "Admin uploads a case", priority = 5,dependsOnMethods = {
-	"rescheduleVkycByCustomer" })
+    @Test(enabled = true, testName = "Admin uploads a case", priority = 5)
     public void uploadCaseByAdmin() throws IOException, InterruptedException {
-//  	  driver.get(baseURL);
-//        logger.info("v-Kyc url opened");
+  	    driver.get(baseURL);
+        logger.info("v-Kyc url opened");
     	driver.navigate().refresh();
         Login log = new Login(driver);
 	    log.loginVkyc(AdminUsername, AdminPassword);

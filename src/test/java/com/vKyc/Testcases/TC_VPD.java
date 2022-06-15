@@ -247,7 +247,6 @@ public class TC_VPD extends Baseclass{
 		 VPD click= new VPD(driver);
 		 click.clickOnGeneratedReport();
 		 logger.info("clicked on Generated report download icon");
-		 Thread.sleep(5000);
 		 File fListFinal[] = folder.listFiles();
 		 //verify report generated 
 		 if(initialNumberOfPDFs + 1== fListFinal.length) {

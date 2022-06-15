@@ -119,7 +119,7 @@ public class Baseclass {
 		@AfterClass
 		public void tearDown() {
 			driver.quit();
-		  //driver.close();
+		   // driver.close();
 		}
 		// If you want to catch failed test cases you will have to add "captureScreen" method.
         public void captureScreen(WebDriver driver, String tname) throws IOException {

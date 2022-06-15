@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="8" failed="4" ignored="0" total="41" passed="29">
+<testng-results skipped="15" failed="9" ignored="2" total="76" passed="50">
   <reporter-output>
   </reporter-output>
-  <suite name="VideoKyc" duration-ms="1020454" started-at="2022-06-13T12:06:43Z" finished-at="2022-06-13T12:23:44Z">
+  <suite name="VideoKyc" duration-ms="2295559" started-at="2022-06-14T11:51:34Z" finished-at="2022-06-14T12:29:50Z">
     <groups>
     </groups>
-    <test name="vKycProcess" duration-ms="1020454" started-at="2022-06-13T12:06:43Z" finished-at="2022-06-13T12:23:44Z">
+    <test name="vKycProcess1" duration-ms="484215" started-at="2022-06-14T11:51:34Z" finished-at="2022-06-14T11:59:39Z">
       <class name="com.vKyc.Testcases.TC_VideoKyc">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="setup" is-config="true" duration-ms="4655" started-at="2022-06-13T12:06:43Z" finished-at="2022-06-13T12:06:48Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="setup" is-config="true" duration-ms="7528" started-at="2022-06-14T11:51:35Z" finished-at="2022-06-14T11:51:42Z">
           <params>
             <param index="0">
               <value>
@@ -18,630 +18,260 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="uploadVKycCaseByAdmin()[pri:1, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdmin" duration-ms="8383" started-at="2022-06-13T12:06:48Z" finished-at="2022-06-13T12:06:56Z">
+        <test-method status="PASS" signature="uploadVKycCaseByAdmin()[pri:1, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdmin" duration-ms="8787" started-at="2022-06-14T11:51:42Z" finished-at="2022-06-14T11:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVKycCaseByAdmin -->
-        <test-method status="PASS" signature="verifyCaseInAssignedBucket()[pri:2, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseInAssignedBucket" duration-ms="6881" started-at="2022-06-13T12:06:56Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdmin" finished-at="2022-06-13T12:07:03Z">
+        <test-method status="PASS" signature="verifyCaseInAssignedBucket()[pri:2, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseInAssignedBucket" duration-ms="8316" started-at="2022-06-14T11:51:51Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdmin" finished-at="2022-06-14T11:51:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCaseInAssignedBucket -->
-        <test-method status="PASS" signature="scheduleCaseByAgent()[pri:3, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgent" duration-ms="15892" started-at="2022-06-13T12:07:03Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyCaseInAssignedBucket" finished-at="2022-06-13T12:07:19Z">
+        <test-method status="PASS" signature="scheduleCaseByAgent()[pri:3, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgent" duration-ms="21584" started-at="2022-06-14T11:51:59Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyCaseInAssignedBucket" finished-at="2022-06-14T11:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scheduleCaseByAgent -->
-        <test-method status="PASS" signature="vKycProcessByCustomer()[pri:4, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vKycProcessByCustomer" duration-ms="184597" started-at="2022-06-13T12:07:19Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.scheduleCaseByAgent" finished-at="2022-06-13T12:10:24Z">
+        <test-method status="PASS" signature="vKycProcessByCustomer()[pri:4, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vKycProcessByCustomer" duration-ms="190831" started-at="2022-06-14T11:52:21Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.scheduleCaseByAgent" finished-at="2022-06-14T11:55:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vKycProcessByCustomer -->
-        <test-method status="PASS" signature="vkycProcessByAgent()[pri:5, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycProcessByAgent" duration-ms="53436" started-at="2022-06-13T12:10:24Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomer" finished-at="2022-06-13T12:11:17Z">
+        <test-method status="PASS" signature="vkycProcessByAgent()[pri:5, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycProcessByAgent" duration-ms="53157" started-at="2022-06-14T11:55:32Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomer" finished-at="2022-06-14T11:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vkycProcessByAgent -->
-        <test-method status="PASS" signature="vkycCaseApprovedByAuditor()[pri:6, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycCaseApprovedByAuditor" duration-ms="8933" started-at="2022-06-13T12:11:17Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycProcessByAgent" finished-at="2022-06-13T12:11:26Z">
+        <test-method status="PASS" signature="vkycCaseApprovedByAuditor()[pri:6, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycCaseApprovedByAuditor" duration-ms="9403" started-at="2022-06-14T11:56:25Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycProcessByAgent" finished-at="2022-06-14T11:56:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vkycCaseApprovedByAuditor -->
-        <test-method status="PASS" signature="verifyCandidateNameonReport()[pri:7, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCandidateNameonReport" duration-ms="99" started-at="2022-06-13T12:11:26Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycCaseApprovedByAuditor" finished-at="2022-06-13T12:11:26Z">
+        <test-method status="PASS" signature="verifyCandidateNameonReport()[pri:7, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCandidateNameonReport" duration-ms="103" started-at="2022-06-14T11:56:34Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycCaseApprovedByAuditor" finished-at="2022-06-14T11:56:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCandidateNameonReport -->
-        <test-method status="PASS" signature="verifyCallStartAndEndDateOnReport()[pri:8, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCallStartAndEndDateOnReport" duration-ms="264" started-at="2022-06-13T12:11:26Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyCandidateNameonReport" finished-at="2022-06-13T12:11:27Z">
+        <test-method status="PASS" signature="verifyCallStartAndEndDateOnReport()[pri:8, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCallStartAndEndDateOnReport" duration-ms="271" started-at="2022-06-14T11:56:34Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyCandidateNameonReport" finished-at="2022-06-14T11:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCallStartAndEndDateOnReport -->
-        <test-method status="PASS" signature="verifyGeotaggingAddressOnReport()[pri:9, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyGeotaggingAddressOnReport" duration-ms="140" started-at="2022-06-13T12:11:27Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyCallStartAndEndDateOnReport" finished-at="2022-06-13T12:11:27Z">
+        <test-method status="PASS" signature="verifyGeotaggingAddressOnReport()[pri:9, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyGeotaggingAddressOnReport" duration-ms="156" started-at="2022-06-14T11:56:35Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyCallStartAndEndDateOnReport" finished-at="2022-06-14T11:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGeotaggingAddressOnReport -->
-        <test-method status="PASS" signature="verifyPandataDetailsOnReport()[pri:10, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyPandataDetailsOnReport" duration-ms="508" started-at="2022-06-13T12:11:27Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyGeotaggingAddressOnReport" finished-at="2022-06-13T12:11:27Z">
+        <test-method status="PASS" signature="verifyPandataDetailsOnReport()[pri:10, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyPandataDetailsOnReport" duration-ms="467" started-at="2022-06-14T11:56:35Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyGeotaggingAddressOnReport" finished-at="2022-06-14T11:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPandataDetailsOnReport -->
-        <test-method status="PASS" signature="verifyAdhaardataDetailsOnReport()[pri:11, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyAdhaardataDetailsOnReport" duration-ms="297" started-at="2022-06-13T12:11:27Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyPandataDetailsOnReport" finished-at="2022-06-13T12:11:27Z">
+        <test-method status="PASS" signature="verifyAdhaardataDetailsOnReport()[pri:11, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyAdhaardataDetailsOnReport" duration-ms="290" started-at="2022-06-14T11:56:35Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyPandataDetailsOnReport" finished-at="2022-06-14T11:56:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdhaardataDetailsOnReport -->
-        <test-method status="PASS" signature="verifyFaceMatchScoreOnReport()[pri:12, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyFaceMatchScoreOnReport" duration-ms="128" started-at="2022-06-13T12:11:27Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyAdhaardataDetailsOnReport" finished-at="2022-06-13T12:11:28Z">
+        <test-method status="PASS" signature="verifyFaceMatchScoreOnReport()[pri:12, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyFaceMatchScoreOnReport" duration-ms="105" started-at="2022-06-14T11:56:36Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyAdhaardataDetailsOnReport" finished-at="2022-06-14T11:56:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFaceMatchScoreOnReport -->
-        <test-method status="PASS" signature="downloadAndVerifyRecordedVideo()[pri:13, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="downloadAndVerifyRecordedVideo" duration-ms="9802" started-at="2022-06-13T12:11:28Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyFaceMatchScoreOnReport" finished-at="2022-06-13T12:11:37Z">
+        <test-method status="PASS" signature="downloadAndVerifyRecordedVideo()[pri:13, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="downloadAndVerifyRecordedVideo" duration-ms="12725" started-at="2022-06-14T11:56:36Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyFaceMatchScoreOnReport" finished-at="2022-06-14T11:56:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadAndVerifyRecordedVideo -->
-        <test-method status="PASS" signature="checkCaseAvailabilityinApprovedBucket()[pri:14, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="checkCaseAvailabilityinApprovedBucket" duration-ms="11982" started-at="2022-06-13T12:11:37Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.downloadAndVerifyRecordedVideo" finished-at="2022-06-13T12:11:49Z">
+        <test-method status="PASS" signature="checkCaseAvailabilityinApprovedBucket()[pri:14, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="checkCaseAvailabilityinApprovedBucket" duration-ms="16985" started-at="2022-06-14T11:56:48Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.downloadAndVerifyRecordedVideo" finished-at="2022-06-14T11:57:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseAvailabilityinApprovedBucket -->
-        <test-method status="PASS" signature="verifyTodayReportDownloadStatusAndContent()[pri:15, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyTodayReportDownloadStatusAndContent" duration-ms="8740" started-at="2022-06-13T12:11:49Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.checkCaseAvailabilityinApprovedBucket" finished-at="2022-06-13T12:11:58Z">
+        <test-method status="FAIL" signature="verifyTodayReportDownloadStatusAndContent()[pri:15, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyTodayReportDownloadStatusAndContent" duration-ms="15542" started-at="2022-06-14T11:57:05Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.checkCaseAvailabilityinApprovedBucket" finished-at="2022-06-14T11:57:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.vKyc.Testcases.TC_VideoKyc.verifyTodayReportDownloadStatusAndContent(TC_VideoKyc.java:569)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTodayReportDownloadStatusAndContent -->
-        <test-method status="PASS" signature="verifySevenDaysReportDownloadStatus()[pri:16, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifySevenDaysReportDownloadStatus" duration-ms="5416" started-at="2022-06-13T12:11:58Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyTodayReportDownloadStatusAndContent" finished-at="2022-06-13T12:12:04Z">
+        <test-method status="SKIP" signature="verifySevenDaysReportDownloadStatus()[pri:16, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifySevenDaysReportDownloadStatus" duration-ms="0" started-at="2022-06-14T11:57:21Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyTodayReportDownloadStatusAndContent" finished-at="2022-06-14T11:57:21Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VideoKyc.verifySevenDaysReportDownloadStatus()[pri:16, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.verifySevenDaysReportDownloadStatus()[pri:16, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySevenDaysReportDownloadStatus -->
-        <test-method status="PASS" signature="verifyThirtyDaysReportDownloadStatus()[pri:17, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyThirtyDaysReportDownloadStatus" duration-ms="5297" started-at="2022-06-13T12:12:04Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifySevenDaysReportDownloadStatus" finished-at="2022-06-13T12:12:09Z">
+        <test-method status="SKIP" signature="verifyThirtyDaysReportDownloadStatus()[pri:17, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyThirtyDaysReportDownloadStatus" duration-ms="0" started-at="2022-06-14T11:57:21Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifySevenDaysReportDownloadStatus" finished-at="2022-06-14T11:57:21Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VideoKyc.verifyThirtyDaysReportDownloadStatus()[pri:17, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.verifyThirtyDaysReportDownloadStatus()[pri:17, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThirtyDaysReportDownloadStatus -->
-        <test-method status="PASS" signature="verifyNinetyDaysReportDownloadStatus()[pri:18, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyNinetyDaysReportDownloadStatus" duration-ms="8280" started-at="2022-06-13T12:12:09Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyThirtyDaysReportDownloadStatus" finished-at="2022-06-13T12:12:17Z">
+        <test-method status="SKIP" signature="verifyNinetyDaysReportDownloadStatus()[pri:18, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyNinetyDaysReportDownloadStatus" duration-ms="0" started-at="2022-06-14T11:57:21Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.verifyThirtyDaysReportDownloadStatus" finished-at="2022-06-14T11:57:21Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VideoKyc.verifyNinetyDaysReportDownloadStatus()[pri:18, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.verifyNinetyDaysReportDownloadStatus()[pri:18, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNinetyDaysReportDownloadStatus -->
-        <test-method status="FAIL" signature="uploadCaseUsingExcel()[pri:19, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadCaseUsingExcel" duration-ms="128521" started-at="2022-06-13T12:12:17Z" finished-at="2022-06-13T12:14:26Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Cases uploaded successfully')]' (tried for 120 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Cases uploaded successfully')]' (tried for 120 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at com.vKyc.Pageobject.videoKyc.verifyCaseUploadSuccessMsg(videoKyc.java:1761)
-at com.vKyc.Testcases.TC_VideoKyc.uploadCaseUsingExcel(TC_VideoKyc.java:662)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Cases uploaded successfully')]"}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.ZPWV2e}, goog:chromeOptions: {debuggerAddress: localhost:37531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 21b5818cbc78db62158e53871a41e523
-*** Element info: {Using=xpath, value=//*[contains(text(),'Cases uploaded successfully')]}
-at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="uploadCaseUsingExcel()[pri:19, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadCaseUsingExcel" duration-ms="12572" started-at="2022-06-14T11:57:21Z" finished-at="2022-06-14T11:57:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadCaseUsingExcel -->
-        <test-method status="SKIP" signature="verifyCaseUploadAtAgentEnd()[pri:20, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseUploadAtAgentEnd" duration-ms="0" started-at="2022-06-13T12:14:26Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadCaseUsingExcel" finished-at="2022-06-13T12:14:26Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.verifyCaseUploadAtAgentEnd()[pri:20, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.verifyCaseUploadAtAgentEnd()[pri:20, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method status="PASS" signature="verifyCaseUploadAtAgentEnd()[pri:20, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseUploadAtAgentEnd" duration-ms="7601" started-at="2022-06-14T11:57:34Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadCaseUsingExcel" finished-at="2022-06-14T11:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCaseUploadAtAgentEnd -->
-        <test-method status="PASS" signature="uploadVKycCaseByAdminForRejectCase()[pri:21, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForRejectCase" duration-ms="8281" started-at="2022-06-13T12:14:26Z" finished-at="2022-06-13T12:14:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadVKycCaseByAdminForRejectCase -->
-        <test-method status="PASS" signature="scheduleCaseByAgentForCaseRejectAtAuditorEnd()[pri:22, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgentForCaseRejectAtAuditorEnd" duration-ms="17002" started-at="2022-06-13T12:14:34Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForRejectCase" finished-at="2022-06-13T12:14:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scheduleCaseByAgentForCaseRejectAtAuditorEnd -->
-        <test-method status="FAIL" signature="vKycProcessByCustomerForCaseRejectAtAuditorEnd()[pri:23, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vKycProcessByCustomerForCaseRejectAtAuditorEnd" duration-ms="201010" started-at="2022-06-13T12:14:51Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.scheduleCaseByAgentForCaseRejectAtAuditorEnd" finished-at="2022-06-13T12:18:12Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='ID_red']' (tried for 120 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='ID_red']' (tried for 120 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at com.vKyc.Pageobject.videoKyc.submitPanCardUsingBrowseToUpload(videoKyc.java:971)
-at com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomerForCaseRejectAtAuditorEnd(TC_VideoKyc.java:779)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ID_red']"}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.ZPWV2e}, goog:chromeOptions: {debuggerAddress: localhost:37531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 21b5818cbc78db62158e53871a41e523
-*** Element info: {Using=xpath, value=//*[@id='ID_red']}
-at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vKycProcessByCustomerForCaseRejectAtAuditorEnd -->
-        <test-method status="SKIP" signature="vkycProcessByAgentForCaseRejectAtAuditorEnd()[pri:24, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycProcessByAgentForCaseRejectAtAuditorEnd" duration-ms="0" started-at="2022-06-13T12:18:12Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomerForCaseRejectAtAuditorEnd" finished-at="2022-06-13T12:18:12Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.vkycProcessByAgentForCaseRejectAtAuditorEnd()[pri:24, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.vkycProcessByAgentForCaseRejectAtAuditorEnd()[pri:24, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vkycProcessByAgentForCaseRejectAtAuditorEnd -->
-        <test-method status="SKIP" signature="vkycCaseRejectedByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycCaseRejectedByAuditor" duration-ms="0" started-at="2022-06-13T12:18:12Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycProcessByAgentForCaseRejectAtAuditorEnd" finished-at="2022-06-13T12:18:12Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.vkycCaseRejectedByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.vkycCaseRejectedByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vkycCaseRejectedByAuditor -->
-        <test-method status="FAIL" signature="uploadVKycCaseForReAssignByAuditor()[pri:27, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseForReAssignByAuditor" duration-ms="126782" started-at="2022-06-13T12:18:12Z" finished-at="2022-06-13T12:20:19Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='Check_Pad']' (tried for 120 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='Check_Pad']' (tried for 120 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at com.vKyc.Pageobject.videoKyc.uploadCase(videoKyc.java:733)
-at com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseForReAssignByAuditor(TC_VideoKyc.java:972)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='Check_Pad']"}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.ZPWV2e}, goog:chromeOptions: {debuggerAddress: localhost:37531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 21b5818cbc78db62158e53871a41e523
-*** Element info: {Using=xpath, value=//*[@id='Check_Pad']}
-at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadVKycCaseForReAssignByAuditor -->
-        <test-method status="SKIP" signature="checkCaseAvailabilityinRejectedBucket()[pri:26, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="checkCaseAvailabilityinRejectedBucket" duration-ms="0" started-at="2022-06-13T12:18:12Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycCaseRejectedByAuditor" finished-at="2022-06-13T12:18:12Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.checkCaseAvailabilityinRejectedBucket()[pri:26, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.checkCaseAvailabilityinRejectedBucket()[pri:26, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCaseAvailabilityinRejectedBucket -->
-        <test-method status="SKIP" signature="scheduleCaseByAgentForReAssign()[pri:28, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgentForReAssign" duration-ms="0" started-at="2022-06-13T12:20:19Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseForReAssignByAuditor" finished-at="2022-06-13T12:20:19Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.scheduleCaseByAgentForReAssign()[pri:28, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.scheduleCaseByAgentForReAssign()[pri:28, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scheduleCaseByAgentForReAssign -->
-        <test-method status="SKIP" signature="vKycProcessByCustomerForReAssign()[pri:29, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vKycProcessByCustomerForReAssign" duration-ms="0" started-at="2022-06-13T12:20:19Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.scheduleCaseByAgentForReAssign" finished-at="2022-06-13T12:20:19Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.vKycProcessByCustomerForReAssign()[pri:29, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.vKycProcessByCustomerForReAssign()[pri:29, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vKycProcessByCustomerForReAssign -->
-        <test-method status="SKIP" signature="vkycProcessByAgentForCaseReAssignAtAuditorEnd()[pri:30, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycProcessByAgentForCaseReAssignAtAuditorEnd" duration-ms="0" started-at="2022-06-13T12:20:19Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vKycProcessByCustomerForReAssign" finished-at="2022-06-13T12:20:19Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.vkycProcessByAgentForCaseReAssignAtAuditorEnd()[pri:30, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.vkycProcessByAgentForCaseReAssignAtAuditorEnd()[pri:30, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vkycProcessByAgentForCaseReAssignAtAuditorEnd -->
-        <test-method status="SKIP" signature="vkycCaseReAssignByAuditor()[pri:31, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="vkycCaseReAssignByAuditor" duration-ms="0" started-at="2022-06-13T12:20:19Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.vkycProcessByAgentForCaseReAssignAtAuditorEnd" finished-at="2022-06-13T12:20:19Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TC_VideoKyc.vkycCaseReAssignByAuditor()[pri:31, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TC_VideoKyc.vkycCaseReAssignByAuditor()[pri:31, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vkycCaseReAssignByAuditor -->
-        <test-method status="PASS" signature="uploadVKycCaseByAdminForCaseTransfer()[pri:32, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForCaseTransfer" duration-ms="104135" started-at="2022-06-13T12:20:19Z" finished-at="2022-06-13T12:22:03Z">
+        <test-method status="PASS" signature="uploadVKycCaseByAdminForCaseTransfer()[pri:32, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForCaseTransfer" duration-ms="9122" started-at="2022-06-14T11:57:41Z" finished-at="2022-06-14T11:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVKycCaseByAdminForCaseTransfer -->
-        <test-method status="PASS" signature="transferCaseByAgent()[pri:33, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="transferCaseByAgent" duration-ms="24662" started-at="2022-06-13T12:22:03Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForCaseTransfer" finished-at="2022-06-13T12:22:28Z">
+        <test-method status="PASS" signature="transferCaseByAgent()[pri:33, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="transferCaseByAgent" duration-ms="27628" started-at="2022-06-14T11:57:50Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForCaseTransfer" finished-at="2022-06-14T11:58:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transferCaseByAgent -->
-        <test-method status="PASS" signature="verifyCaseAtTransferredAgent()[pri:34, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseAtTransferredAgent" duration-ms="7892" started-at="2022-06-13T12:22:28Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.transferCaseByAgent" finished-at="2022-06-13T12:22:35Z">
+        <test-method status="PASS" signature="verifyCaseAtTransferredAgent()[pri:34, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseAtTransferredAgent" duration-ms="8212" started-at="2022-06-14T11:58:18Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.transferCaseByAgent" finished-at="2022-06-14T11:58:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCaseAtTransferredAgent -->
-        <test-method status="PASS" signature="uploadVKycCaseByAdminForReschedulelater()[pri:35, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForReschedulelater" duration-ms="7731" started-at="2022-06-13T12:22:35Z" finished-at="2022-06-13T12:22:43Z">
+        <test-method status="PASS" signature="uploadVKycCaseByAdminForReschedulelater()[pri:35, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForReschedulelater" duration-ms="9408" started-at="2022-06-14T11:58:26Z" finished-at="2022-06-14T11:58:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVKycCaseByAdminForReschedulelater -->
-        <test-method status="PASS" signature="scheduleCaseByAgentForReschedulelater()[pri:36, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgentForReschedulelater" duration-ms="17991" started-at="2022-06-13T12:22:43Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForReschedulelater" finished-at="2022-06-13T12:23:01Z">
+        <test-method status="PASS" signature="scheduleCaseByAgentForReschedulelater()[pri:36, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgentForReschedulelater" duration-ms="16414" started-at="2022-06-14T11:58:36Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForReschedulelater" finished-at="2022-06-14T11:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scheduleCaseByAgentForReschedulelater -->
-        <test-method status="PASS" signature="markCaseAsReschedulelater()[pri:37, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="markCaseAsReschedulelater" duration-ms="8858" started-at="2022-06-13T12:23:01Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.scheduleCaseByAgentForReschedulelater" finished-at="2022-06-13T12:23:10Z">
+        <test-method status="PASS" signature="markCaseAsReschedulelater()[pri:37, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="markCaseAsReschedulelater" duration-ms="8995" started-at="2022-06-14T11:58:52Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.scheduleCaseByAgentForReschedulelater" finished-at="2022-06-14T11:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- markCaseAsReschedulelater -->
-        <test-method status="PASS" signature="verifyCaseAvailabilityInAssignedBucket()[pri:38, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseAvailabilityInAssignedBucket" duration-ms="8443" started-at="2022-06-13T12:23:10Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.markCaseAsReschedulelater" finished-at="2022-06-13T12:23:18Z">
+        <test-method status="PASS" signature="verifyCaseAvailabilityInAssignedBucket()[pri:38, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="verifyCaseAvailabilityInAssignedBucket" duration-ms="12881" started-at="2022-06-14T11:59:01Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.markCaseAsReschedulelater" finished-at="2022-06-14T11:59:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCaseAvailabilityInAssignedBucket -->
-        <test-method status="PASS" signature="uploadVKycCaseByAdminForInlineReschedule()[pri:39, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForInlineReschedule" duration-ms="7926" started-at="2022-06-13T12:23:18Z" finished-at="2022-06-13T12:23:26Z">
+        <test-method status="PASS" signature="uploadVKycCaseByAdminForInlineReschedule()[pri:39, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="uploadVKycCaseByAdminForInlineReschedule" duration-ms="8514" started-at="2022-06-14T11:59:14Z" finished-at="2022-06-14T11:59:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVKycCaseByAdminForInlineReschedule -->
-        <test-method status="PASS" signature="scheduleCaseByAgentForInlineReschedule()[pri:40, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgentForInlineReschedule" duration-ms="16026" started-at="2022-06-13T12:23:26Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForInlineReschedule" finished-at="2022-06-13T12:23:42Z">
+        <test-method status="PASS" signature="scheduleCaseByAgentForInlineReschedule()[pri:40, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="scheduleCaseByAgentForInlineReschedule" duration-ms="15157" started-at="2022-06-14T11:59:22Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForInlineReschedule" finished-at="2022-06-14T11:59:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scheduleCaseByAgentForInlineReschedule -->
-        <test-method status="FAIL" signature="inlineRescheduleCall()[pri:41, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="inlineRescheduleCall" duration-ms="1091" started-at="2022-06-13T12:23:42Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForInlineReschedule" finished-at="2022-06-13T12:23:43Z">
+        <test-method status="FAIL" signature="inlineRescheduleCall()[pri:41, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="inlineRescheduleCall" duration-ms="1091" started-at="2022-06-14T11:59:37Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKyc.uploadVKycCaseByAdminForInlineReschedule" finished-at="2022-06-14T11:59:39Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.vKyc.Pageobject.videoKyc.inlinineRescheduleCall(videoKyc.java:2084)
-at com.vKyc.Testcases.TC_VideoKyc.inlineRescheduleCall(TC_VideoKyc.java:1464)
+at com.vKyc.Pageobject.videoKyc.inlinineRescheduleCall(videoKyc.java:2086)
+at com.vKyc.Testcases.TC_VideoKyc.inlineRescheduleCall(TC_VideoKyc.java:1465)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -676,11 +306,995 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inlineRescheduleCall -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="tearDown" is-config="true" duration-ms="92" started-at="2022-06-13T12:23:43Z" finished-at="2022-06-13T12:23:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vKyc.Testcases.TC_VideoKyc@3f2a3a5]" name="tearDown" is-config="true" duration-ms="92" started-at="2022-06-14T11:59:39Z" finished-at="2022-06-14T11:59:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vKyc.Testcases.TC_VideoKyc -->
-    </test> <!-- vKycProcess -->
+    </test> <!-- vKycProcess1 -->
+    <test name="vKycProcess2" duration-ms="282202" started-at="2022-06-14T11:59:39Z" finished-at="2022-06-14T12:04:21Z">
+      <class name="com.vKyc.Testcases.TC_VideoKycForRejectCase">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="setup" is-config="true" duration-ms="4675" started-at="2022-06-14T11:59:39Z" finished-at="2022-06-14T11:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="uploadVKycCaseByAdminForRejectCase()[pri:1, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="uploadVKycCaseByAdminForRejectCase" duration-ms="8561" started-at="2022-06-14T11:59:44Z" finished-at="2022-06-14T11:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadVKycCaseByAdminForRejectCase -->
+        <test-method status="PASS" signature="scheduleCaseByAgentForCaseRejectAtAuditorEnd()[pri:2, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="scheduleCaseByAgentForCaseRejectAtAuditorEnd" duration-ms="15695" started-at="2022-06-14T11:59:52Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKycForRejectCase.uploadVKycCaseByAdminForRejectCase" finished-at="2022-06-14T12:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseByAgentForCaseRejectAtAuditorEnd -->
+        <test-method status="PASS" signature="vKycProcessByCustomerForCaseRejectAtAuditorEnd()[pri:3, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="vKycProcessByCustomerForCaseRejectAtAuditorEnd" duration-ms="175914" started-at="2022-06-14T12:00:08Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKycForRejectCase.scheduleCaseByAgentForCaseRejectAtAuditorEnd" finished-at="2022-06-14T12:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vKycProcessByCustomerForCaseRejectAtAuditorEnd -->
+        <test-method status="PASS" signature="vkycProcessByAgentForCaseRejectAtAuditorEnd()[pri:4, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="vkycProcessByAgentForCaseRejectAtAuditorEnd" duration-ms="54854" started-at="2022-06-14T12:03:04Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKycForRejectCase.vKycProcessByCustomerForCaseRejectAtAuditorEnd" finished-at="2022-06-14T12:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vkycProcessByAgentForCaseRejectAtAuditorEnd -->
+        <test-method status="PASS" signature="vkycCaseRejectedByAuditor()[pri:5, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="vkycCaseRejectedByAuditor" duration-ms="12022" started-at="2022-06-14T12:03:59Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKycForRejectCase.vkycProcessByAgentForCaseRejectAtAuditorEnd" finished-at="2022-06-14T12:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vkycCaseRejectedByAuditor -->
+        <test-method status="PASS" signature="checkCaseAvailabilityinRejectedBucket()[pri:6, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="checkCaseAvailabilityinRejectedBucket" duration-ms="10364" started-at="2022-06-14T12:04:11Z" depends-on-methods="com.vKyc.Testcases.TC_VideoKycForRejectCase.vkycCaseRejectedByAuditor" finished-at="2022-06-14T12:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseAvailabilityinRejectedBucket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vKyc.Testcases.TC_VideoKycForRejectCase@337d0578]" name="tearDown" is-config="true" duration-ms="109" started-at="2022-06-14T12:04:21Z" finished-at="2022-06-14T12:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vKyc.Testcases.TC_VideoKycForRejectCase -->
+    </test> <!-- vKycProcess2 -->
+    <test name="vKycProcess3" duration-ms="306052" started-at="2022-06-14T12:04:21Z" finished-at="2022-06-14T12:09:27Z">
+      <class name="com.vKyc.Testcases.TC_VideokycForReAssignCase">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="setup" is-config="true" duration-ms="4334" started-at="2022-06-14T12:04:21Z" finished-at="2022-06-14T12:04:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="uploadVKycCaseForReAssignByAuditor()[pri:1, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="uploadVKycCaseForReAssignByAuditor" duration-ms="11796" started-at="2022-06-14T12:04:26Z" finished-at="2022-06-14T12:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadVKycCaseForReAssignByAuditor -->
+        <test-method status="PASS" signature="scheduleCaseByAgentForReAssign()[pri:2, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="scheduleCaseByAgentForReAssign" duration-ms="17387" started-at="2022-06-14T12:04:37Z" depends-on-methods="com.vKyc.Testcases.TC_VideokycForReAssignCase.uploadVKycCaseForReAssignByAuditor" finished-at="2022-06-14T12:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseByAgentForReAssign -->
+        <test-method status="PASS" signature="vKycProcessByCustomerForReAssign()[pri:3, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="vKycProcessByCustomerForReAssign" duration-ms="187968" started-at="2022-06-14T12:04:55Z" depends-on-methods="com.vKyc.Testcases.TC_VideokycForReAssignCase.scheduleCaseByAgentForReAssign" finished-at="2022-06-14T12:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vKycProcessByCustomerForReAssign -->
+        <test-method status="PASS" signature="vkycProcessByAgentForCaseReAssignAtAuditorEnd()[pri:4, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="vkycProcessByAgentForCaseReAssignAtAuditorEnd" duration-ms="53397" started-at="2022-06-14T12:08:03Z" depends-on-methods="com.vKyc.Testcases.TC_VideokycForReAssignCase.vKycProcessByCustomerForReAssign" finished-at="2022-06-14T12:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vkycProcessByAgentForCaseReAssignAtAuditorEnd -->
+        <test-method status="PASS" signature="vkycCaseReAssignByAuditor()[pri:5, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="vkycCaseReAssignByAuditor" duration-ms="31054" started-at="2022-06-14T12:08:56Z" depends-on-methods="com.vKyc.Testcases.TC_VideokycForReAssignCase.vkycProcessByAgentForCaseReAssignAtAuditorEnd" finished-at="2022-06-14T12:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vkycCaseReAssignByAuditor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vKyc.Testcases.TC_VideokycForReAssignCase@5056dfcb]" name="tearDown" is-config="true" duration-ms="107" started-at="2022-06-14T12:09:27Z" finished-at="2022-06-14T12:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vKyc.Testcases.TC_VideokycForReAssignCase -->
+    </test> <!-- vKycProcess3 -->
+    <test name="vPdProcess" duration-ms="881408" started-at="2022-06-14T12:09:27Z" finished-at="2022-06-14T12:24:09Z">
+      <class name="com.vKyc.Testcases.TC_VPD">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="setup" is-config="true" duration-ms="4763" started-at="2022-06-14T12:09:27Z" finished-at="2022-06-14T12:09:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="uploadVpdCaseByAdmin()[pri:1, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="uploadVpdCaseByAdmin" duration-ms="8201" started-at="2022-06-14T12:09:32Z" finished-at="2022-06-14T12:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadVpdCaseByAdmin -->
+        <test-method status="PASS" signature="verifyCaseInAssignedBucket()[pri:2, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="verifyCaseInAssignedBucket" duration-ms="11796" started-at="2022-06-14T12:09:40Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdmin" finished-at="2022-06-14T12:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCaseInAssignedBucket -->
+        <test-method status="PASS" signature="scheduleCaseByAuditor()[pri:3, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="scheduleCaseByAuditor" duration-ms="19757" started-at="2022-06-14T12:09:52Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.verifyCaseInAssignedBucket" finished-at="2022-06-14T12:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseByAuditor -->
+        <test-method status="PASS" signature="verifyVPDlinkReceivedByCustomer()[pri:4, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="verifyVPDlinkReceivedByCustomer" duration-ms="105492" started-at="2022-06-14T12:10:12Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.scheduleCaseByAuditor" finished-at="2022-06-14T12:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVPDlinkReceivedByCustomer -->
+        <test-method status="FAIL" signature="submitDocumentsAndStartVptByCustomer()[pri:5, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="submitDocumentsAndStartVptByCustomer" duration-ms="180626" started-at="2022-06-14T12:11:57Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.verifyVPDlinkReceivedByCustomer" finished-at="2022-06-14T12:14:58Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[@for='customField-0']' (tried for 120 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[@for='customField-0']' (tried for 120 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at com.vKyc.Pageobject.VPD.submitDocuments(VPD.java:546)
+at com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomer(TC_VPD.java:134)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='customField-0']"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8QwBKR}, goog:chromeOptions: {debuggerAddress: localhost:37453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db2a74e92d3e9936e003e2facd8fa22
+*** Element info: {Using=xpath, value=//label[@for='customField-0']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitDocumentsAndStartVptByCustomer -->
+        <test-method status="SKIP" signature="markCaseAsApprovedByAuditor()[pri:7, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="markCaseAsApprovedByAuditor" duration-ms="0" started-at="2022-06-14T12:14:58Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.completeCaseByAuditor" finished-at="2022-06-14T12:14:58Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.markCaseAsApprovedByAuditor()[pri:7, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.markCaseAsApprovedByAuditor()[pri:7, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markCaseAsApprovedByAuditor -->
+        <test-method status="SKIP" signature="completeCaseByAuditor()[pri:6, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="completeCaseByAuditor" duration-ms="0" started-at="2022-06-14T12:14:58Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomer" finished-at="2022-06-14T12:14:58Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.completeCaseByAuditor()[pri:6, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.completeCaseByAuditor()[pri:6, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCaseByAuditor -->
+        <test-method status="FAIL" signature="verifyCallStartDate()[pri:10, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="verifyCallStartDate" duration-ms="1" started-at="2022-06-14T12:14:58Z" finished-at="2022-06-14T12:14:58Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.vKyc.Testcases.TC_VPD.verifyCallStartDate(TC_VPD.java:297)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCallStartDate -->
+        <test-method status="SKIP" signature="downloadAndVerifyReport()[pri:8, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="downloadAndVerifyReport" duration-ms="0" started-at="2022-06-14T12:14:58Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.markCaseAsApprovedByAuditor" finished-at="2022-06-14T12:14:58Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.downloadAndVerifyReport()[pri:8, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.downloadAndVerifyReport()[pri:8, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAndVerifyReport -->
+        <test-method status="SKIP" signature="verifyCustomerName()[pri:9, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="verifyCustomerName" duration-ms="0" started-at="2022-06-14T12:14:58Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.downloadAndVerifyReport" finished-at="2022-06-14T12:14:58Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.verifyCustomerName()[pri:9, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.verifyCustomerName()[pri:9, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerName -->
+        <test-method status="FAIL" signature="verifyGeoTagAddress()[pri:11, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="verifyGeoTagAddress" duration-ms="1" started-at="2022-06-14T12:14:58Z" finished-at="2022-06-14T12:14:58Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.vKyc.Testcases.TC_VPD.verifyGeoTagAddress(TC_VPD.java:312)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGeoTagAddress -->
+        <test-method status="PASS" signature="downloadAndVerifyRecordedVideo()[pri:12, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="downloadAndVerifyRecordedVideo" duration-ms="20306" started-at="2022-06-14T12:14:58Z" finished-at="2022-06-14T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAndVerifyRecordedVideo -->
+        <test-method status="FAIL" signature="checkCaseAvailabilityinApprovedBucket()[pri:13, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="checkCaseAvailabilityinApprovedBucket" duration-ms="20257" started-at="2022-06-14T12:15:18Z" finished-at="2022-06-14T12:15:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.vKyc.Testcases.TC_VPD.checkCaseAvailabilityinApprovedBucket(TC_VPD.java:362)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseAvailabilityinApprovedBucket -->
+        <test-method status="PASS" signature="uploadVpdCaseByAdminForRejectingByAuditor()[pri:16, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="uploadVpdCaseByAdminForRejectingByAuditor" duration-ms="14710" started-at="2022-06-14T12:15:39Z" finished-at="2022-06-14T12:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadVpdCaseByAdminForRejectingByAuditor -->
+        <test-method status="PASS" signature="scheduleCaseByAuditorForRejectByAuditor()[pri:17, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="scheduleCaseByAuditorForRejectByAuditor" duration-ms="21574" started-at="2022-06-14T12:15:53Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForRejectingByAuditor" finished-at="2022-06-14T12:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseByAuditorForRejectByAuditor -->
+        <test-method status="PASS" signature="vpdProcessByCustomerForRejectByAuditor()[pri:18, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="vpdProcessByCustomerForRejectByAuditor" duration-ms="103747" started-at="2022-06-14T12:16:15Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.scheduleCaseByAuditorForRejectByAuditor" finished-at="2022-06-14T12:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vpdProcessByCustomerForRejectByAuditor -->
+        <test-method status="FAIL" signature="submitDocumentsAndStartVptByCustomerForRejectByAuditor()[pri:19, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="submitDocumentsAndStartVptByCustomerForRejectByAuditor" duration-ms="180610" started-at="2022-06-14T12:17:59Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.vpdProcessByCustomerForRejectByAuditor" finished-at="2022-06-14T12:20:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[@for='customField-0']' (tried for 120 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[@for='customField-0']' (tried for 120 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at com.vKyc.Pageobject.VPD.submitDocuments(VPD.java:546)
+at com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomerForRejectByAuditor(TC_VPD.java:502)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='customField-0']"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8QwBKR}, goog:chromeOptions: {debuggerAddress: localhost:37453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db2a74e92d3e9936e003e2facd8fa22
+*** Element info: {Using=xpath, value=//label[@for='customField-0']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitDocumentsAndStartVptByCustomerForRejectByAuditor -->
+        <test-method status="SKIP" signature="completeCaseByAuditorForRejectByAuditor()[pri:20, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="completeCaseByAuditorForRejectByAuditor" duration-ms="0" started-at="2022-06-14T12:20:59Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomerForRejectByAuditor" finished-at="2022-06-14T12:20:59Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.completeCaseByAuditorForRejectByAuditor()[pri:20, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.completeCaseByAuditorForRejectByAuditor()[pri:20, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCaseByAuditorForRejectByAuditor -->
+        <test-method status="SKIP" signature="vpdCaseRejectedByAuditor()[pri:21, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="vpdCaseRejectedByAuditor" duration-ms="0" started-at="2022-06-14T12:20:59Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.completeCaseByAuditorForRejectByAuditor" finished-at="2022-06-14T12:20:59Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.vpdCaseRejectedByAuditor()[pri:21, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.vpdCaseRejectedByAuditor()[pri:21, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vpdCaseRejectedByAuditor -->
+        <test-method status="SKIP" signature="checkCaseAvailabilityinRejectedBucket()[pri:22, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="checkCaseAvailabilityinRejectedBucket" duration-ms="0" started-at="2022-06-14T12:20:59Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.vpdCaseRejectedByAuditor" finished-at="2022-06-14T12:20:59Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.checkCaseAvailabilityinRejectedBucket()[pri:22, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.checkCaseAvailabilityinRejectedBucket()[pri:22, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseAvailabilityinRejectedBucket -->
+        <test-method status="FAIL" signature="uploadVpdCaseByAdminForReAssignByAuditor()[pri:23, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="uploadVpdCaseByAdminForReAssignByAuditor" duration-ms="189453" started-at="2022-06-14T12:20:59Z" finished-at="2022-06-14T12:24:09Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='Check_Pad']' (tried for 120 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='Check_Pad']' (tried for 120 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at com.vKyc.Pageobject.VPD.uploadCase(VPD.java:373)
+at com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForReAssignByAuditor(TC_VPD.java:647)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='Check_Pad']"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ARS-NBT-LAP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-142-generic', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.8QwBKR}, goog:chromeOptions: {debuggerAddress: localhost:37453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db2a74e92d3e9936e003e2facd8fa22
+*** Element info: {Using=xpath, value=//*[@id='Check_Pad']}
+at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadVpdCaseByAdminForReAssignByAuditor -->
+        <test-method status="SKIP" signature="scheduleCaseByAuditorForReassignByAuditor()[pri:24, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="scheduleCaseByAuditorForReassignByAuditor" duration-ms="0" started-at="2022-06-14T12:24:09Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.uploadVpdCaseByAdminForReAssignByAuditor" finished-at="2022-06-14T12:24:09Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.scheduleCaseByAuditorForReassignByAuditor()[pri:24, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.scheduleCaseByAuditorForReassignByAuditor()[pri:24, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseByAuditorForReassignByAuditor -->
+        <test-method status="SKIP" signature="vpdProcessByCustomerForReassignByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="vpdProcessByCustomerForReassignByAuditor" duration-ms="0" started-at="2022-06-14T12:24:09Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.scheduleCaseByAuditorForReassignByAuditor" finished-at="2022-06-14T12:24:09Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.vpdProcessByCustomerForReassignByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.vpdProcessByCustomerForReassignByAuditor()[pri:25, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vpdProcessByCustomerForReassignByAuditor -->
+        <test-method status="SKIP" signature="submitDocumentsAndStartVptByCustomerForReassignByAuditor()[pri:26, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="submitDocumentsAndStartVptByCustomerForReassignByAuditor" duration-ms="0" started-at="2022-06-14T12:24:09Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.vpdProcessByCustomerForReassignByAuditor" finished-at="2022-06-14T12:24:09Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.submitDocumentsAndStartVptByCustomerForReassignByAuditor()[pri:26, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.submitDocumentsAndStartVptByCustomerForReassignByAuditor()[pri:26, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitDocumentsAndStartVptByCustomerForReassignByAuditor -->
+        <test-method status="SKIP" signature="completeCaseByAuditorForReassignByAuditor()[pri:27, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="completeCaseByAuditorForReassignByAuditor" duration-ms="0" started-at="2022-06-14T12:24:09Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.submitDocumentsAndStartVptByCustomerForReassignByAuditor" finished-at="2022-06-14T12:24:09Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.completeCaseByAuditorForReassignByAuditor()[pri:27, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.completeCaseByAuditorForReassignByAuditor()[pri:27, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCaseByAuditorForReassignByAuditor -->
+        <test-method status="SKIP" signature="vpdCaseReAssignByAuditor()[pri:28, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="vpdCaseReAssignByAuditor" duration-ms="0" started-at="2022-06-14T12:24:09Z" depends-on-methods="com.vKyc.Testcases.TC_VPD.completeCaseByAuditorForReassignByAuditor" finished-at="2022-06-14T12:24:09Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_VPD.vpdCaseReAssignByAuditor()[pri:28, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_VPD.vpdCaseReAssignByAuditor()[pri:28, instance:com.vKyc.Testcases.TC_VPD@7921b0a2] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vpdCaseReAssignByAuditor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vKyc.Testcases.TC_VPD@7921b0a2]" name="tearDown" is-config="true" duration-ms="87" started-at="2022-06-14T12:24:09Z" finished-at="2022-06-14T12:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vKyc.Testcases.TC_VPD -->
+    </test> <!-- vPdProcess -->
+    <test name="rescheduleProcess" duration-ms="341063" started-at="2022-06-14T12:24:09Z" finished-at="2022-06-14T12:29:50Z">
+      <class name="com.vKyc.Testcases.TC_RescheduleVKyc">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="setup" is-config="true" duration-ms="178766" started-at="2022-06-14T12:24:09Z" finished-at="2022-06-14T12:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="uploadKycCaseByAdmin()[pri:1, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="uploadKycCaseByAdmin" duration-ms="19574" started-at="2022-06-14T12:27:08Z" finished-at="2022-06-14T12:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadKycCaseByAdmin -->
+        <test-method status="PASS" signature="verifyCaseInAssignedBucket()[pri:2, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="verifyCaseInAssignedBucket" duration-ms="21675" started-at="2022-06-14T12:27:27Z" depends-on-methods="com.vKyc.Testcases.TC_RescheduleVKyc.uploadKycCaseByAdmin" finished-at="2022-06-14T12:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCaseInAssignedBucket -->
+        <test-method status="PASS" signature="scheduleCaseByAgent()[pri:3, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="scheduleCaseByAgent" duration-ms="18325" started-at="2022-06-14T12:27:49Z" depends-on-methods="com.vKyc.Testcases.TC_RescheduleVKyc.verifyCaseInAssignedBucket" finished-at="2022-06-14T12:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseByAgent -->
+        <test-method status="PASS" signature="reschedulekycByCustomer()[pri:4, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="reschedulekycByCustomer" duration-ms="28512" started-at="2022-06-14T12:28:07Z" depends-on-methods="com.vKyc.Testcases.TC_RescheduleVKyc.scheduleCaseByAgent" finished-at="2022-06-14T12:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reschedulekycByCustomer -->
+        <test-method status="PASS" signature="uploadCaseByAdmin()[pri:5, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="uploadCaseByAdmin" duration-ms="19722" started-at="2022-06-14T12:28:36Z" finished-at="2022-06-14T12:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadCaseByAdmin -->
+        <test-method status="PASS" signature="scheduleCaseAtAgent()[pri:6, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="scheduleCaseAtAgent" duration-ms="31830" started-at="2022-06-14T12:28:56Z" depends-on-methods="com.vKyc.Testcases.TC_RescheduleVKyc.uploadCaseByAdmin" finished-at="2022-06-14T12:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleCaseAtAgent -->
+        <test-method status="FAIL" signature="rescheduleKycByCustomer()[pri:7, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="rescheduleKycByCustomer" duration-ms="22556" started-at="2022-06-14T12:29:27Z" depends-on-methods="com.vKyc.Testcases.TC_RescheduleVKyc.scheduleCaseAtAgent" finished-at="2022-06-14T12:29:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.vKyc.Testcases.TC_RescheduleVKyc.rescheduleKycByCustomer(TC_RescheduleVKyc.java:269)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rescheduleKycByCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vKyc.Testcases.TC_RescheduleVKyc@50c87b21]" name="tearDown" is-config="true" duration-ms="92" started-at="2022-06-14T12:29:50Z" finished-at="2022-06-14T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vKyc.Testcases.TC_RescheduleVKyc -->
+    </test> <!-- rescheduleProcess -->
   </suite> <!-- VideoKyc -->
 </testng-results>

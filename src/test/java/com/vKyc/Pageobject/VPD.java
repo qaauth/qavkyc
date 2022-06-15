@@ -513,8 +513,7 @@ public class VPD extends Baseclass {
 		//on verification customer initiate Kyc process by clicking on link
 		public void customerClickOnKycLink() throws InterruptedException {
 			wait=new WebDriverWait(ldriver, 120);
-			ClearBrowserCache();
-			Thread.sleep(60000);
+			Thread.sleep(90000);
 			receivedLink.click();
 			tabs = new ArrayList<String>(ldriver.getWindowHandles());
 			ldriver.switchTo().window(tabs.get(2));
@@ -530,8 +529,7 @@ public class VPD extends Baseclass {
 		//on verification customer initiate Kyc process by clicking on link
 		public void customerProceedOnKycLink() throws InterruptedException {
 			 wait=new WebDriverWait(ldriver, 120);
-			 ClearBrowserCache();
-			 Thread.sleep(60000);
+			 Thread.sleep(90000);
 			 receivedLink.click();
 			 wait.until(ExpectedConditions.visibilityOf(CustomerConsentText));
 			 CompliancecheckBox1.click();
@@ -958,7 +956,7 @@ public class VPD extends Baseclass {
 			boolean temp=false;
 			wait=new WebDriverWait(ldriver, 120);
 			wait.until(ExpectedConditions.elementToBeClickable(vpdIcon));
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			vpdIcon.click();
 			Thread.sleep(3000);
 			wait.until(ExpectedConditions.elementToBeClickable(CompletedBucket));
@@ -983,7 +981,7 @@ public class VPD extends Baseclass {
 		public void approveCaseByAuditor() throws InterruptedException, IOException {
 			wait=new WebDriverWait(ldriver, 120);
 			wait.until(ExpectedConditions.elementToBeClickable(vpdIcon));
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			vpdIcon.click();
 			Thread.sleep(3000);
 			wait.until(ExpectedConditions.elementToBeClickable(completedBucket));
@@ -1006,7 +1004,7 @@ public class VPD extends Baseclass {
             }
 			wait.until(ExpectedConditions.visibilityOf(caseApproveBtn));
 			caseApproveBtn.click();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 		}
 		//verify approved case status by auditor
 		public String verifyCaseApprovedStatus() throws IOException {
@@ -1084,7 +1082,7 @@ public class VPD extends Baseclass {
 				    WebElement reportIcon=ldriver.findElement(By.xpath(
 					              "//*[@id='completed']/div["+r+"]/div[1]/div/table/tbody/tr/td[8]/span[3]"));
 					reportIcon.click();
-					Thread.sleep(200);
+					Thread.sleep(12000);
 					break;
 				}
 		    }

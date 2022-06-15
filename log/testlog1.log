@@ -30618,3 +30618,1646 @@
 2022-06-13 17:53:41,963 [main] INFO vkyc - entered scheduled Date and Time for VKyc
 2022-06-13 17:53:42,896 [main] INFO vkyc - Scheduled case verified successfully
 2022-06-13 17:53:42,900 [main] INFO vkyc - got reScheduled time for inline reschedule vkyc
+2022-06-14 10:50:54,914 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 10:51:35,332 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 10:51:35,372 [main] INFO vkyc - got customer/client name
+2022-06-14 10:51:35,373 [main] INFO vkyc - got random string text
+2022-06-14 10:51:35,374 [main] INFO vkyc - got random mob no.
+2022-06-14 10:51:35,375 [main] INFO vkyc - got random applicant id
+2022-06-14 10:52:43,146 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 10:52:43,723 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 10:52:43,782 [main] INFO vkyc - got customer/client name
+2022-06-14 10:52:43,783 [main] INFO vkyc - got random string text
+2022-06-14 10:52:43,785 [main] INFO vkyc - got random mob no.
+2022-06-14 10:52:43,790 [main] INFO vkyc - got random applicant id
+2022-06-14 10:52:48,923 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 10:52:49,018 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 10:52:52,894 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 10:52:55,105 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 10:52:55,643 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 10:52:55,644 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 10:53:08,422 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 10:53:09,057 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 10:53:19,003 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 10:54:59,925 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 10:55:27,828 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 10:55:45,173 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 10:56:07,267 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 10:56:13,983 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 10:56:15,244 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 10:56:15,556 [main] INFO vkyc - agent started f2f video process
+2022-06-14 10:56:15,556 [main] INFO vkyc - got random string text
+2022-06-14 10:56:15,557 [main] INFO vkyc - got random mob no.
+2022-06-14 10:56:15,558 [main] INFO vkyc - got random amount
+2022-06-14 10:56:36,102 [main] INFO vkyc - address verification started by agent
+2022-06-14 10:56:36,589 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 10:56:39,595 [main] INFO vkyc - pan verification started by agent
+2022-06-14 10:56:39,662 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 10:56:41,922 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 10:56:42,051 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 10:57:02,674 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 10:57:03,334 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 10:57:03,337 [main] INFO vkyc - got customer/client name
+2022-06-14 10:57:03,339 [main] INFO vkyc - got random string text
+2022-06-14 10:57:03,340 [main] INFO vkyc - got random mob no.
+2022-06-14 10:57:03,341 [main] INFO vkyc - got random applicant id
+2022-06-14 11:01:11,414 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:01:12,058 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 11:01:12,100 [main] INFO vkyc - got customer/client name
+2022-06-14 11:01:12,104 [main] INFO vkyc - got random string text
+2022-06-14 11:01:12,105 [main] INFO vkyc - got random mob no.
+2022-06-14 11:01:12,106 [main] INFO vkyc - got random applicant id
+2022-06-14 11:01:16,202 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 11:01:16,310 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 11:01:17,272 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 11:01:19,937 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:01:20,468 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 11:01:23,282 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 11:01:24,372 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 11:01:26,763 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:01:27,348 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 11:01:27,352 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 11:01:39,095 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 11:01:39,806 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 11:01:50,489 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 11:01:50,489 [main] INFO vkyc - browser cache cleared
+2022-06-14 11:03:24,882 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 11:03:58,831 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 11:04:16,167 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 11:04:37,868 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 11:04:44,006 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 11:04:45,297 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 11:04:45,662 [main] INFO vkyc - agent started f2f video process
+2022-06-14 11:04:45,663 [main] INFO vkyc - got random string text
+2022-06-14 11:04:45,663 [main] INFO vkyc - got random mob no.
+2022-06-14 11:04:45,664 [main] INFO vkyc - got random amount
+2022-06-14 11:05:04,544 [main] INFO vkyc - address verification started by agent
+2022-06-14 11:05:04,647 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 11:05:07,007 [main] INFO vkyc - pan verification started by agent
+2022-06-14 11:05:07,107 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 11:05:09,049 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 11:05:09,144 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 11:05:28,091 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 11:05:28,201 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 11:05:29,617 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 11:05:35,776 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 11:05:38,603 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 11:05:43,977 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:05:44,591 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 11:05:47,540 [main] INFO vkyc - case approved by auditor
+2022-06-14 11:05:47,675 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 11:05:50,963 [main] INFO vkyc - report generated(url) Status verified successfully
+2022-06-14 11:05:50,968 [main] INFO vkyc - got candidate Name
+2022-06-14 11:05:51,080 [main] INFO vkyc - candidate Name on Report verified successfully
+2022-06-14 11:05:51,085 [main] INFO vkyc - got vkyc call date 
+2022-06-14 11:05:51,214 [main] INFO vkyc - call start date on Report verified successfully
+2022-06-14 11:05:51,346 [main] INFO vkyc - call end date on Report verified successfully
+2022-06-14 11:05:51,485 [main] INFO vkyc - Geo-tagging address on Report verified successfully
+2022-06-14 11:05:51,489 [main] INFO vkyc - got candidate Name on PAN
+2022-06-14 11:05:51,596 [main] INFO vkyc - pan holder name on Report verified successfully
+2022-06-14 11:05:51,597 [main] INFO vkyc - got candidate pan number
+2022-06-14 11:05:51,717 [main] INFO vkyc - pan number on Report verified successfully
+2022-06-14 11:05:51,717 [main] INFO vkyc - got pan holder father name
+2022-06-14 11:05:51,848 [main] INFO vkyc - pan holder father name on Report verified successfully
+2022-06-14 11:05:51,849 [main] INFO vkyc - got candidate pan dob
+2022-06-14 11:05:51,979 [main] INFO vkyc - pan holder dob on Report verified successfully
+2022-06-14 11:05:51,982 [main] INFO vkyc - got candidate AdhaarName
+2022-06-14 11:05:52,078 [main] INFO vkyc - adhaar holder name on Report verified successfully
+2022-06-14 11:05:52,079 [main] INFO vkyc - got candidate Adhar Address
+2022-06-14 11:05:52,209 [main] INFO vkyc - candiate adhaar address on Report verified successfully
+2022-06-14 11:05:52,209 [main] INFO vkyc - got candidate DOB
+2022-06-14 11:05:52,239 [main] INFO vkyc - candiate adhaar dob on Report verified successfully
+2022-06-14 11:05:52,274 [main] INFO vkyc - candiate adhaar gender on Report verified successfully
+2022-06-14 11:05:52,375 [main] INFO vkyc - candiate face match score on Report verified successfully
+2022-06-14 11:06:03,604 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:06:04,144 [main] INFO vkyc - Auditor LoggedIn successfully
+2022-06-14 11:06:10,282 [main] INFO vkyc - downloaded recorded vkyc url status verified successfully
+2022-06-14 11:06:14,436 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:06:15,062 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 11:06:20,560 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 11:06:23,592 [main] INFO vkyc - Admin loggedOut successfully
+2022-06-14 11:06:25,948 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:06:26,596 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 11:06:27,458 [main] INFO vkyc - Today Excel report Downloaded
+2022-06-14 11:06:32,458 [main] INFO vkyc - Today's report download verified successfully
+2022-06-14 11:06:32,462 [main] INFO vkyc -  Case is NOT verified in Today's Excel report
+2022-06-14 11:06:35,380 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:06:35,973 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 11:06:37,744 [main] INFO vkyc - case uploaded using excel
+2022-06-14 11:08:44,277 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:08:44,865 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 11:08:44,866 [main] INFO vkyc - got customer/client name
+2022-06-14 11:08:44,867 [main] INFO vkyc - got random string text
+2022-06-14 11:08:44,867 [main] INFO vkyc - got random mob no.
+2022-06-14 11:08:44,868 [main] INFO vkyc - got random applicant id
+2022-06-14 11:08:48,656 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 11:08:48,769 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 11:08:49,868 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 11:08:51,962 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:08:52,508 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 11:08:52,509 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 11:09:04,750 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 11:09:04,752 [main] INFO vkyc - got client/customer name of case
+2022-06-14 11:09:05,576 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 11:09:15,502 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 11:10:44,346 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 11:54:28,164 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:54:28,808 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 11:54:28,858 [main] INFO vkyc - got customer/client name
+2022-06-14 11:54:28,862 [main] INFO vkyc - got random string text
+2022-06-14 11:54:28,864 [main] INFO vkyc - got random mob no.
+2022-06-14 11:54:28,865 [main] INFO vkyc - got random applicant id
+2022-06-14 11:54:33,267 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 11:54:33,375 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 11:54:34,331 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 11:54:36,977 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:54:37,509 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 11:54:40,351 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 11:54:41,327 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 11:54:43,886 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:54:44,494 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 11:54:44,500 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 11:54:57,034 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 11:54:57,634 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 11:55:07,827 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 11:55:07,828 [main] INFO vkyc - browser cache cleared
+2022-06-14 11:56:44,725 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 11:57:54,454 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 11:58:11,740 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 11:58:34,403 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 11:58:40,612 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 11:58:41,923 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 11:58:42,232 [main] INFO vkyc - agent started f2f video process
+2022-06-14 11:58:42,232 [main] INFO vkyc - got random string text
+2022-06-14 11:58:42,232 [main] INFO vkyc - got random mob no.
+2022-06-14 11:58:42,233 [main] INFO vkyc - got random amount
+2022-06-14 11:59:01,860 [main] INFO vkyc - address verification started by agent
+2022-06-14 11:59:01,970 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 11:59:04,241 [main] INFO vkyc - pan verification started by agent
+2022-06-14 11:59:04,351 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 11:59:06,366 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 11:59:06,469 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 11:59:25,940 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 11:59:26,001 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 11:59:27,626 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 11:59:32,451 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 11:59:35,225 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 11:59:37,869 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:59:38,512 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 11:59:40,901 [main] INFO vkyc - case approved by auditor
+2022-06-14 11:59:40,995 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 11:59:45,570 [main] INFO vkyc - report generated(url) Status verified successfully
+2022-06-14 11:59:45,581 [main] INFO vkyc - got candidate Name
+2022-06-14 11:59:45,640 [main] INFO vkyc - candidate Name on Report verified successfully
+2022-06-14 11:59:45,644 [main] INFO vkyc - got vkyc call date 
+2022-06-14 11:59:45,783 [main] INFO vkyc - call start date on Report verified successfully
+2022-06-14 11:59:45,914 [main] INFO vkyc - call end date on Report verified successfully
+2022-06-14 11:59:46,047 [main] INFO vkyc - Geo-tagging address on Report verified successfully
+2022-06-14 11:59:46,051 [main] INFO vkyc - got candidate Name on PAN
+2022-06-14 11:59:46,150 [main] INFO vkyc - pan holder name on Report verified successfully
+2022-06-14 11:59:46,151 [main] INFO vkyc - got candidate pan number
+2022-06-14 11:59:46,211 [main] INFO vkyc - pan number on Report verified successfully
+2022-06-14 11:59:46,212 [main] INFO vkyc - got pan holder father name
+2022-06-14 11:59:46,342 [main] INFO vkyc - pan holder father name on Report verified successfully
+2022-06-14 11:59:46,342 [main] INFO vkyc - got candidate pan dob
+2022-06-14 11:59:46,471 [main] INFO vkyc - pan holder dob on Report verified successfully
+2022-06-14 11:59:46,473 [main] INFO vkyc - got candidate AdhaarName
+2022-06-14 11:59:46,610 [main] INFO vkyc - adhaar holder name on Report verified successfully
+2022-06-14 11:59:46,611 [main] INFO vkyc - got candidate Adhar Address
+2022-06-14 11:59:46,744 [main] INFO vkyc - candiate adhaar address on Report verified successfully
+2022-06-14 11:59:46,744 [main] INFO vkyc - got candidate DOB
+2022-06-14 11:59:46,772 [main] INFO vkyc - candiate adhaar dob on Report verified successfully
+2022-06-14 11:59:46,799 [main] INFO vkyc - candiate adhaar gender on Report verified successfully
+2022-06-14 11:59:46,855 [main] INFO vkyc - candiate face match score on Report verified successfully
+2022-06-14 11:59:52,286 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 11:59:52,811 [main] INFO vkyc - Auditor LoggedIn successfully
+2022-06-14 12:00:00,671 [main] INFO vkyc - downloaded recorded vkyc url status verified successfully
+2022-06-14 12:00:11,290 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:00:11,847 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:00:16,505 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 12:00:19,488 [main] INFO vkyc - Admin loggedOut successfully
+2022-06-14 12:00:21,778 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:00:22,394 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:00:23,197 [main] INFO vkyc - Today Excel report Downloaded
+2022-06-14 12:00:28,198 [main] INFO vkyc - Today's report download verified successfully
+2022-06-14 12:00:28,203 [main] INFO vkyc -  Case is NOT verified in Today's Excel report
+2022-06-14 12:00:31,019 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:00:31,600 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:01:00,164 [main] INFO vkyc - case uploaded using excel
+2022-06-14 12:03:09,627 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:03:10,107 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:03:10,109 [main] INFO vkyc - got customer/client name
+2022-06-14 12:03:10,114 [main] INFO vkyc - got random string text
+2022-06-14 12:03:10,114 [main] INFO vkyc - got random mob no.
+2022-06-14 12:03:10,120 [main] INFO vkyc - got random applicant id
+2022-06-14 12:03:13,737 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:03:13,951 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:03:14,372 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:03:18,295 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:03:18,806 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:03:26,762 [main] INFO vkyc - case transferred by Agent to another Agent
+2022-06-14 12:03:30,204 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 12:03:33,643 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:03:34,050 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:03:37,360 [main] INFO vkyc - case removal from Assigned bucket verified successfully
+2022-06-14 12:03:40,797 [main] INFO vkyc - Agent loggedOut successfully
+2022-06-14 12:03:43,434 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:03:43,967 [main] INFO vkyc - Second Agent LoggedIn successfully!
+2022-06-14 12:03:46,694 [main] INFO vkyc - Transferred Case verified successfully At Transferred Agent End
+2022-06-14 12:03:48,294 [main] INFO vkyc - second Agent loggedout successfully
+2022-06-14 12:03:50,602 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:03:51,041 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:03:51,044 [main] INFO vkyc - got customer/client name
+2022-06-14 12:03:51,047 [main] INFO vkyc - got random string text
+2022-06-14 12:03:51,048 [main] INFO vkyc - got random mob no.
+2022-06-14 12:03:51,048 [main] INFO vkyc - got random applicant id
+2022-06-14 12:03:54,536 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:03:54,643 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:03:55,037 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:04:08,025 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:04:08,474 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:04:08,478 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 12:04:20,136 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 12:04:20,855 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 12:04:26,634 [main] INFO vkyc - Case is Rescheduled later by Agent
+2022-06-14 12:04:26,722 [main] INFO vkyc -  Reschedule later case Removal from scheduled bucket verified successfully
+2022-06-14 12:04:29,116 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 12:04:33,419 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:04:33,858 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:04:36,646 [main] INFO vkyc - Rescheduled later case verified successfully in Assigned bucket
+2022-06-14 12:04:39,101 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 12:04:43,612 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:04:44,054 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:04:44,056 [main] INFO vkyc - got customer/client name
+2022-06-14 12:04:44,056 [main] INFO vkyc - got random string text
+2022-06-14 12:04:44,057 [main] INFO vkyc - got random mob no.
+2022-06-14 12:04:44,057 [main] INFO vkyc - got random applicant id
+2022-06-14 12:04:47,362 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:04:47,580 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:04:47,992 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:04:51,406 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:04:51,858 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:04:51,870 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 12:05:03,985 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 12:05:04,567 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 12:05:04,569 [main] INFO vkyc - got reScheduled time for inline reschedule vkyc
+2022-06-14 12:05:15,900 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:05:16,313 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:05:16,327 [main] INFO vkyc - got customer/client name
+2022-06-14 12:05:16,337 [main] INFO vkyc - got random string text
+2022-06-14 12:05:16,338 [main] INFO vkyc - got random mob no.
+2022-06-14 12:05:16,338 [main] INFO vkyc - got random applicant id
+2022-06-14 12:05:19,604 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:05:19,820 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:05:20,228 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:05:24,414 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:05:24,804 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:05:24,804 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 12:05:37,036 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 12:05:37,039 [main] INFO vkyc - got client/customer name of case
+2022-06-14 12:05:37,721 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 12:05:47,261 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 12:10:02,229 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:10:02,656 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:10:02,659 [main] INFO vkyc - got customer/client name
+2022-06-14 12:10:02,660 [main] INFO vkyc - got random string text
+2022-06-14 12:10:02,663 [main] INFO vkyc - got random mob no.
+2022-06-14 12:10:02,665 [main] INFO vkyc - got random applicant id
+2022-06-14 12:10:06,108 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:10:06,328 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:10:09,609 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:10:11,757 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:10:12,193 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:10:12,193 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 12:10:23,353 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 12:10:24,051 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 12:10:33,479 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 12:12:07,815 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 12:15:09,332 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:15:10,019 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:15:10,070 [main] INFO vkyc - got customer/client name
+2022-06-14 12:15:10,071 [main] INFO vkyc - got random string text
+2022-06-14 12:15:10,072 [main] INFO vkyc - got random mob no.
+2022-06-14 12:15:10,073 [main] INFO vkyc - got random applicant id
+2022-06-14 12:15:13,968 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:15:14,079 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:15:15,046 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:15:17,817 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:15:18,390 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:15:20,995 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 12:15:21,998 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 12:15:26,673 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:15:27,225 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:15:27,232 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 12:15:40,505 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 12:15:41,221 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 12:15:51,436 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 12:15:51,436 [main] INFO vkyc - browser cache cleared
+2022-06-14 12:17:26,348 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 12:24:49,988 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:24:50,348 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:24:50,351 [main] INFO vkyc - got customer/client name
+2022-06-14 12:24:50,352 [main] INFO vkyc - got random string text
+2022-06-14 12:24:50,353 [main] INFO vkyc - got random mob no.
+2022-06-14 12:24:50,357 [main] INFO vkyc - got random applicant id
+2022-06-14 12:26:58,881 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:26:59,299 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:26:59,302 [main] INFO vkyc - got customer/client name
+2022-06-14 12:26:59,303 [main] INFO vkyc - got random string text
+2022-06-14 12:26:59,304 [main] INFO vkyc - got random mob no.
+2022-06-14 12:26:59,304 [main] INFO vkyc - got random applicant id
+2022-06-14 12:29:10,813 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:29:11,217 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:29:11,220 [main] INFO vkyc - got customer/client name
+2022-06-14 12:29:11,220 [main] INFO vkyc - got random string text
+2022-06-14 12:29:11,221 [main] INFO vkyc - got random mob no.
+2022-06-14 12:29:11,221 [main] INFO vkyc - got random applicant id
+2022-06-14 12:31:28,523 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:31:28,915 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:31:28,918 [main] INFO vkyc - got customer/client name
+2022-06-14 12:31:28,921 [main] INFO vkyc - got random string text
+2022-06-14 12:31:28,922 [main] INFO vkyc - got random mob no.
+2022-06-14 12:31:28,923 [main] INFO vkyc - got random applicant id
+2022-06-14 12:33:39,333 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:33:39,707 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 12:33:39,713 [main] INFO vkyc - got customer/client name
+2022-06-14 12:33:39,713 [main] INFO vkyc - got random string text
+2022-06-14 12:33:39,714 [main] INFO vkyc - got random mob no.
+2022-06-14 12:33:39,714 [main] INFO vkyc - got random applicant id
+2022-06-14 12:33:43,681 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 12:33:43,965 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 12:33:47,203 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 12:33:50,592 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 12:33:50,930 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 12:33:50,930 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 12:34:05,859 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 12:34:06,815 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 12:34:16,889 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 12:35:58,618 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 13:06:04,293 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:06:04,883 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:06:04,920 [main] INFO vkyc - got customer/client name
+2022-06-14 13:06:04,926 [main] INFO vkyc - got random string text
+2022-06-14 13:06:04,927 [main] INFO vkyc - got random mob no.
+2022-06-14 13:06:04,928 [main] INFO vkyc - got random applicant id
+2022-06-14 13:06:09,132 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:06:09,247 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:06:10,221 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:06:18,407 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:06:18,926 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:06:22,115 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 13:06:23,150 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 13:06:32,307 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:06:32,822 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:06:32,828 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 13:06:45,705 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 13:06:46,360 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 13:06:56,640 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 13:06:56,640 [main] INFO vkyc - browser cache cleared
+2022-06-14 13:08:43,270 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 13:09:15,099 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 13:09:32,388 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 13:09:54,501 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 13:10:01,027 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 13:10:02,307 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 13:10:02,607 [main] INFO vkyc - agent started f2f video process
+2022-06-14 13:10:02,607 [main] INFO vkyc - got random string text
+2022-06-14 13:10:02,608 [main] INFO vkyc - got random mob no.
+2022-06-14 13:10:02,609 [main] INFO vkyc - got random amount
+2022-06-14 13:10:23,140 [main] INFO vkyc - address verification started by agent
+2022-06-14 13:10:23,253 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 13:10:25,440 [main] INFO vkyc - pan verification started by agent
+2022-06-14 13:10:25,550 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 13:10:27,534 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 13:10:27,660 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 13:10:46,145 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 13:10:46,258 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 13:10:47,721 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 13:10:53,060 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 13:10:55,878 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 13:11:03,507 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:11:03,986 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 13:11:06,917 [main] INFO vkyc - case approved by auditor
+2022-06-14 13:11:07,049 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 13:11:14,513 [main] INFO vkyc - report generated(url) Status verified successfully
+2022-06-14 13:11:14,516 [main] INFO vkyc - got candidate Name
+2022-06-14 13:11:14,619 [main] INFO vkyc - candidate Name on Report verified successfully
+2022-06-14 13:11:14,623 [main] INFO vkyc - got vkyc call date 
+2022-06-14 13:11:14,750 [main] INFO vkyc - call start date on Report verified successfully
+2022-06-14 13:11:14,883 [main] INFO vkyc - call end date on Report verified successfully
+2022-06-14 13:11:14,991 [main] INFO vkyc - Geo-tagging address on Report verified successfully
+2022-06-14 13:11:14,995 [main] INFO vkyc - got candidate Name on PAN
+2022-06-14 13:11:15,098 [main] INFO vkyc - pan holder name on Report verified successfully
+2022-06-14 13:11:15,098 [main] INFO vkyc - got candidate pan number
+2022-06-14 13:11:15,194 [main] INFO vkyc - pan number on Report verified successfully
+2022-06-14 13:11:15,195 [main] INFO vkyc - got pan holder father name
+2022-06-14 13:11:15,326 [main] INFO vkyc - pan holder father name on Report verified successfully
+2022-06-14 13:11:15,326 [main] INFO vkyc - got candidate pan dob
+2022-06-14 13:11:15,453 [main] INFO vkyc - pan holder dob on Report verified successfully
+2022-06-14 13:11:15,457 [main] INFO vkyc - got candidate AdhaarName
+2022-06-14 13:11:15,562 [main] INFO vkyc - adhaar holder name on Report verified successfully
+2022-06-14 13:11:15,562 [main] INFO vkyc - got candidate Adhar Address
+2022-06-14 13:11:15,694 [main] INFO vkyc - candiate adhaar address on Report verified successfully
+2022-06-14 13:11:15,694 [main] INFO vkyc - got candidate DOB
+2022-06-14 13:11:15,722 [main] INFO vkyc - candiate adhaar dob on Report verified successfully
+2022-06-14 13:11:15,747 [main] INFO vkyc - candiate adhaar gender on Report verified successfully
+2022-06-14 13:11:15,858 [main] INFO vkyc - candiate face match score on Report verified successfully
+2022-06-14 13:11:27,803 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:11:28,303 [main] INFO vkyc - Auditor LoggedIn successfully
+2022-06-14 13:11:36,940 [main] INFO vkyc - downloaded recorded vkyc url status verified successfully
+2022-06-14 13:11:48,694 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:11:49,223 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:11:54,412 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 13:11:57,447 [main] INFO vkyc - Admin loggedOut successfully
+2022-06-14 13:12:12,571 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:12:13,109 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:12:14,040 [main] INFO vkyc - Today Excel report Downloaded
+2022-06-14 13:12:19,041 [main] INFO vkyc - Today's report download verified successfully
+2022-06-14 13:12:19,048 [main] INFO vkyc -  Case is NOT verified in Today's Excel report
+2022-06-14 13:12:30,928 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:12:31,468 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:12:33,021 [main] INFO vkyc - case uploaded using excel
+2022-06-14 13:14:44,499 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:14:44,992 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:14:44,993 [main] INFO vkyc - got customer/client name
+2022-06-14 13:14:44,994 [main] INFO vkyc - got random string text
+2022-06-14 13:14:44,994 [main] INFO vkyc - got random mob no.
+2022-06-14 13:14:44,994 [main] INFO vkyc - got random applicant id
+2022-06-14 13:14:48,816 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:14:48,914 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:14:49,921 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:14:57,677 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:14:58,181 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:15:06,623 [main] INFO vkyc - case transferred by Agent to another Agent
+2022-06-14 13:15:10,420 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 13:15:18,513 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:15:18,981 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:15:22,393 [main] INFO vkyc - case removal from Assigned bucket verified successfully
+2022-06-14 13:15:26,270 [main] INFO vkyc - Agent loggedOut successfully
+2022-06-14 13:15:35,929 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:15:36,462 [main] INFO vkyc - Second Agent LoggedIn successfully!
+2022-06-14 13:15:39,375 [main] INFO vkyc - Transferred Case verified successfully At Transferred Agent End
+2022-06-14 13:15:41,184 [main] INFO vkyc - second Agent loggedout successfully
+2022-06-14 13:15:47,705 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:15:48,227 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:15:48,228 [main] INFO vkyc - got customer/client name
+2022-06-14 13:15:48,229 [main] INFO vkyc - got random string text
+2022-06-14 13:15:48,229 [main] INFO vkyc - got random mob no.
+2022-06-14 13:15:48,230 [main] INFO vkyc - got random applicant id
+2022-06-14 13:15:52,008 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:15:52,236 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:15:53,211 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:16:03,268 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:16:03,777 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:16:03,783 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 13:16:17,582 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 13:16:18,417 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 13:16:24,348 [main] INFO vkyc - Case is Rescheduled later by Agent
+2022-06-14 13:16:24,432 [main] INFO vkyc -  Reschedule later case Removal from scheduled bucket verified successfully
+2022-06-14 13:16:27,318 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 13:16:32,183 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:16:32,732 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:16:35,574 [main] INFO vkyc - Rescheduled later case verified successfully in Assigned bucket
+2022-06-14 13:16:38,569 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 13:16:45,487 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:16:46,033 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:16:46,034 [main] INFO vkyc - got customer/client name
+2022-06-14 13:16:46,035 [main] INFO vkyc - got random string text
+2022-06-14 13:16:46,035 [main] INFO vkyc - got random mob no.
+2022-06-14 13:16:46,036 [main] INFO vkyc - got random applicant id
+2022-06-14 13:16:50,005 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:16:50,097 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:16:51,090 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:16:59,313 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:16:59,827 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:16:59,831 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 13:17:11,830 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 13:17:12,486 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 13:17:12,488 [main] INFO vkyc - got reScheduled time for inline reschedule vkyc
+2022-06-14 13:17:24,716 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:17:25,269 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:17:25,271 [main] INFO vkyc - got customer/client name
+2022-06-14 13:17:25,272 [main] INFO vkyc - got random string text
+2022-06-14 13:17:25,272 [main] INFO vkyc - got random mob no.
+2022-06-14 13:17:25,275 [main] INFO vkyc - got random applicant id
+2022-06-14 13:17:29,173 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:17:29,281 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:17:30,302 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:17:37,429 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:17:37,959 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:17:37,960 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 13:17:50,620 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 13:17:50,622 [main] INFO vkyc - got client/customer name of case
+2022-06-14 13:17:51,230 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 13:18:01,436 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 13:22:21,524 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:22:21,963 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:22:21,965 [main] INFO vkyc - got customer/client name
+2022-06-14 13:22:21,966 [main] INFO vkyc - got random string text
+2022-06-14 13:22:21,967 [main] INFO vkyc - got random mob no.
+2022-06-14 13:22:21,968 [main] INFO vkyc - got random applicant id
+2022-06-14 13:22:25,473 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:22:25,638 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:22:28,947 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:22:35,991 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:22:36,393 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:22:36,394 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 13:22:51,947 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 13:48:03,570 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:48:04,192 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:48:04,243 [main] INFO vkyc - got customer/client name
+2022-06-14 13:48:04,244 [main] INFO vkyc - got random string text
+2022-06-14 13:48:04,246 [main] INFO vkyc - got random mob no.
+2022-06-14 13:48:04,246 [main] INFO vkyc - got random applicant id
+2022-06-14 13:48:08,510 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:48:08,630 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:48:09,702 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:49:10,833 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:50:30,129 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:50:30,693 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:50:30,745 [main] INFO vkyc - got customer/client name
+2022-06-14 13:50:30,746 [main] INFO vkyc - got random string text
+2022-06-14 13:50:30,747 [main] INFO vkyc - got random mob no.
+2022-06-14 13:50:30,747 [main] INFO vkyc - got random applicant id
+2022-06-14 13:50:34,968 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:50:37,465 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:50:38,576 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:51:27,956 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:51:28,431 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 13:51:28,432 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 13:51:42,308 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 13:51:42,327 [main] INFO vkyc - got client/customer name of case
+2022-06-14 13:51:43,345 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 13:51:53,730 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 13:52:43,211 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 13:52:43,673 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 13:52:43,678 [main] INFO vkyc - got customer/client name
+2022-06-14 13:52:43,679 [main] INFO vkyc - got random string text
+2022-06-14 13:52:43,679 [main] INFO vkyc - got random mob no.
+2022-06-14 13:52:43,680 [main] INFO vkyc - got random applicant id
+2022-06-14 13:52:47,722 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 13:52:47,836 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 13:52:51,624 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 13:55:55,279 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:00:21,989 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:00:22,629 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:00:22,677 [main] INFO vkyc - got customer/client name
+2022-06-14 14:00:22,678 [main] INFO vkyc - got random string text
+2022-06-14 14:00:22,679 [main] INFO vkyc - got random mob no.
+2022-06-14 14:00:22,681 [main] INFO vkyc - got random applicant id
+2022-06-14 14:00:26,864 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:00:26,926 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:00:28,010 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:00:36,519 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:00:37,018 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:00:37,019 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:00:51,100 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:00:51,106 [main] INFO vkyc - got client/customer name of case
+2022-06-14 14:00:51,767 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:01:03,806 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:04:50,691 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:04:51,152 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:04:51,155 [main] INFO vkyc - got customer/client name
+2022-06-14 14:04:51,157 [main] INFO vkyc - got random string text
+2022-06-14 14:04:51,160 [main] INFO vkyc - got random mob no.
+2022-06-14 14:04:51,162 [main] INFO vkyc - got random applicant id
+2022-06-14 14:04:55,780 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:04:55,822 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:04:59,583 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:05:38,090 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:05:38,548 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:05:38,548 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:05:52,886 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:05:53,727 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:06:19,533 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:08:00,380 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 14:08:28,019 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 14:08:45,389 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 14:09:07,879 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 14:09:15,152 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 14:09:16,360 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 14:09:16,715 [main] INFO vkyc - agent started f2f video process
+2022-06-14 14:09:16,716 [main] INFO vkyc - got random string text
+2022-06-14 14:09:16,716 [main] INFO vkyc - got random mob no.
+2022-06-14 14:09:16,717 [main] INFO vkyc - got random amount
+2022-06-14 14:09:37,719 [main] INFO vkyc - address verification started by agent
+2022-06-14 14:09:37,814 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 14:09:40,027 [main] INFO vkyc - pan verification started by agent
+2022-06-14 14:09:40,136 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 14:09:42,216 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 14:09:42,316 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 14:13:45,453 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:13:46,044 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:13:46,086 [main] INFO vkyc - got customer/client name
+2022-06-14 14:13:46,090 [main] INFO vkyc - got random string text
+2022-06-14 14:13:46,092 [main] INFO vkyc - got random mob no.
+2022-06-14 14:13:46,093 [main] INFO vkyc - got random applicant id
+2022-06-14 14:13:50,222 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:13:51,694 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:13:52,622 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:14:13,037 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:14:13,547 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:14:13,548 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:14:33,845 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:14:33,851 [main] INFO vkyc - got client/customer name of case
+2022-06-14 14:14:34,746 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:14:45,206 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:21:07,033 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:21:07,499 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:21:07,503 [main] INFO vkyc - got customer/client name
+2022-06-14 14:21:07,503 [main] INFO vkyc - got random string text
+2022-06-14 14:21:07,504 [main] INFO vkyc - got random mob no.
+2022-06-14 14:21:07,504 [main] INFO vkyc - got random applicant id
+2022-06-14 14:21:19,004 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:26:35,280 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:26:35,847 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:26:35,894 [main] INFO vkyc - got customer/client name
+2022-06-14 14:26:35,895 [main] INFO vkyc - got random string text
+2022-06-14 14:26:35,896 [main] INFO vkyc - got random mob no.
+2022-06-14 14:26:35,900 [main] INFO vkyc - got random applicant id
+2022-06-14 14:26:44,078 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:26:44,840 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:26:45,798 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:27:51,004 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:27:51,476 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:27:51,477 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:28:04,360 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:28:04,373 [main] INFO vkyc - got client/customer name of case
+2022-06-14 14:28:05,168 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:28:15,586 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:30:49,736 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:30:50,335 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:30:50,337 [main] INFO vkyc - got customer/client name
+2022-06-14 14:30:50,337 [main] INFO vkyc - got random string text
+2022-06-14 14:30:50,338 [main] INFO vkyc - got random mob no.
+2022-06-14 14:30:50,338 [main] INFO vkyc - got random applicant id
+2022-06-14 14:30:54,447 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:30:54,611 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:30:58,469 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:31:15,414 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:31:15,946 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:31:15,947 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:31:29,076 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:31:30,085 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:31:40,241 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:33:41,079 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 14:37:20,154 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:37:20,739 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:37:20,778 [main] INFO vkyc - got customer/client name
+2022-06-14 14:37:20,779 [main] INFO vkyc - got random string text
+2022-06-14 14:37:20,781 [main] INFO vkyc - got random mob no.
+2022-06-14 14:37:20,786 [main] INFO vkyc - got random applicant id
+2022-06-14 14:37:25,106 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:37:25,222 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:37:26,310 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:38:02,451 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:38:02,981 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:38:02,981 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:38:16,358 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:38:16,361 [main] INFO vkyc - got client/customer name of case
+2022-06-14 14:38:17,214 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:38:27,749 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:46:10,861 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:48:50,522 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:48:51,215 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:48:51,253 [main] INFO vkyc - got customer/client name
+2022-06-14 14:48:51,254 [main] INFO vkyc - got random string text
+2022-06-14 14:48:51,255 [main] INFO vkyc - got random mob no.
+2022-06-14 14:48:51,256 [main] INFO vkyc - got random applicant id
+2022-06-14 14:48:55,525 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:48:55,820 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:48:57,090 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:49:16,817 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:49:17,484 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:49:17,485 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:49:30,665 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:49:30,668 [main] INFO vkyc - got client/customer name of case
+2022-06-14 14:49:31,751 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:49:42,198 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:51:25,725 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 14:52:01,788 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 14:52:19,229 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 14:52:41,199 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 14:52:47,730 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 14:52:49,086 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 14:52:49,338 [main] INFO vkyc - agent started f2f video process
+2022-06-14 14:52:49,338 [main] INFO vkyc - got random string text
+2022-06-14 14:52:49,339 [main] INFO vkyc - got random mob no.
+2022-06-14 14:52:49,339 [main] INFO vkyc - got random amount
+2022-06-14 14:53:08,057 [main] INFO vkyc - address verification started by agent
+2022-06-14 14:53:08,120 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 14:53:10,386 [main] INFO vkyc - pan verification started by agent
+2022-06-14 14:53:10,454 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 14:53:12,615 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 14:53:12,696 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 14:53:31,727 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 14:53:31,825 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 14:53:33,496 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 14:53:39,393 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 14:53:42,212 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 14:54:17,826 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:54:18,353 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 14:54:18,355 [main] INFO vkyc - got feedback text
+2022-06-14 14:54:23,473 [main] INFO vkyc - case Rejected by Auditor
+2022-06-14 14:54:23,636 [main] INFO vkyc - Rejected Case Status verified successfully by auditor
+2022-06-14 14:54:29,436 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 14:54:48,607 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:54:49,139 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:54:54,492 [main] INFO vkyc - Rejected Case verified successfully in Rejected Bucket
+2022-06-14 14:54:57,591 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 14:55:34,292 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:55:34,650 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 14:55:34,653 [main] INFO vkyc - got customer/client name
+2022-06-14 14:55:34,653 [main] INFO vkyc - got random string text
+2022-06-14 14:55:34,655 [main] INFO vkyc - got random mob no.
+2022-06-14 14:55:34,660 [main] INFO vkyc - got random applicant id
+2022-06-14 14:55:39,016 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 14:55:39,240 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 14:55:43,142 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 14:56:06,326 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 14:56:06,718 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 14:56:06,719 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 14:56:20,325 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 14:56:21,143 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 14:56:31,677 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 14:58:20,007 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 14:58:59,406 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 14:59:16,709 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 14:59:38,902 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 14:59:45,177 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 14:59:46,480 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 14:59:46,826 [main] INFO vkyc - agent started f2f video process
+2022-06-14 14:59:46,826 [main] INFO vkyc - got random string text
+2022-06-14 14:59:46,827 [main] INFO vkyc - got random mob no.
+2022-06-14 14:59:46,827 [main] INFO vkyc - got random amount
+2022-06-14 15:00:06,411 [main] INFO vkyc - address verification started by agent
+2022-06-14 15:00:06,530 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 15:00:08,899 [main] INFO vkyc - pan verification started by agent
+2022-06-14 15:00:08,994 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 15:00:11,136 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 15:00:11,236 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 15:00:30,224 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 15:00:30,319 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 15:00:31,740 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 15:00:38,758 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 15:00:39,635 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 15:01:23,131 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:01:23,635 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:01:23,636 [main] INFO vkyc - got feedback text
+2022-06-14 15:01:28,364 [main] INFO vkyc - case ReAssigned by Auditor
+2022-06-14 15:01:32,275 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 15:02:08,491 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:02:09,004 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:02:17,204 [main] INFO vkyc - ReAssigned Case verified successfully in ReAssigned Bucket
+2022-06-14 15:02:20,345 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 15:06:16,529 [main] INFO vkyc - VPD url opened
+2022-06-14 15:06:17,147 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:06:17,180 [main] INFO vkyc - got customer/client name
+2022-06-14 15:06:17,181 [main] INFO vkyc - got random string text
+2022-06-14 15:06:17,182 [main] INFO vkyc - got random mob no.
+2022-06-14 15:06:17,183 [main] INFO vkyc - got random applicant id
+2022-06-14 15:06:20,888 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:06:20,998 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:06:21,900 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:06:33,699 [main] INFO vkyc - VPD url opened
+2022-06-14 15:06:34,194 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:06:39,398 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 15:06:42,167 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 15:07:11,101 [main] INFO vkyc - VPD url opened
+2022-06-14 15:07:11,577 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:07:11,578 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 15:07:29,618 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 15:07:31,550 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:07:41,966 [main] INFO vkyc - vpd link received on candidate mail verified successfully
+2022-06-14 15:09:17,026 [main] INFO vkyc - vpd link hit by customer & compliance checked on page
+2022-06-14 15:09:46,584 [main] INFO vkyc - customer submits documents
+2022-06-14 15:09:46,635 [main] INFO vkyc - All Documents submission verified successfully by customer
+2022-06-14 15:09:47,334 [main] INFO vkyc - vpd call started by customer verified successfully
+2022-06-14 15:09:54,800 [main] INFO vkyc - vpd call started by auditor
+2022-06-14 15:09:54,800 [main] INFO vkyc - got random string text
+2022-06-14 15:09:54,801 [main] INFO vkyc - got random mob no.
+2022-06-14 15:09:54,801 [main] INFO vkyc - got random amount
+2022-06-14 15:09:54,802 [main] INFO vkyc - got pd conducted date/present date
+2022-06-14 15:10:41,693 [main] INFO vkyc - customer verification/questionnaire done by auditor
+2022-06-14 15:10:41,793 [main] INFO vkyc - All Details & documents submission verified successfully by auditor
+2022-06-14 15:10:43,072 [main] INFO vkyc - case marked as complete by Auditor
+2022-06-14 15:10:56,069 [main] INFO vkyc - completed case verified in Bucket successfully
+2022-06-14 15:10:58,856 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 15:11:13,260 [main] INFO vkyc - VPD url opened
+2022-06-14 15:11:13,757 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:11:24,441 [main] INFO vkyc - case approved by auditor
+2022-06-14 15:11:24,579 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 15:11:27,334 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 15:11:37,107 [main] INFO vkyc - VPD url opened
+2022-06-14 15:11:37,592 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:11:47,401 [main] INFO vkyc - clicked on Generated report download icon
+2022-06-14 15:11:52,402 [main] INFO vkyc - report generated NOT verified
+2022-06-14 15:11:52,650 [main] INFO vkyc - got call start date
+2022-06-14 15:11:52,656 [main] INFO vkyc - got GeoTag Address 
+2022-06-14 15:12:12,043 [main] INFO vkyc - VPD url opened
+2022-06-14 15:12:12,537 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:12:22,020 [main] INFO vkyc - downloaded recorded VPD verified successfully
+2022-06-14 15:12:34,064 [main] INFO vkyc - VPD url opened
+2022-06-14 15:12:34,612 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:12:47,557 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 15:12:50,684 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 15:13:04,798 [main] INFO vkyc - VPD url opened
+2022-06-14 15:13:05,344 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:13:05,346 [main] INFO vkyc - got customer/client name
+2022-06-14 15:13:05,348 [main] INFO vkyc - got random string text
+2022-06-14 15:13:05,349 [main] INFO vkyc - got random mob no.
+2022-06-14 15:13:05,350 [main] INFO vkyc - got random applicant id
+2022-06-14 15:13:09,392 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:13:09,543 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:13:12,549 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:13:23,562 [main] INFO vkyc - VPD url opened
+2022-06-14 15:13:24,075 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:13:24,076 [main] INFO vkyc - got Scheduled time for VPD
+2022-06-14 15:14:09,833 [main] INFO vkyc - VPD url opened
+2022-06-14 15:14:10,309 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:14:10,310 [main] INFO vkyc - got customer/client name
+2022-06-14 15:14:10,311 [main] INFO vkyc - got random string text
+2022-06-14 15:14:10,311 [main] INFO vkyc - got random mob no.
+2022-06-14 15:14:10,311 [main] INFO vkyc - got random applicant id
+2022-06-14 15:14:13,942 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:14:14,044 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:14:16,898 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:14:24,133 [main] INFO vkyc - VPD url opened
+2022-06-14 15:14:24,688 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:14:24,689 [main] INFO vkyc - got Scheduled time for VPD
+2022-06-14 15:14:41,151 [main] INFO vkyc - entered scheduled Date and Time for VPD
+2022-06-14 15:14:42,592 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:14:52,505 [main] INFO vkyc - VPD link received on candidate mail verified successfully
+2022-06-14 15:16:07,946 [main] INFO vkyc - VPD link hit by customer & compliance checked on page
+2022-06-14 15:16:37,718 [main] INFO vkyc - customer submits documents
+2022-06-14 15:16:37,811 [main] INFO vkyc - All Documents submission verified successfully by customer
+2022-06-14 15:16:38,240 [main] INFO vkyc - vpd call started by customer verified successfully
+2022-06-14 15:16:45,802 [main] INFO vkyc - vpd call started by auditor
+2022-06-14 15:16:45,803 [main] INFO vkyc - got random string text
+2022-06-14 15:16:45,803 [main] INFO vkyc - got random mob no.
+2022-06-14 15:16:45,803 [main] INFO vkyc - got random amount
+2022-06-14 15:16:45,804 [main] INFO vkyc - got pd conducted date/present date
+2022-06-14 15:17:32,884 [main] INFO vkyc - customer verification/questionnaire done by auditor
+2022-06-14 15:17:32,991 [main] INFO vkyc - All Details & documents submission verified successfully by auditor
+2022-06-14 15:17:34,269 [main] INFO vkyc - case marked as complete by Auditor
+2022-06-14 15:22:10,875 [main] INFO vkyc - VPD url opened
+2022-06-14 15:22:11,474 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:22:11,497 [main] INFO vkyc - got customer/client name
+2022-06-14 15:22:11,498 [main] INFO vkyc - got random string text
+2022-06-14 15:22:11,498 [main] INFO vkyc - got random mob no.
+2022-06-14 15:22:11,499 [main] INFO vkyc - got random applicant id
+2022-06-14 15:22:15,373 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:22:15,492 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:22:16,578 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:22:24,580 [main] INFO vkyc - VPD url opened
+2022-06-14 15:22:25,197 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:22:30,630 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 15:22:33,747 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 15:22:43,076 [main] INFO vkyc - VPD url opened
+2022-06-14 15:22:43,572 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:22:43,573 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 15:22:59,929 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 15:23:01,113 [main] INFO vkyc - got call start date
+2022-06-14 15:23:01,116 [main] INFO vkyc - got GeoTag Address 
+2022-06-14 15:23:10,425 [main] INFO vkyc - VPD url opened
+2022-06-14 15:23:10,925 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:23:19,679 [main] INFO vkyc - downloaded recorded VPD verified successfully
+2022-06-14 15:23:26,480 [main] INFO vkyc - VPD url opened
+2022-06-14 15:23:27,066 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:23:40,465 [main] INFO vkyc - Approved Case NOT verified in Approved Bucket
+2022-06-14 15:23:46,929 [main] INFO vkyc - VPD url opened
+2022-06-14 15:23:47,376 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:23:47,379 [main] INFO vkyc - got customer/client name
+2022-06-14 15:23:47,380 [main] INFO vkyc - got random string text
+2022-06-14 15:23:47,381 [main] INFO vkyc - got random mob no.
+2022-06-14 15:23:47,381 [main] INFO vkyc - got random applicant id
+2022-06-14 15:23:51,064 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:23:51,174 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:23:53,744 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:23:57,891 [main] INFO vkyc - VPD url opened
+2022-06-14 15:23:58,482 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:23:58,482 [main] INFO vkyc - got Scheduled time for VPD
+2022-06-14 15:26:49,704 [main] INFO vkyc - VPD url opened
+2022-06-14 15:26:50,358 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:26:50,382 [main] INFO vkyc - got customer/client name
+2022-06-14 15:26:50,383 [main] INFO vkyc - got random string text
+2022-06-14 15:26:50,384 [main] INFO vkyc - got random mob no.
+2022-06-14 15:26:50,384 [main] INFO vkyc - got random applicant id
+2022-06-14 15:26:54,454 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:26:54,617 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:26:55,693 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:27:06,131 [main] INFO vkyc - VPD url opened
+2022-06-14 15:27:06,668 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:27:11,725 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 15:27:14,706 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 15:27:22,093 [main] INFO vkyc - VPD url opened
+2022-06-14 15:27:22,637 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:27:22,639 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 15:27:38,597 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 15:27:40,056 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:27:50,899 [main] INFO vkyc - vpd link received on candidate mail verified successfully
+2022-06-14 15:29:10,700 [main] INFO vkyc - vpd link hit by customer & compliance checked on page
+2022-06-14 15:29:40,445 [main] INFO vkyc - customer submits documents
+2022-06-14 15:29:40,503 [main] INFO vkyc - All Documents submission verified successfully by customer
+2022-06-14 15:29:40,857 [main] INFO vkyc - vpd call started by customer verified successfully
+2022-06-14 15:29:48,378 [main] INFO vkyc - vpd call started by auditor
+2022-06-14 15:29:48,378 [main] INFO vkyc - got random string text
+2022-06-14 15:29:48,379 [main] INFO vkyc - got random mob no.
+2022-06-14 15:29:48,379 [main] INFO vkyc - got random amount
+2022-06-14 15:29:48,379 [main] INFO vkyc - got pd conducted date/present date
+2022-06-14 15:30:35,461 [main] INFO vkyc - customer verification/questionnaire done by auditor
+2022-06-14 15:30:35,681 [main] INFO vkyc - All Details & documents submission verified successfully by auditor
+2022-06-14 15:30:37,137 [main] INFO vkyc - case marked as complete by Auditor
+2022-06-14 15:30:51,072 [main] INFO vkyc - completed case verified in Bucket successfully
+2022-06-14 15:30:53,972 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 15:31:05,794 [main] INFO vkyc - VPD url opened
+2022-06-14 15:31:06,315 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:31:19,230 [main] INFO vkyc - case approved by auditor
+2022-06-14 15:31:19,373 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 15:31:22,171 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 15:31:27,858 [main] INFO vkyc - VPD url opened
+2022-06-14 15:31:28,395 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:31:45,105 [main] INFO vkyc - clicked on Generated report download icon
+2022-06-14 15:31:45,106 [main] INFO vkyc - report generated NOT verified
+2022-06-14 15:31:45,362 [main] INFO vkyc - got call start date
+2022-06-14 15:31:45,365 [main] INFO vkyc - got GeoTag Address 
+2022-06-14 15:31:52,155 [main] INFO vkyc - VPD url opened
+2022-06-14 15:31:52,747 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:32:02,448 [main] INFO vkyc - downloaded recorded VPD verified successfully
+2022-06-14 15:32:08,608 [main] INFO vkyc - VPD url opened
+2022-06-14 15:32:09,205 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:32:22,016 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 15:32:25,159 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 15:32:31,748 [main] INFO vkyc - VPD url opened
+2022-06-14 15:32:32,303 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:32:32,305 [main] INFO vkyc - got customer/client name
+2022-06-14 15:32:32,305 [main] INFO vkyc - got random string text
+2022-06-14 15:32:32,306 [main] INFO vkyc - got random mob no.
+2022-06-14 15:32:32,309 [main] INFO vkyc - got random applicant id
+2022-06-14 15:32:36,275 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:32:36,546 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:32:39,815 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:32:47,398 [main] INFO vkyc - VPD url opened
+2022-06-14 15:32:47,951 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 15:32:47,952 [main] INFO vkyc - got Scheduled time for VPD
+2022-06-14 15:33:03,689 [main] INFO vkyc - entered scheduled Date and Time for VPD
+2022-06-14 15:33:05,106 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:33:14,900 [main] INFO vkyc - VPD link received on candidate mail verified successfully
+2022-06-14 15:34:41,108 [main] INFO vkyc - VPD link hit by customer & compliance checked on page
+2022-06-14 15:50:32,601 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:50:33,208 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:50:33,245 [main] INFO vkyc - got customer/client name
+2022-06-14 15:50:33,246 [main] INFO vkyc - got random string text
+2022-06-14 15:50:33,247 [main] INFO vkyc - got random mob no.
+2022-06-14 15:50:33,248 [main] INFO vkyc - got random applicant id
+2022-06-14 15:50:37,502 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:50:37,676 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:50:38,676 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:50:41,697 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:50:42,238 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 15:50:45,074 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 15:50:46,135 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 15:50:50,871 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:50:51,489 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 15:50:51,499 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 15:51:04,501 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 15:51:05,194 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:51:15,487 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 15:51:15,487 [main] INFO vkyc - browser cache cleared
+2022-06-14 15:52:51,508 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 15:54:32,285 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:54:32,870 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:54:32,907 [main] INFO vkyc - got customer/client name
+2022-06-14 15:54:32,908 [main] INFO vkyc - got random string text
+2022-06-14 15:54:32,909 [main] INFO vkyc - got random mob no.
+2022-06-14 15:54:32,910 [main] INFO vkyc - got random applicant id
+2022-06-14 15:54:37,224 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:54:37,456 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:54:38,575 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:54:40,913 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:54:41,471 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 15:54:44,254 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 15:54:45,402 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 15:54:47,860 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:54:48,445 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 15:54:48,450 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 15:55:09,652 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 15:55:10,389 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:55:20,801 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 15:55:20,801 [main] INFO vkyc - browser cache cleared
+2022-06-14 15:56:55,810 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 15:57:09,143 [main] INFO vkyc - got call start date
+2022-06-14 15:57:09,145 [main] INFO vkyc - got GeoTag Address 
+2022-06-14 15:58:24,900 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:58:25,543 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 15:58:25,576 [main] INFO vkyc - got customer/client name
+2022-06-14 15:58:25,578 [main] INFO vkyc - got random string text
+2022-06-14 15:58:25,579 [main] INFO vkyc - got random mob no.
+2022-06-14 15:58:25,580 [main] INFO vkyc - got random applicant id
+2022-06-14 15:58:29,658 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 15:58:29,948 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 15:58:30,950 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 15:58:33,846 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:58:34,383 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 15:58:36,951 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 15:58:37,940 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 15:58:41,602 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 15:58:42,128 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 15:58:42,133 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 15:58:54,573 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 15:58:55,399 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 15:59:06,146 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 15:59:06,146 [main] INFO vkyc - browser cache cleared
+2022-06-14 16:00:42,068 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 16:01:09,096 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 16:01:26,455 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 16:01:47,697 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 16:01:54,203 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 16:01:55,568 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 16:01:55,935 [main] INFO vkyc - agent started f2f video process
+2022-06-14 16:01:55,936 [main] INFO vkyc - got random string text
+2022-06-14 16:01:55,937 [main] INFO vkyc - got random mob no.
+2022-06-14 16:01:55,937 [main] INFO vkyc - got random amount
+2022-06-14 16:02:15,537 [main] INFO vkyc - address verification started by agent
+2022-06-14 16:02:15,638 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 16:02:18,034 [main] INFO vkyc - pan verification started by agent
+2022-06-14 16:02:18,136 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 16:02:20,366 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 16:02:20,487 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 16:02:39,560 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 16:02:39,678 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 16:02:41,356 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 16:02:47,674 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 16:02:50,560 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 16:02:54,661 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:02:55,261 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:02:57,679 [main] INFO vkyc - case approved by auditor
+2022-06-14 16:02:57,831 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 16:03:08,190 [main] INFO vkyc - report generated(url) Status verified successfully
+2022-06-14 16:03:08,194 [main] INFO vkyc - got candidate Name
+2022-06-14 16:03:08,295 [main] INFO vkyc - candidate Name on Report verified successfully
+2022-06-14 16:03:08,299 [main] INFO vkyc - got vkyc call date 
+2022-06-14 16:03:08,429 [main] INFO vkyc - call start date on Report verified successfully
+2022-06-14 16:03:08,559 [main] INFO vkyc - call end date on Report verified successfully
+2022-06-14 16:03:08,829 [main] INFO vkyc - Geo-tagging address on Report verified successfully
+2022-06-14 16:03:08,831 [main] INFO vkyc - got candidate Name on PAN
+2022-06-14 16:03:09,044 [main] INFO vkyc - pan holder name on Report verified successfully
+2022-06-14 16:03:09,044 [main] INFO vkyc - got candidate pan number
+2022-06-14 16:03:09,141 [main] INFO vkyc - pan number on Report verified successfully
+2022-06-14 16:03:09,141 [main] INFO vkyc - got pan holder father name
+2022-06-14 16:03:09,275 [main] INFO vkyc - pan holder father name on Report verified successfully
+2022-06-14 16:03:09,276 [main] INFO vkyc - got candidate pan dob
+2022-06-14 16:03:09,409 [main] INFO vkyc - pan holder dob on Report verified successfully
+2022-06-14 16:03:09,411 [main] INFO vkyc - got candidate AdhaarName
+2022-06-14 16:03:09,508 [main] INFO vkyc - adhaar holder name on Report verified successfully
+2022-06-14 16:03:09,509 [main] INFO vkyc - got candidate Adhar Address
+2022-06-14 16:03:09,641 [main] INFO vkyc - candiate adhaar address on Report verified successfully
+2022-06-14 16:03:09,641 [main] INFO vkyc - got candidate DOB
+2022-06-14 16:03:09,667 [main] INFO vkyc - candiate adhaar dob on Report verified successfully
+2022-06-14 16:03:09,695 [main] INFO vkyc - candiate adhaar gender on Report verified successfully
+2022-06-14 16:03:09,795 [main] INFO vkyc - candiate face match score on Report verified successfully
+2022-06-14 16:03:16,628 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:03:17,262 [main] INFO vkyc - Auditor LoggedIn successfully
+2022-06-14 16:03:22,254 [main] INFO vkyc - downloaded recorded vkyc url status verified successfully
+2022-06-14 16:03:29,478 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:03:30,027 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:03:34,039 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 16:03:37,189 [main] INFO vkyc - Admin loggedOut successfully
+2022-06-14 16:03:40,073 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:03:40,624 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:03:41,650 [main] INFO vkyc - Today Excel report Downloaded
+2022-06-14 16:03:46,651 [main] INFO vkyc - Today's report download verified successfully
+2022-06-14 16:03:46,653 [main] INFO vkyc -  Case is NOT verified in Today's Excel report
+2022-06-14 16:03:49,172 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:03:49,776 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:03:51,540 [main] INFO vkyc - case uploaded using excel
+2022-06-14 16:03:53,172 [main] INFO vkyc - Case Upload using Excel Success Msg verified successfully
+2022-06-14 16:04:00,134 [main] INFO vkyc - Admin loggedOut Successfully
+2022-06-14 16:04:02,580 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:04:03,165 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:04:06,576 [main] INFO vkyc - Case Upload using Excel verified successfully  at Agent End
+2022-06-14 16:04:09,540 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:04:10,141 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:04:10,143 [main] INFO vkyc - got customer/client name
+2022-06-14 16:04:10,144 [main] INFO vkyc - got random string text
+2022-06-14 16:04:10,145 [main] INFO vkyc - got random mob no.
+2022-06-14 16:04:10,146 [main] INFO vkyc - got random applicant id
+2022-06-14 16:04:14,469 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:04:14,569 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:04:15,723 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:04:20,492 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:04:21,036 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:04:30,060 [main] INFO vkyc - case transferred by Agent to another Agent
+2022-06-14 16:04:33,895 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 16:04:39,426 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:04:39,996 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:04:43,038 [main] INFO vkyc - case removal from Assigned bucket verified successfully
+2022-06-14 16:04:47,021 [main] INFO vkyc - Agent loggedOut successfully
+2022-06-14 16:04:50,536 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:04:51,118 [main] INFO vkyc - Second Agent LoggedIn successfully!
+2022-06-14 16:04:53,562 [main] INFO vkyc - Transferred Case verified successfully At Transferred Agent End
+2022-06-14 16:04:55,457 [main] INFO vkyc - second Agent loggedout successfully
+2022-06-14 16:04:58,042 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:04:58,646 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:04:58,648 [main] INFO vkyc - got customer/client name
+2022-06-14 16:04:58,649 [main] INFO vkyc - got random string text
+2022-06-14 16:04:58,649 [main] INFO vkyc - got random mob no.
+2022-06-14 16:04:58,650 [main] INFO vkyc - got random applicant id
+2022-06-14 16:05:03,245 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:05:03,340 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:05:04,448 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:05:07,930 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:05:08,515 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:05:08,518 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 16:05:21,475 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 16:05:22,204 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 16:05:28,225 [main] INFO vkyc - Case is Rescheduled later by Agent
+2022-06-14 16:05:28,353 [main] INFO vkyc -  Reschedule later case Removal from scheduled bucket verified successfully
+2022-06-14 16:05:31,221 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 16:05:34,027 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:05:34,598 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:05:36,960 [main] INFO vkyc - Rescheduled later case verified successfully in Assigned bucket
+2022-06-14 16:05:39,997 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 16:05:42,681 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:05:43,283 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:05:43,285 [main] INFO vkyc - got customer/client name
+2022-06-14 16:05:43,285 [main] INFO vkyc - got random string text
+2022-06-14 16:05:43,294 [main] INFO vkyc - got random mob no.
+2022-06-14 16:05:43,294 [main] INFO vkyc - got random applicant id
+2022-06-14 16:05:47,228 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:05:47,318 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:05:48,444 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:05:51,923 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:05:52,482 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:05:52,487 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 16:06:05,623 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 16:06:06,356 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 16:06:06,359 [main] INFO vkyc - got reScheduled time for inline reschedule vkyc
+2022-06-14 16:06:15,128 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:06:15,862 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:06:15,863 [main] INFO vkyc - got customer/client name
+2022-06-14 16:06:15,864 [main] INFO vkyc - got random string text
+2022-06-14 16:06:15,865 [main] INFO vkyc - got random mob no.
+2022-06-14 16:06:15,866 [main] INFO vkyc - got random applicant id
+2022-06-14 16:06:19,913 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:06:20,018 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:06:21,176 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:06:24,888 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:06:25,419 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:06:25,419 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 16:06:38,141 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 16:06:38,143 [main] INFO vkyc - got client/customer name of case
+2022-06-14 16:06:39,122 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 16:06:49,269 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 16:08:13,567 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 16:08:28,796 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 16:08:46,131 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 16:09:10,383 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 16:09:16,328 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 16:09:17,946 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 16:09:18,318 [main] INFO vkyc - agent started f2f video process
+2022-06-14 16:09:18,319 [main] INFO vkyc - got random string text
+2022-06-14 16:09:18,319 [main] INFO vkyc - got random mob no.
+2022-06-14 16:09:18,320 [main] INFO vkyc - got random amount
+2022-06-14 16:09:36,386 [main] INFO vkyc - address verification started by agent
+2022-06-14 16:09:36,442 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 16:09:38,860 [main] INFO vkyc - pan verification started by agent
+2022-06-14 16:09:38,932 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 16:09:41,321 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 16:09:41,440 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 16:10:00,532 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 16:10:00,637 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 16:10:02,361 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 16:10:07,619 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 16:10:10,462 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 16:10:14,188 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:10:14,793 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:10:14,795 [main] INFO vkyc - got feedback text
+2022-06-14 16:10:17,859 [main] INFO vkyc - case Rejected by Auditor
+2022-06-14 16:10:18,009 [main] INFO vkyc - Rejected Case Status verified successfully by auditor
+2022-06-14 16:10:23,721 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 16:10:26,883 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:10:27,456 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:10:30,970 [main] INFO vkyc - Rejected Case verified successfully in Rejected Bucket
+2022-06-14 16:10:34,026 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 16:10:40,917 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:10:41,521 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:10:41,522 [main] INFO vkyc - got customer/client name
+2022-06-14 16:10:41,522 [main] INFO vkyc - got random string text
+2022-06-14 16:10:41,523 [main] INFO vkyc - got random mob no.
+2022-06-14 16:10:41,523 [main] INFO vkyc - got random applicant id
+2022-06-14 16:10:45,548 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:10:45,655 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:10:49,545 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:10:51,908 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 16:10:52,405 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 16:10:52,405 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 16:11:05,721 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 16:11:06,723 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 16:11:17,242 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 16:13:06,209 [main] INFO vkyc - VPD url opened
+2022-06-14 16:13:06,619 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:13:06,643 [main] INFO vkyc - got customer/client name
+2022-06-14 16:13:06,643 [main] INFO vkyc - got random string text
+2022-06-14 16:13:06,644 [main] INFO vkyc - got random mob no.
+2022-06-14 16:13:06,644 [main] INFO vkyc - got random applicant id
+2022-06-14 16:13:09,916 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:13:10,136 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:13:10,414 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:13:13,266 [main] INFO vkyc - VPD url opened
+2022-06-14 16:13:13,650 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:13:18,440 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 16:13:20,821 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 16:13:22,767 [main] INFO vkyc - VPD url opened
+2022-06-14 16:13:23,175 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:13:23,176 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 16:13:38,479 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 16:13:39,762 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 16:13:50,014 [main] INFO vkyc - vpd link received on candidate mail verified successfully
+2022-06-14 16:15:12,058 [main] INFO vkyc - vpd link hit by customer & compliance checked on page
+2022-06-14 16:15:41,413 [main] INFO vkyc - customer submits documents
+2022-06-14 16:15:41,465 [main] INFO vkyc - All Documents submission verified successfully by customer
+2022-06-14 16:15:41,818 [main] INFO vkyc - vpd call started by customer verified successfully
+2022-06-14 16:15:49,284 [main] INFO vkyc - vpd call started by auditor
+2022-06-14 16:15:49,285 [main] INFO vkyc - got random string text
+2022-06-14 16:15:49,286 [main] INFO vkyc - got random mob no.
+2022-06-14 16:15:49,287 [main] INFO vkyc - got random amount
+2022-06-14 16:15:49,287 [main] INFO vkyc - got pd conducted date/present date
+2022-06-14 16:16:36,014 [main] INFO vkyc - customer verification/questionnaire done by auditor
+2022-06-14 16:16:36,116 [main] INFO vkyc - All Details & documents submission verified successfully by auditor
+2022-06-14 16:16:37,726 [main] INFO vkyc - case marked as complete by Auditor
+2022-06-14 16:16:52,273 [main] INFO vkyc - completed case verified in Bucket successfully
+2022-06-14 16:16:55,144 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 16:17:05,293 [main] INFO vkyc - VPD url opened
+2022-06-14 16:17:05,818 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:17:18,472 [main] INFO vkyc - case approved by auditor
+2022-06-14 16:17:18,576 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 16:17:21,412 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 16:17:26,525 [main] INFO vkyc - VPD url opened
+2022-06-14 16:17:27,099 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:17:48,724 [main] INFO vkyc - clicked on Generated report download icon
+2022-06-14 16:17:48,725 [main] INFO vkyc - report generated verified successfully
+2022-06-14 16:17:54,404 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 16:17:54,510 [main] INFO vkyc - got call start date
+2022-06-14 16:17:54,512 [main] INFO vkyc - got GeoTag Address 
+2022-06-14 16:17:58,973 [main] INFO vkyc - VPD url opened
+2022-06-14 16:17:59,734 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:18:09,197 [main] INFO vkyc - downloaded recorded VPD verified successfully
+2022-06-14 16:18:16,135 [main] INFO vkyc - VPD url opened
+2022-06-14 16:18:16,786 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:18:35,340 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 16:18:38,509 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 16:18:41,929 [main] INFO vkyc - VPD url opened
+2022-06-14 16:18:42,478 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:18:42,479 [main] INFO vkyc - got customer/client name
+2022-06-14 16:18:42,479 [main] INFO vkyc - got random string text
+2022-06-14 16:18:42,479 [main] INFO vkyc - got random mob no.
+2022-06-14 16:18:42,479 [main] INFO vkyc - got random applicant id
+2022-06-14 16:18:46,443 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 16:18:46,551 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 16:18:49,539 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 16:18:56,112 [main] INFO vkyc - VPD url opened
+2022-06-14 16:18:56,667 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 16:18:56,668 [main] INFO vkyc - got Scheduled time for VPD
+2022-06-14 16:19:12,749 [main] INFO vkyc - entered scheduled Date and Time for VPD
+2022-06-14 16:19:14,104 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 16:19:23,926 [main] INFO vkyc - VPD link received on candidate mail verified successfully
+2022-06-14 16:20:49,100 [main] INFO vkyc - VPD link hit by customer & compliance checked on page
+2022-06-14 16:23:53,382 [main] INFO vkyc - VPD url opened
+2022-06-14 16:23:54,163 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 16:23:54,164 [main] INFO vkyc - got customer/client name
+2022-06-14 16:23:54,165 [main] INFO vkyc - got random string text
+2022-06-14 16:23:54,165 [main] INFO vkyc - got random mob no.
+2022-06-14 16:23:54,165 [main] INFO vkyc - got random applicant id
+2022-06-14 17:21:45,388 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:21:46,023 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:21:46,074 [main] INFO vkyc - got customer/client name
+2022-06-14 17:21:46,075 [main] INFO vkyc - got random string text
+2022-06-14 17:21:46,077 [main] INFO vkyc - got random mob no.
+2022-06-14 17:21:46,078 [main] INFO vkyc - got random applicant id
+2022-06-14 17:21:50,237 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:21:50,350 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:21:51,487 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:21:55,914 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:21:56,427 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:21:58,942 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 17:21:59,818 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 17:22:07,190 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:22:07,671 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:22:07,679 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:22:20,752 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:22:21,402 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:22:31,951 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 17:22:31,951 [main] INFO vkyc - browser cache cleared
+2022-06-14 17:24:10,077 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 17:24:45,259 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 17:25:02,571 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 17:25:24,529 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 17:25:30,705 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 17:25:32,234 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 17:25:32,600 [main] INFO vkyc - agent started f2f video process
+2022-06-14 17:25:32,601 [main] INFO vkyc - got random string text
+2022-06-14 17:25:32,601 [main] INFO vkyc - got random mob no.
+2022-06-14 17:25:32,602 [main] INFO vkyc - got random amount
+2022-06-14 17:25:50,572 [main] INFO vkyc - address verification started by agent
+2022-06-14 17:25:50,629 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 17:25:53,176 [main] INFO vkyc - pan verification started by agent
+2022-06-14 17:25:53,288 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 17:25:55,619 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 17:25:55,681 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 17:26:14,965 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 17:26:15,030 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 17:26:16,595 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 17:26:22,444 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 17:26:25,393 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 17:26:28,382 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:26:28,969 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:26:31,580 [main] INFO vkyc - case approved by auditor
+2022-06-14 17:26:31,670 [main] INFO vkyc - Approved Case Status verified successfully by auditor
+2022-06-14 17:26:34,797 [main] INFO vkyc - report generated(url) Status verified successfully
+2022-06-14 17:26:34,800 [main] INFO vkyc - got candidate Name
+2022-06-14 17:26:34,900 [main] INFO vkyc - candidate Name on Report verified successfully
+2022-06-14 17:26:34,907 [main] INFO vkyc - got vkyc call date 
+2022-06-14 17:26:35,040 [main] INFO vkyc - call start date on Report verified successfully
+2022-06-14 17:26:35,173 [main] INFO vkyc - call end date on Report verified successfully
+2022-06-14 17:26:35,331 [main] INFO vkyc - Geo-tagging address on Report verified successfully
+2022-06-14 17:26:35,335 [main] INFO vkyc - got candidate Name on PAN
+2022-06-14 17:26:35,449 [main] INFO vkyc - pan holder name on Report verified successfully
+2022-06-14 17:26:35,450 [main] INFO vkyc - got candidate pan number
+2022-06-14 17:26:35,542 [main] INFO vkyc - pan number on Report verified successfully
+2022-06-14 17:26:35,543 [main] INFO vkyc - got pan holder father name
+2022-06-14 17:26:35,670 [main] INFO vkyc - pan holder father name on Report verified successfully
+2022-06-14 17:26:35,671 [main] INFO vkyc - got candidate pan dob
+2022-06-14 17:26:35,799 [main] INFO vkyc - pan holder dob on Report verified successfully
+2022-06-14 17:26:35,802 [main] INFO vkyc - got candidate AdhaarName
+2022-06-14 17:26:35,908 [main] INFO vkyc - adhaar holder name on Report verified successfully
+2022-06-14 17:26:35,908 [main] INFO vkyc - got candidate Adhar Address
+2022-06-14 17:26:36,038 [main] INFO vkyc - candiate adhaar address on Report verified successfully
+2022-06-14 17:26:36,039 [main] INFO vkyc - got candidate DOB
+2022-06-14 17:26:36,064 [main] INFO vkyc - candiate adhaar dob on Report verified successfully
+2022-06-14 17:26:36,090 [main] INFO vkyc - candiate adhaar gender on Report verified successfully
+2022-06-14 17:26:36,197 [main] INFO vkyc - candiate face match score on Report verified successfully
+2022-06-14 17:26:42,947 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:26:43,534 [main] INFO vkyc - Auditor LoggedIn successfully
+2022-06-14 17:26:48,922 [main] INFO vkyc - downloaded recorded vkyc url status verified successfully
+2022-06-14 17:26:54,615 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:26:55,182 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:27:02,805 [main] INFO vkyc - Approved Case verified successfully in Approved Bucket
+2022-06-14 17:27:05,909 [main] INFO vkyc - Admin loggedOut successfully
+2022-06-14 17:27:14,742 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:27:15,312 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:27:16,309 [main] INFO vkyc - Today Excel report Downloaded
+2022-06-14 17:27:21,309 [main] INFO vkyc - Today's report download verified successfully
+2022-06-14 17:27:21,312 [main] INFO vkyc -  Case is NOT verified in Today's Excel report
+2022-06-14 17:27:23,694 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:27:24,276 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:27:25,725 [main] INFO vkyc - case uploaded using excel
+2022-06-14 17:27:27,268 [main] INFO vkyc - Case Upload using Excel Success Msg verified successfully
+2022-06-14 17:27:34,031 [main] INFO vkyc - Admin loggedOut Successfully
+2022-06-14 17:27:38,346 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:27:38,822 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:27:41,633 [main] INFO vkyc - Case Upload using Excel verified successfully  at Agent End
+2022-06-14 17:27:45,094 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:27:45,711 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:27:45,712 [main] INFO vkyc - got customer/client name
+2022-06-14 17:27:45,713 [main] INFO vkyc - got random string text
+2022-06-14 17:27:45,714 [main] INFO vkyc - got random mob no.
+2022-06-14 17:27:45,722 [main] INFO vkyc - got random applicant id
+2022-06-14 17:27:49,655 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:27:49,706 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:27:50,755 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:27:55,331 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:27:55,889 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:28:03,985 [main] INFO vkyc - case transferred by Agent to another Agent
+2022-06-14 17:28:07,733 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 17:28:10,701 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:28:11,263 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:28:14,547 [main] INFO vkyc - case removal from Assigned bucket verified successfully
+2022-06-14 17:28:18,385 [main] INFO vkyc - Agent loggedOut successfully
+2022-06-14 17:28:21,381 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:28:21,948 [main] INFO vkyc - Second Agent LoggedIn successfully!
+2022-06-14 17:28:24,732 [main] INFO vkyc - Transferred Case verified successfully At Transferred Agent End
+2022-06-14 17:28:26,598 [main] INFO vkyc - second Agent loggedout successfully
+2022-06-14 17:28:30,304 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:28:30,831 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:28:30,832 [main] INFO vkyc - got customer/client name
+2022-06-14 17:28:30,833 [main] INFO vkyc - got random string text
+2022-06-14 17:28:30,833 [main] INFO vkyc - got random mob no.
+2022-06-14 17:28:30,834 [main] INFO vkyc - got random applicant id
+2022-06-14 17:28:34,798 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:28:34,903 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:28:36,006 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:28:38,894 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:28:39,415 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:28:39,420 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:28:51,779 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:28:52,422 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:28:58,372 [main] INFO vkyc - Case is Rescheduled later by Agent
+2022-06-14 17:28:58,466 [main] INFO vkyc -  Reschedule later case Removal from scheduled bucket verified successfully
+2022-06-14 17:29:01,418 [main] INFO vkyc - Agent logged out successfully
+2022-06-14 17:29:08,294 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:29:08,880 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:29:11,294 [main] INFO vkyc - Rescheduled later case verified successfully in Assigned bucket
+2022-06-14 17:29:14,300 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 17:29:16,961 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:29:17,541 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:29:17,542 [main] INFO vkyc - got customer/client name
+2022-06-14 17:29:17,543 [main] INFO vkyc - got random string text
+2022-06-14 17:29:17,544 [main] INFO vkyc - got random mob no.
+2022-06-14 17:29:17,545 [main] INFO vkyc - got random applicant id
+2022-06-14 17:29:21,572 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:29:21,665 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:29:22,814 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:29:25,206 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:29:25,777 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:29:25,785 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:29:37,210 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:29:37,973 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:29:37,977 [main] INFO vkyc - got reScheduled time for inline reschedule vkyc
+2022-06-14 17:29:46,760 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:29:47,518 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:29:47,520 [main] INFO vkyc - got customer/client name
+2022-06-14 17:29:47,521 [main] INFO vkyc - got random string text
+2022-06-14 17:29:47,522 [main] INFO vkyc - got random mob no.
+2022-06-14 17:29:47,523 [main] INFO vkyc - got random applicant id
+2022-06-14 17:29:51,677 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:29:51,721 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:29:52,765 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:29:55,151 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:29:55,547 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:29:55,548 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:30:07,756 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:30:07,759 [main] INFO vkyc - got client/customer name of case
+2022-06-14 17:30:08,460 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:30:18,506 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 17:31:43,233 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 17:32:15,806 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 17:32:33,134 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 17:32:55,172 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 17:33:02,972 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 17:33:04,374 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 17:33:04,681 [main] INFO vkyc - agent started f2f video process
+2022-06-14 17:33:04,681 [main] INFO vkyc - got random string text
+2022-06-14 17:33:04,683 [main] INFO vkyc - got random mob no.
+2022-06-14 17:33:04,684 [main] INFO vkyc - got random amount
+2022-06-14 17:33:25,295 [main] INFO vkyc - address verification started by agent
+2022-06-14 17:33:25,387 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 17:33:27,638 [main] INFO vkyc - pan verification started by agent
+2022-06-14 17:33:27,728 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 17:33:29,669 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 17:33:29,772 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 17:33:48,896 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 17:33:48,983 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 17:33:50,583 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 17:33:56,305 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 17:33:59,230 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 17:34:01,948 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:34:02,574 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:34:02,576 [main] INFO vkyc - got feedback text
+2022-06-14 17:34:05,347 [main] INFO vkyc - case Rejected by Auditor
+2022-06-14 17:34:05,490 [main] INFO vkyc - Rejected Case Status verified successfully by auditor
+2022-06-14 17:34:11,253 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 17:34:13,814 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:34:14,387 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:34:18,365 [main] INFO vkyc - Rejected Case verified successfully in Rejected Bucket
+2022-06-14 17:34:21,618 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 17:34:29,238 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:34:29,774 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:34:29,776 [main] INFO vkyc - got customer/client name
+2022-06-14 17:34:29,778 [main] INFO vkyc - got random string text
+2022-06-14 17:34:29,779 [main] INFO vkyc - got random mob no.
+2022-06-14 17:34:29,780 [main] INFO vkyc - got random applicant id
+2022-06-14 17:34:33,788 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:34:34,020 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:34:37,954 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:34:40,876 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:34:41,397 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:34:41,398 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:34:54,607 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:34:55,342 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:35:06,137 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 17:36:52,072 [main] INFO vkyc - v-kyc link hitted by customer
+2022-06-14 17:37:18,195 [main] INFO vkyc - pan card submitted by customer
+2022-06-14 17:37:35,516 [main] INFO vkyc - clicked on AdharDoc Box after pan Uplaod
+2022-06-14 17:37:55,809 [main] INFO vkyc - aadhar upload successfull
+2022-06-14 17:38:01,876 [main] INFO vkyc - Submitted Adhar details verified successfully
+2022-06-14 17:38:03,311 [main] INFO vkyc - f2f video kyc started by Customer
+2022-06-14 17:38:03,609 [main] INFO vkyc - agent started f2f video process
+2022-06-14 17:38:03,610 [main] INFO vkyc - got random string text
+2022-06-14 17:38:03,610 [main] INFO vkyc - got random mob no.
+2022-06-14 17:38:03,611 [main] INFO vkyc - got random amount
+2022-06-14 17:38:22,857 [main] INFO vkyc - address verification started by agent
+2022-06-14 17:38:22,944 [main] INFO vkyc - Address verified successfully by agent
+2022-06-14 17:38:25,192 [main] INFO vkyc - pan verification started by agent
+2022-06-14 17:38:25,293 [main] INFO vkyc - pan verified successfully by agent
+2022-06-14 17:38:27,373 [main] INFO vkyc - Aadhar verification started by agent
+2022-06-14 17:38:27,471 [main] INFO vkyc - Aadhar verified successfully by agent
+2022-06-14 17:38:48,365 [main] INFO vkyc - customer picture taken by agent
+2022-06-14 17:38:48,469 [main] INFO vkyc - All documents verified successfully by agent
+2022-06-14 17:38:50,159 [main] INFO vkyc - case marked as complete by Agent
+2022-06-14 17:38:55,733 [main] INFO vkyc - Case Status verified successfully by agent
+2022-06-14 17:38:56,709 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 17:39:06,514 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:39:07,066 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:39:07,068 [main] INFO vkyc - got feedback text
+2022-06-14 17:39:10,070 [main] INFO vkyc - case ReAssigned by Auditor
+2022-06-14 17:39:13,893 [main] INFO vkyc - Auditor logged out successfully
+2022-06-14 17:39:16,157 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:39:16,742 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:39:24,576 [main] INFO vkyc - ReAssigned Case verified successfully in ReAssigned Bucket
+2022-06-14 17:39:27,764 [main] INFO vkyc - Admin logged out successfully
+2022-06-14 17:39:35,076 [main] INFO vkyc - VPD url opened
+2022-06-14 17:39:35,657 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:39:35,667 [main] INFO vkyc - got customer/client name
+2022-06-14 17:39:35,668 [main] INFO vkyc - got random string text
+2022-06-14 17:39:35,668 [main] INFO vkyc - got random mob no.
+2022-06-14 17:39:35,669 [main] INFO vkyc - got random applicant id
+2022-06-14 17:39:39,669 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:39:39,833 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:39:40,904 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:39:43,677 [main] INFO vkyc - VPD url opened
+2022-06-14 17:39:44,231 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:39:49,738 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 17:39:52,701 [main] INFO vkyc - Auditor loggedout successfully
+2022-06-14 17:39:55,505 [main] INFO vkyc - VPD url opened
+2022-06-14 17:39:56,027 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:39:56,027 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:40:11,110 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:40:12,459 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:40:23,165 [main] INFO vkyc - vpd link received on candidate mail verified successfully
+2022-06-14 17:41:57,952 [main] INFO vkyc - vpd link hit by customer & compliance checked on page
+2022-06-14 17:44:58,582 [main] INFO vkyc - got call start date
+2022-06-14 17:44:58,584 [main] INFO vkyc - got GeoTag Address 
+2022-06-14 17:45:09,226 [main] INFO vkyc - VPD url opened
+2022-06-14 17:45:09,706 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:45:18,891 [main] INFO vkyc - downloaded recorded VPD verified successfully
+2022-06-14 17:45:24,978 [main] INFO vkyc - VPD url opened
+2022-06-14 17:45:25,530 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:45:38,997 [main] INFO vkyc - Approved Case NOT verified in Approved Bucket
+2022-06-14 17:45:46,410 [main] INFO vkyc - VPD url opened
+2022-06-14 17:45:46,844 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:45:46,845 [main] INFO vkyc - got customer/client name
+2022-06-14 17:45:46,845 [main] INFO vkyc - got random string text
+2022-06-14 17:45:46,846 [main] INFO vkyc - got random mob no.
+2022-06-14 17:45:46,847 [main] INFO vkyc - got random applicant id
+2022-06-14 17:45:50,723 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:45:50,881 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:45:53,861 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:45:56,413 [main] INFO vkyc - VPD url opened
+2022-06-14 17:45:56,935 [main] INFO vkyc - Auditor LoggedIn successfully!
+2022-06-14 17:45:56,936 [main] INFO vkyc - got Scheduled time for VPD
+2022-06-14 17:46:14,087 [main] INFO vkyc - entered scheduled Date and Time for VPD
+2022-06-14 17:46:15,436 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:46:25,177 [main] INFO vkyc - VPD link received on candidate mail verified successfully
+2022-06-14 17:47:59,184 [main] INFO vkyc - VPD link hit by customer & compliance checked on page
+2022-06-14 17:51:08,119 [main] INFO vkyc - VPD url opened
+2022-06-14 17:51:08,585 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:51:08,586 [main] INFO vkyc - got customer/client name
+2022-06-14 17:51:08,586 [main] INFO vkyc - got random string text
+2022-06-14 17:51:08,587 [main] INFO vkyc - got random mob no.
+2022-06-14 17:51:08,588 [main] INFO vkyc - got random applicant id
+2022-06-14 17:57:22,092 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:57:22,569 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:57:22,570 [main] INFO vkyc - got customer/client name
+2022-06-14 17:57:22,571 [main] INFO vkyc - got random string text
+2022-06-14 17:57:22,571 [main] INFO vkyc - got random mob no.
+2022-06-14 17:57:22,572 [main] INFO vkyc - got random applicant id
+2022-06-14 17:57:26,666 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:57:26,712 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:57:27,787 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:57:45,002 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:57:45,498 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:57:48,236 [main] INFO vkyc - Assigned case verified successfully 
+2022-06-14 17:57:49,464 [main] INFO vkyc - Agent loggedout successfully
+2022-06-14 17:57:53,486 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:57:54,017 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:57:54,018 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:58:06,974 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:58:07,789 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:58:18,025 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 17:58:25,057 [main] INFO vkyc - kyc rescheduled with same agent
+2022-06-14 17:58:31,629 [main] INFO vkyc - Reschedule success msg verified
+2022-06-14 17:58:34,086 [main] INFO vkyc - Reschedule kyc link received on mail verified
+2022-06-14 17:58:34,391 [main] INFO vkyc - Reschedule STATUS verified at agent end
+2022-06-14 17:58:35,301 [main] INFO vkyc - agent loggedout successfully
+2022-06-14 17:58:46,654 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:58:50,848 [main] INFO vkyc - Admin LoggedIn successfully!
+2022-06-14 17:58:50,852 [main] INFO vkyc - got customer/client name
+2022-06-14 17:58:50,853 [main] INFO vkyc - got random string text
+2022-06-14 17:58:50,853 [main] INFO vkyc - got random mob no.
+2022-06-14 17:58:50,853 [main] INFO vkyc - got random applicant id
+2022-06-14 17:58:54,752 [main] INFO vkyc - case uploaded/initiated by Admin
+2022-06-14 17:58:54,858 [main] INFO vkyc - uploaded case verified successfully
+2022-06-14 17:58:56,025 [main] INFO vkyc - Admin loggedout successfully
+2022-06-14 17:59:13,626 [main] INFO vkyc - v-Kyc url opened
+2022-06-14 17:59:14,163 [main] INFO vkyc - Agent LoggedIn successfully!
+2022-06-14 17:59:14,163 [main] INFO vkyc - got Scheduled time for vkyc
+2022-06-14 17:59:27,021 [main] INFO vkyc - entered scheduled Date and Time for VKyc
+2022-06-14 17:59:27,856 [main] INFO vkyc - Scheduled case verified successfully
+2022-06-14 17:59:37,649 [main] INFO vkyc - vkyc link received on candidate mail verified successfully
+2022-06-14 17:59:37,650 [main] INFO vkyc - got scheduled Date for kyc
+2022-06-14 17:59:37,650 [main] INFO vkyc - got scheduled Time for kyc
+2022-06-14 17:59:42,039 [main] INFO vkyc - kyc rescheduled with different agent by customer
+2022-06-14 17:59:47,465 [main] INFO vkyc - Reschedule success msg verified
+2022-06-14 17:59:49,923 [main] INFO vkyc - Reschedule kyc link received on mail verified
+2022-06-14 17:59:50,238 [main] INFO vkyc - Reschedule STATUS NOT verified at Agent End

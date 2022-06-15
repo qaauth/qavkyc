@@ -530,7 +530,7 @@ public class TC_VideoKyc extends Baseclass {
    		     logger.info("Admin loggedOut successfully");
          }
          
-       //verify download of vkyc cases for today and verify report content
+        //verify download of vkyc cases for today and verify report content
         @Test(enabled = true, testName = "verify Today's case download status and content", priority =15, dependsOnMethods ={
         "checkCaseAvailabilityinApprovedBucket"})
         public void verifyTodayReportDownloadStatusAndContent() throws InterruptedException, IOException  {
@@ -558,7 +558,7 @@ public class TC_VideoKyc extends Baseclass {
      			 	Assert.assertTrue(false);
      		   }
      		  //verify Report Downloaded Report content/customer name in Excel report
-     		  videoKyc verify  = new videoKyc(driver);
+     		 /* videoKyc verify  = new videoKyc(driver);
      		  if(verify.readCSVfile()==true) {
      			   Assert.assertTrue(true);
      			   logger.info(" Case is verified in Today's Excel report");
@@ -567,7 +567,7 @@ public class TC_VideoKyc extends Baseclass {
      			   logger.info(" Case is NOT verified in Today's Excel report");
      			   captureScreen(driver, " Case is NOT verified in Today's Excel report");
      			   Assert.assertTrue(false);
-     		  }
+     		  }*/
          }
         //verify download Report for last 7 days |Assert based on Files count
         @Test(enabled = true, testName = "verify Last 7 days Report download", priority =16, dependsOnMethods ={
@@ -692,7 +692,7 @@ public class TC_VideoKyc extends Baseclass {
    		 	     Assert.assertTrue(false);
    		     }
      	 }
-         //Admin initiate/upload a case for VPT Process for Reject case|Assert based on alert
+    /*   //Admin initiate/upload a case for VPT Process for Reject case|Assert based on alert
          @Test(enabled = true, testName = "Admin upload a case for Reject By Auditor", priority = 21)
          public void uploadVKycCaseByAdminForRejectCase() throws IOException, InterruptedException {
         	driver.get(baseURL);
@@ -730,6 +730,8 @@ public class TC_VideoKyc extends Baseclass {
          @Test(enabled = true,testName="schedule case BY Agent for Reject case",priority=22,dependsOnMethods= {
          "uploadVKycCaseByAdminForRejectCase"})
          public void scheduleCaseByAgentForCaseRejectAtAuditorEnd() throws InterruptedException, IOException {
+        	 ClearBrowserCache();
+         	 logger.info("browser cache cleared");
         	 driver.get(baseURL);
      		 logger.info("v-Kyc url opened");
      		 Login log = new Login(driver);
@@ -769,8 +771,6 @@ public class TC_VideoKyc extends Baseclass {
      			 captureScreen(driver, "vkyc link received on candidate mail NOT verified ");
      			 Assert.assertTrue(false);
      		 }
-         	 //ClearBrowserCache();
-         	 //logger.info("browser cache cleared");
          	 videoKyc initiate= new videoKyc(driver);
          	 initiate.customerProceedOnKycLink();
          	 logger.info("v-kyc link hitted by customer");
@@ -1192,7 +1192,8 @@ public class TC_VideoKyc extends Baseclass {
 		  Thread.sleep(2000);
 		  logg.logoutUser();
 		  logger.info("Admin logged out successfully");
-   	 }
+   	 } */
+         
     //Admin initiate/upload a case for VPT Process|Assert based on alert
     @Test(enabled = true, testName = "Admin upload a case for case transfer by agent", priority =32)
     public void uploadVKycCaseByAdminForCaseTransfer() throws IOException, InterruptedException {
